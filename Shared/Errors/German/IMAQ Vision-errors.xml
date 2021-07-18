@@ -1,0 +1,2458 @@
+<?xml version='1.0' encoding='utf-8'?>
+<nidocument displayname="Vision" familyname="Vision">
+  <nierror code="-1074396200">
+    <![CDATA[Kein Fehler]]>
+  </nierror>
+  <nierror code="-1074396160">
+    <![CDATA[Systemfehler.]]>
+  </nierror>
+  <nierror code="-1074396159">
+    <![CDATA[Für diesen Vorgang ist nicht genügend Arbeitsspeicher vorhanden.]]>
+  </nierror>
+  <nierror code="-1074396158">
+    <![CDATA[Speicherfehler.]]>
+  </nierror>
+  <nierror code="-1074396157">
+    <![CDATA[Nicht lizenzierte Version des NI Vision Development Modules oder der NI Vision Runtime.]]>
+  </nierror>
+  <nierror code="-1074396156">
+    <![CDATA[Für diese Funktion ist die NI Vision 5.0 Advanced-Lizenz erforderlich.]]>
+  </nierror>
+  <nierror code="-1074396155">
+    <![CDATA[NI Version wurde nicht ordnungsgemäß initialisiert.]]>
+  </nierror>
+  <nierror code="-1074396154">
+    <![CDATA[Bild ist für Operation nicht groß genug.]]>
+  </nierror>
+  <nierror code="-1074396153">
+    <![CDATA[Der Barcode ist kein gültiger Codabar-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396152">
+    <![CDATA[Der Barcode ist kein gültiger Code 3 of 9-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396151">
+    <![CDATA[Der Barcode ist kein gültiger Code93-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396150">
+    <![CDATA[Der Barcode ist kein gültiger Code128-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396149">
+    <![CDATA[Der Barcode ist kein gültiger EAN8-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396148">
+    <![CDATA[Der Barcode ist kein gültiger EAN13-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396147">
+    <![CDATA[Der Barcode ist kein gültiger  Interleaved 2 of 5-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396146">
+    <![CDATA[Der Barcode ist kein gültiger MSI-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396145">
+    <![CDATA[Der Barcode ist kein gültiger UPCA-Barcode.]]>
+  </nierror>
+  <nierror code="-1074396144">
+    <![CDATA[Der Code93-Barcode enthält ein ungültiges Shift-Encoding.]]>
+  </nierror>
+  <nierror code="-1074396143">
+    <![CDATA[Barcode-Typ ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396142">
+    <![CDATA[Bild ist kein gültiger linearer Barcode.]]>
+  </nierror>
+  <nierror code="-1074396141">
+    <![CDATA[Der FNC-Wert im Code128-Barcode ist nicht vor dem ersten Datenwert positioniert.]]>
+  </nierror>
+  <nierror code="-1074396140">
+    <![CDATA[Der in Code128-Barcode eingestellte Startcode ist nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074396139">
+    <![CDATA[In der zeitgesteuerten Umgebung ist für die angeforderte Operation nicht genügend reservierter Speicher vorhanden.]]>
+  </nierror>
+  <nierror code="-1074396138">
+    <![CDATA[Die Funktion wird nicht unterstützt, wenn eine Zeitbegrenzung aktiv ist.]]>
+  </nierror>
+  <nierror code="-1074396137">
+    <![CDATA[Die Datei "Quartz.dll" wurde nicht gefunden.  Installieren Sie DirectX 8.1 oder eine aktuellere Version.]]>
+  </nierror>
+  <nierror code="-1074396136">
+    <![CDATA[Die ausgewählte Filterqualität ist ungültig. Gültige Qualitätswerte liegen im Bereich von -1 bis 1000.]]>
+  </nierror>
+  <nierror code="-1074396135">
+    <![CDATA[Ungültiger Schaltflächentitel.]]>
+  </nierror>
+  <nierror code="-1074396134">
+    <![CDATA[Die Funktion konnte nicht in dem separaten Thread ausgeführt werden, da der Thread seine Initialisierung noch nicht beendet hat.]]>
+  </nierror>
+  <nierror code="-1074396133">
+    <![CDATA[Die Funktion konnte nicht in einem separaten Thread ausgeführt werden, da der Thread nicht initialisiert werden konnte.]]>
+  </nierror>
+  <nierror code="-1074396132">
+    <![CDATA[Die Maske muss mit der Größe der Vorlage übereinstimmen.]]>
+  </nierror>
+  <nierror code="-1074396130">
+    <![CDATA[Die ROI darf nur eine einzelne Rechteckkontur oder eine einzelne rotierte Rechteckkontur enthalten.]]>
+  </nierror>
+  <nierror code="-1074396129">
+    <![CDATA[Während einer zeitgesteuerten Ausführung müssen Sie die vorreservierte Version dieser Operation verwenden.]]>
+  </nierror>
+  <nierror code="-1074396128">
+    <![CDATA[Ein Bild, das durch einen Prozess modifiziert wurde, kann nicht von einem anderen Prozess angefordert werden, solange eine Zeitbegrenzung aktiv ist.]]>
+  </nierror>
+  <nierror code="-1074396127">
+    <![CDATA[Ein Bild mit Mustererkennungs-, Kalibrierungs- oder Überlagerungs-Informationen kann nicht manipuliert werden, solange eine Zeitbegrenzung aktiv ist.]]>
+  </nierror>
+  <nierror code="-1074396126">
+    <![CDATA[Ein Bild, das erzeugt wurde, bevor eine Zeitbegrenzung gestartet wurde, kann in der Größe nicht verändert werden, solange eine Zeitbegrenzung aktiv ist.]]>
+  </nierror>
+  <nierror code="-1074396125">
+    <![CDATA[Ungültiger Kontrastschwellwert. Der Schwellwert muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074396124">
+    <![CDATA[Angegebene Kalibrier-ROI wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396123">
+    <![CDATA[Angegebener Kalibriermodus wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396122">
+    <![CDATA[Setzen Sie die Vorder- und Hintergrundfarben des Textes auf Grauwertdarstellung, um auf ein U8-Bild zu schreiben.]]>
+  </nierror>
+  <nierror code="-1074396121">
+    <![CDATA[Der Wert des Sättigungsschwellwerts muss zwischen 0 und 255 liegen.]]>
+  </nierror>
+  <nierror code="-1074396120">
+    <![CDATA[Kein Bild.]]>
+  </nierror>
+  <nierror code="-1074396119">
+    <![CDATA[Der angegebene benutzerdefinierte Datenschlüssel ist ungültig. Die gültigen Zeichenwerte sind die Dezimalwerte 32-126 und 161-255. Des Weiteren dürfen keine mehrfachen führenden oder abschließenden Leerzeichen existieren.]]>
+  </nierror>
+  <nierror code="-1074396118">
+    <![CDATA[Die Schrittgröße muss größer als 0 und kleiner als die Bildgröße sein.]]>
+  </nierror>
+  <nierror code="-1074396117">
+    <![CDATA[Unzulässige Matrixgröße im Strukturelement.]]>
+  </nierror>
+  <nierror code="-1074396116">
+    <![CDATA[Ungenügende Anzahl von Kalibrierpunkten]]>
+  </nierror>
+  <nierror code="-1074396115">
+    <![CDATA[Die Operation ist für ein korrigiertes Bild nicht gültig.]]>
+  </nierror>
+  <nierror code="-1074396114">
+    <![CDATA[Die ROI enthält einen ungültigen Konturtyp oder ist nicht in der für die Kalibrierung erlernten ROI enthalten.]]>
+  </nierror>
+  <nierror code="-1074396113">
+    <![CDATA[Quellen-/Eingangsbild wurde nicht kalibriert]]>
+  </nierror>
+  <nierror code="-1074396112">
+    <![CDATA[Die Anzahl der Pixel und der Real-World-Koordinaten muss gleich sein.]]>
+  </nierror>
+  <nierror code="-1074396111">
+    <![CDATA[Gitter konnte nicht automatisch erkannt werden, da das Bild zu sehr verzerrt ist.]]>
+  </nierror>
+  <nierror code="-1074396110">
+    <![CDATA[Ungültige Version für Kalibrierinformation.]]>
+  </nierror>
+  <nierror code="-1074396109">
+    <![CDATA[Ungültiger Skalierungsfaktor für Kalibrierung.]]>
+  </nierror>
+  <nierror code="-1074396108">
+    <![CDATA[Die Fehlertabelle für die Kalibrierung kann nicht berechnet werden.]]>
+  </nierror>
+  <nierror code="-1074396107">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396106">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396105">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396104">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396103">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396102">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396101">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396100">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396099">
+    <![CDATA[Die Bildvorlage für die Kalibrierung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396098">
+    <![CDATA[Sie müssen NULL für den reservierten Parameter übergeben.]]>
+  </nierror>
+  <nierror code="-1074396097">
+    <![CDATA[Sie haben eine ungültige Auswahl im Teilchen-Parameter eingegeben.]]>
+  </nierror>
+  <nierror code="-1074396096">
+    <![CDATA[Kein Objekt.]]>
+  </nierror>
+  <nierror code="-1074396095">
+    <![CDATA[Die übergebenen Bezugspunkte sind inkonsistent.  Wenigstens zwei ähnliche Pixel-Koordinaten gehören zu unterschiedlichen Realwelt-Koordinaten.]]>
+  </nierror>
+  <nierror code="-1074396094">
+    <![CDATA[In der zeitgesteuerten Umgebung trat ein Ressourcenkonflikt auf. Zwei Prozesse können nicht die gleiche Ressource verwalten und zugleich zeitgebunden sein.]]>
+  </nierror>
+  <nierror code="-1074396093">
+    <![CDATA[In der zeitgesteuerten Umgebung trat ein Ressourcenkonflikt auf. Zwei Prozesse können nicht auf die gleiche Ressource zugreifen und zugleich zeitgebunden sein.]]>
+  </nierror>
+  <nierror code="-1074396092">
+    <![CDATA[Mehrfache zeitgesteuerte Umgebungen werden nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396091">
+    <![CDATA[Eine Zeitbegrenzung kann nicht gestartet werden, bis die zeitgesteuerte Umgebung initialisiert ist.]]>
+  </nierror>
+  <nierror code="-1074396090">
+    <![CDATA[Mehrfache zeitgesteuerte Umgebungen werden nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396089">
+    <![CDATA[Die zeitgesteuerte Umgebung wurde bereits initialisiert.]]>
+  </nierror>
+  <nierror code="-1074396088">
+    <![CDATA[Die Resultate der Operation überschreiten die Größenbegrenzung der Ausgangs-Arrays.]]>
+  </nierror>
+  <nierror code="-1074396087">
+    <![CDATA[Es ist keine Zeitbegrenzung verfügbar, die gestoppt werden könnte.]]>
+  </nierror>
+  <nierror code="-1074396086">
+    <![CDATA[Es konnte keine Zeitbegrenzung gesetzt werden.]]>
+  </nierror>
+  <nierror code="-1074396085">
+    <![CDATA[Die zeitgesteuerte Umgebung konnte nicht initialisiert werden.]]>
+  </nierror>
+  <nierror code="-1074396084">
+    <![CDATA[Es ist keine initialisierte zeitgesteuerte Umgebung zum Schließen vorhanden.]]>
+  </nierror>
+  <nierror code="-1074396083">
+    <![CDATA[Die Zeitbegrenzung ist abgelaufen.]]>
+  </nierror>
+  <nierror code="-1074396082">
+    <![CDATA[Die Verwendung von Paletten wird nur von 8-Bit-Bildern unterstützt.  Verwenden Sie entweder keine Palette oder konvertieren Sie das Bild zu einem 8-Bit-Bild, bevor Sie eine Palette verwenden.]]>
+  </nierror>
+  <nierror code="-1074396081">
+    <![CDATA[Falsches Passwort.]]>
+  </nierror>
+  <nierror code="-1074396080">
+    <![CDATA[Falscher Bildtyp.]]>
+  </nierror>
+  <nierror code="-1074396079">
+    <![CDATA[Ungültiges Metadatei-Handle.]]>
+  </nierror>
+  <nierror code="-1074396078">
+    <![CDATA[Falscher Bildtyp.]]>
+  </nierror>
+  <nierror code="-1074396077">
+    <![CDATA[Inkompatibler Typ.]]>
+  </nierror>
+  <nierror code="-1074396076">
+    <![CDATA[Linie konnte nicht für Primärachse angepasst werden.]]>
+  </nierror>
+  <nierror code="-1074396075">
+    <![CDATA[Linie konnte nicht für Sekundärachse angepasst werden.]]>
+  </nierror>
+  <nierror code="-1074396074">
+    <![CDATA[Inkompatible Größe.]]>
+  </nierror>
+  <nierror code="-1074396073">
+    <![CDATA[Die Maske wurde durch den Offset komplett aus dem Bild verschoben.]]>
+  </nierror>
+  <nierror code="-1074396072">
+    <![CDATA[Schlechter Rand.]]>
+  </nierror>
+  <nierror code="-1074396071">
+    <![CDATA[Ungültige Abtastrichtung.]]>
+  </nierror>
+  <nierror code="-1074396070">
+    <![CDATA[Die Funktionalität wird noch nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396069">
+    <![CDATA[Angegebener Farbmodus wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396068">
+    <![CDATA[Die Funktionalität wird noch nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396067">
+    <![CDATA[Verbundene Bilder müssen unterschiedlich sein.]]>
+  </nierror>
+  <nierror code="-1074396066">
+    <![CDATA[Ungültiges Punkt-Symbol.]]>
+  </nierror>
+  <nierror code="-1074396065">
+    <![CDATA[Ein in einem Puffer befindliches Bild kann nicht vergrößert oder verkleinert werden.]]>
+  </nierror>
+  <nierror code="-1074396064">
+    <![CDATA[Diese Operation wird für Bilder, die sich in einem Puffer befinden, nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074396063">
+    <![CDATA[Der externe Puffer muss an einen 4-Byte-Bereich angepasst werden. Die Linienbreite und Randpixel müssen ebenfalls auf 4-Byte angepasst werden.]]>
+  </nierror>
+  <nierror code="-1074396062">
+    <![CDATA[Der Toleranzparameter muss zwischen 0 und 1 liegen.]]>
+  </nierror>
+  <nierror code="-1074396061">
+    <![CDATA[Die Größe jeder Dimension des Fensters muss größer als 2 und kleiner oder gleich der Größe des Bildes in der entsprechenden Dimension sein.]]>
+  </nierror>
+  <nierror code="-1074396060">
+    <![CDATA[Verlustfreie Komprimierung kann nicht mit dem Fließkomma-Wellentransformations-Modus verwendet werden. Wählen Sie entweder "Integer" für den Wellentransformations-Modus oder verwenden Sie Komprimierung mit Verlust.]]>
+  </nierror>
+  <nierror code="-1074396059">
+    <![CDATA[Ungültige maximale Anzahl von Iterationen. Die maximale Anzahl der Iterationen muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074396058">
+    <![CDATA[Ungültiger Rotationsmodus.]]>
+  </nierror>
+  <nierror code="-1074396057">
+    <![CDATA[Ungültige Suchvektorbreite. Die Breite muss ein ungerader Wert größer 0 sein.]]>
+  </nierror>
+  <nierror code="-1074396056">
+    <![CDATA[Ungültiger Matrix-Spiegelungs-Modus.]]>
+  </nierror>
+  <nierror code="-1074396055">
+    <![CDATA[Ungültiges Seitenverhältnis. Gültige Seitenverhältnisse sind größer oder gleich Null.]]>
+  </nierror>
+  <nierror code="-1074396054">
+    <![CDATA[Ungültiger Zellenfülltyp.]]>
+  </nierror>
+  <nierror code="-1074396053">
+    <![CDATA[Ungültige Rahmenintegrität. Gültige Werte liegen im Bereich von 0 bis 100.]]>
+  </nierror>
+  <nierror code="-1074396052">
+    <![CDATA[Ungültiger Demodulationsmodus.]]>
+  </nierror>
+  <nierror code="-1074396051">
+    <![CDATA[Ungültiger Zellenfiltermodus.]]>
+  </nierror>
+  <nierror code="-1074396050">
+    <![CDATA[Ungültiger ECC-Typ.]]>
+  </nierror>
+  <nierror code="-1074396049">
+    <![CDATA[Ungültige Matrix-Polarität.]]>
+  </nierror>
+  <nierror code="-1074396048">
+    <![CDATA[Ungültige Zellen-Sample-Größe.]]>
+  </nierror>
+  <nierror code="-1074396047">
+    <![CDATA[Ungültiger linearer Durchschnittsmodus.]]>
+  </nierror>
+  <nierror code="-1074396046">
+    <![CDATA[Wenn eine ROI ausgewählt wird, die nicht rechteckig ist, muss der Kontrastmodus entweder auf Schwarz-auf-Weiß oder auf Weiß-auf-Schwarz eingestellt sein.]]>
+  </nierror>
+  <nierror code="-1074396045">
+    <![CDATA[Untertyp der Datenmatrix des 2D-Barcodes ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396044">
+    <![CDATA[Ungültige Form des 2D-Barcodes.]]>
+  </nierror>
+  <nierror code="-1074396043">
+    <![CDATA[Ungültige Zellenform des 2D-Barcodes.]]>
+  </nierror>
+  <nierror code="-1074396042">
+    <![CDATA[Ungültiger Kontrast des 2D-Barcodes.]]>
+  </nierror>
+  <nierror code="-1074396041">
+    <![CDATA[Ungültiger Typ des 2D-Barcodes.]]>
+  </nierror>
+  <nierror code="-1074396040">
+    <![CDATA[Kann Treiber nicht öffnen.]]>
+  </nierror>
+  <nierror code="-1074396039">
+    <![CDATA[I/O Fehler.]]>
+  </nierror>
+  <nierror code="-1074396038">
+    <![CDATA[Bei der Suche nach einem Koordinatensystem muss die Anzahl der anzupassenden Linien 1 sein.]]>
+  </nierror>
+  <nierror code="-1074396037">
+    <![CDATA[Trigger-Timeout.]]>
+  </nierror>
+  <nierror code="-1074396036">
+    <![CDATA[Der ausgewählte Skelettierungsmodus ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396035">
+    <![CDATA[Das Bild der Vorlage enthält nicht genügend Informationen zum Erlernen der aggressiven Suchstrategie.]]>
+  </nierror>
+  <nierror code="-1074396034">
+    <![CDATA[Das Bild der Vorlage enthält nicht genügend Kanten-Informationen für die angegebene(n) Sample-Größe(n).]]>
+  </nierror>
+  <nierror code="-1074396033">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074396032">
+    <![CDATA[Der Deskriptor der Vorlage enthält nicht die Daten, die für die in der rotationsunabhängigen Vergleichsoperation angegebenen Suchstrategie benötigt werden.]]>
+  </nierror>
+  <nierror code="-1074396031">
+    <![CDATA[Das Eingangsviereck muss vier Punkte haben. Die Punkte werden im Uhrzeigersinn beginnend mit dem oberen linken Punkt angegeben.]]>
+  </nierror>
+  <nierror code="-1074396030">
+    <![CDATA[Es sind zu viele Klassifizierungs-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.]]>
+  </nierror>
+  <nierror code="-1074396028">
+    <![CDATA[NI Vision unterstützt die zeitgebundene Ausführung nicht mehr.]]>
+  </nierror>
+  <nierror code="-1074396027">
+    <![CDATA[Ungültige Farbauflösung für Farbklassifikation]]>
+  </nierror>
+  <nierror code="-1074396026">
+    <![CDATA[Ungültiger Prozesstyp bei der Kantenerkennung.]]>
+  </nierror>
+  <nierror code="-1074396025">
+    <![CDATA[Der Winkelbereich sollte größer oder gleich 0 sein.]]>
+  </nierror>
+  <nierror code="-1074396024">
+    <![CDATA[Der zu erfassende Mindestbereich sollte größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074396023">
+    <![CDATA[Die Toleranz für den Winkel sollte größer oder gleich 0,001 sein.]]>
+  </nierror>
+  <nierror code="-1074396022">
+    <![CDATA[Ungültiger Suchmodus für die Erkennung gerader Flanken.]]>
+  </nierror>
+  <nierror code="-1074396021">
+    <![CDATA[Ungültige Kernel-Größe für Kantenerkennung. Die Kernel-Größe muss mindestens 3 betragen und ungerade sein. Die maximale Kernel-Größe beträgt 1.073.741.823.]]>
+  </nierror>
+  <nierror code="-1074396020">
+    <![CDATA[Ungültiger Grading-Modus.]]>
+  </nierror>
+  <nierror code="-1074396019">
+    <![CDATA[Ungültige Schwellwertangabe. Gültige Werte liegen im Bereich von 0 bis 100.]]>
+  </nierror>
+  <nierror code="-1074396018">
+    <![CDATA[Ungültiger Kantenpolaritäts-Suchmodus.]]>
+  </nierror>
+  <nierror code="-1074396017">
+    <![CDATA[Die AIM-Grading-Daten des Bildes, das Sie öffnen wollten, wurden mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074396016">
+    <![CDATA[Kein Videotreiber installiert.]]>
+  </nierror>
+  <nierror code="-1074396015">
+    <![CDATA[Es ist nicht möglich eine Verbindung zu dem Netzwerksystem herzustellen.]]>
+  </nierror>
+  <nierror code="-1074396014">
+    <![CDATA[Ungültige Bild-Funktion des Videoausgangs.]]>
+  </nierror>
+  <nierror code="-1074396013">
+    <![CDATA[Ungültiger Videomodus.]]>
+  </nierror>
+  <nierror code="-1074396012">
+    <![CDATA[Kann keine Netzwerk-Grafikdatei aus dem Netzwerk anzeigen.]]>
+  </nierror>
+  <nierror code="-1074396011">
+    <![CDATA[Netzwerkverbindung kann nicht aufgebaut werden.]]>
+  </nierror>
+  <nierror code="-1074396010">
+    <![CDATA[Frame-Nummer ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074396009">
+    <![CDATA[Es ist ein interner DirectX-Fehler aufgetreten.  Versuchen Sie eine Aktualisierung auf die aktuelle DirectX-Version.]]>
+  </nierror>
+  <nierror code="-1074396008">
+    <![CDATA[Es konnte kein passender DirectX-Filter zur Verarbeitung dieser Datei gefunden werden.  Installieren Sie den Filter, der zur Erzeugung dieses AVI verwendet wurde. Eine Aktualisierung auf die aktuelle DirectX-Version kann diesen Fehler eventuell beheben.  NI Vision erfordert mindestens DirectX 8.1.]]>
+  </nierror>
+  <nierror code="-1074396007">
+    <![CDATA[Inkompatibler Kompressionsfilter.]]>
+  </nierror>
+  <nierror code="-1074396006">
+    <![CDATA[Unbekannter Codec.]]>
+  </nierror>
+  <nierror code="-1074396005">
+    <![CDATA[Ungültige AVI-Session.]]>
+  </nierror>
+  <nierror code="-1074396004">
+    <![CDATA[Ein Softwareschlüssel verbietet die Verwendung dieses Kompressionsfilters.]]>
+  </nierror>
+  <nierror code="-1074396003">
+    <![CDATA[Die Daten für diesen Frame überschreiten die Datenpuffergröße, die angegeben wird, wenn die AVI-Datei erzeugt wird.]]>
+  </nierror>
+  <nierror code="-1074396002">
+    <![CDATA[Ungültiges Linienmaß.]]>
+  </nierror>
+  <nierror code="-1074396001">
+    <![CDATA[Es sind zu viele AVI-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.]]>
+  </nierror>
+  <nierror code="-1074396000">
+    <![CDATA[Falscher Datei-Header.]]>
+  </nierror>
+  <nierror code="-1074395999">
+    <![CDATA[Ungültiger Dateityp.]]>
+  </nierror>
+  <nierror code="-1074395998">
+    <![CDATA[Falsche Farbtabelle.]]>
+  </nierror>
+  <nierror code="-1074395997">
+    <![CDATA[Ungültiger Parameter.]]>
+  </nierror>
+  <nierror code="-1074395996">
+    <![CDATA[Datei bereits im Schreibzugriff geöffnet.]]>
+  </nierror>
+  <nierror code="-1074395995">
+    <![CDATA[Datei nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395994">
+    <![CDATA[Zu viele Dateien geöffnet.]]>
+  </nierror>
+  <nierror code="-1074395993">
+    <![CDATA[Datei-I/O-Fehler.]]>
+  </nierror>
+  <nierror code="-1074395992">
+    <![CDATA[Dateizugriff wurde verweigert.]]>
+  </nierror>
+  <nierror code="-1074395991">
+    <![CDATA[Angegebener Dateityp wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395990">
+    <![CDATA[Kann Vision-Informationen nicht aus Datei lesen.]]>
+  </nierror>
+  <nierror code="-1074395989">
+    <![CDATA[Kann keine Daten lesen.]]>
+  </nierror>
+  <nierror code="-1074395988">
+    <![CDATA[Kann keine Daten schreiben.]]>
+  </nierror>
+  <nierror code="-1074395987">
+    <![CDATA[Dateiende vorzeitig erreicht.]]>
+  </nierror>
+  <nierror code="-1074395986">
+    <![CDATA[Falsches Dateiformat.]]>
+  </nierror>
+  <nierror code="-1074395985">
+    <![CDATA[Falsche Dateioperation.]]>
+  </nierror>
+  <nierror code="-1074395984">
+    <![CDATA[Angegebener Dateidatentyp wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395983">
+    <![CDATA[Speichermedium voll.]]>
+  </nierror>
+  <nierror code="-1074395982">
+    <![CDATA[Die Frames pro Sekunde in einer AVI-Datei müssen größer als 0 und kleiner als 100.000 sein.]]>
+  </nierror>
+  <nierror code="-1074395981">
+    <![CDATA[Der empfangene Puffer ist für die Datenmenge nicht groß genug.]]>
+  </nierror>
+  <nierror code="-1074395980">
+    <![CDATA[Fehler bei der COM-Initialisierung.]]>
+  </nierror>
+  <nierror code="-1074395979">
+    <![CDATA[Einige Elementangaben zu diesem Bild sind ungültig.  Um neue Angaben zu erstellen, verwenden Sie imaqCountParticles.]]>
+  </nierror>
+  <nierror code="-1074395978">
+    <![CDATA[Ungültige Elementenummer.]]>
+  </nierror>
+  <nierror code="-1074395977">
+    <![CDATA[Die AVI-Datei wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese AVI-Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395976">
+    <![CDATA[Die Farbpalette kann nur entweder 0 oder 256 Einträge haben.]]>
+  </nierror>
+  <nierror code="-1074395975">
+    <![CDATA[Das Timeout wurde erreicht, während DirectX versuchte die AVI-Datei zu lesen oder schreibend auf diese zuzugreifen.  Wenn Sie eine AVI-Datei schließen, sollten Sie eine zusätzliche Verzögerung hinzufügen.  Beim Lesen einer AVI-Datei sollten Sie die Belastung von CPU und Laufwerk vermindern.]]>
+  </nierror>
+  <nierror code="-1074395974">
+    <![CDATA[NI Vision unterstützt nicht das Lesen von JPEG2000-Dateien mit dieser Colorspace-Methode.]]>
+  </nierror>
+  <nierror code="-1074395973">
+    <![CDATA[NI Vision unterstützt nicht das Lesen von JPEG2000-Dateien mit mehreren Schichten.]]>
+  </nierror>
+  <nierror code="-1074395972">
+    <![CDATA[DirectX kann keine Kompressionsfilter auflisten. Ursache hierfür ist ein Kompressionsfilter von einem Drittanbieter, der inkorrekt installiert wurde oder nicht aufgelistet werden kann. Entfernen Sie alle kürzlich installierten Kompressionsfilter und versuchen Sie es erneut.]]>
+  </nierror>
+  <nierror code="-1074395971">
+    <![CDATA[Der angegebene Offset muss die Größe 2 haben.]]>
+  </nierror>
+  <nierror code="-1074395970">
+    <![CDATA[Fehler beim Öffnen der AVI-Datei. Möglicherweise wurde kein passender Codec für die Datei gefunden. Installieren Sie den Codec, mit dem die AVI-Datei erzeugt wurde.]]>
+  </nierror>
+  <nierror code="-1074395969">
+    <![CDATA[Fehler beim Erstellen einer AVI-Datei.]]>
+  </nierror>
+  <nierror code="-1074395968">
+    <![CDATA[Fehler beim Schreiben eines AVI-Frames]]>
+  </nierror>
+  <nierror code="-1074395967">
+    <![CDATA[Fehler beim Lesen eines AVI-Frames]]>
+  </nierror>
+  <nierror code="-1074395966">
+    <![CDATA[Das Bild kann in keinen Typ umgewandelt werden, der mit dem verwendeten Codec kompatibel ist.
+Entweder arbeiten Sie mit einer monochromen 16-Bit-Grafik oder einer 64-Bit-Farbgrafik und die Bittiefe ist nicht eingestellt oder der Codec unterstützt nur Graustufengrafiken und es wurde eine Farbgrafik angegeben.]]>
+  </nierror>
+  <nierror code="-1074395965">
+    <![CDATA[Die AVI-Datei hat die maximale Dateigröße von 2 GB erreicht.]]>
+  </nierror>
+  <nierror code="-1074395964">
+    <![CDATA[Ungültige Codec-Quelle.]]>
+  </nierror>
+  <nierror code="-1074395963">
+    <![CDATA[Der Dateiname muss die Erweiterung .avi haben.]]>
+  </nierror>
+  <nierror code="-1074395962">
+    <![CDATA[Es wurde ein leerer Codec-Name empfangen. Geben Sie einen Codec-Namen an.]]>
+  </nierror>
+  <nierror code="-1074395960">
+    <![CDATA[Fehler bei der Initialisierung.]]>
+  </nierror>
+  <nierror code="-1074395959">
+    <![CDATA[Kann Fenster nicht erstellen.]]>
+  </nierror>
+  <nierror code="-1074395958">
+    <![CDATA[Falsche Fenster-ID.]]>
+  </nierror>
+  <nierror code="-1074395957">
+    <![CDATA[Die Array-Größen sind nicht kompatibel.]]>
+  </nierror>
+  <nierror code="-1074395956">
+    <![CDATA[Die angegebene Qualität ist ungültig. Gültige Qualitätswerte liegen im Bereich von -1 bis 1000.]]>
+  </nierror>
+  <nierror code="-1074395955">
+    <![CDATA[Ungültiges Maximum für das Wellentransformations-Level.  Gültige Werte liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395954">
+    <![CDATA[Die Quantisierungsschrittgröße muss größer oder gleich 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395953">
+    <![CDATA[Ungültiger Wellentransformations-Modus.]]>
+  </nierror>
+  <nierror code="-1074395952">
+    <![CDATA[Der ROI darf nur eine Punktkontur haben.]]>
+  </nierror>
+  <nierror code="-1074395951">
+    <![CDATA[Der ROI darf nur Punktkonturen haben.]]>
+  </nierror>
+  <nierror code="-1074395950">
+    <![CDATA[Die ROI darf nur eine Kontur mit einer Linie enthalten.]]>
+  </nierror>
+  <nierror code="-1074395949">
+    <![CDATA[Die ROI darf nur eine einzelne Ringkontur enthalten.]]>
+  </nierror>
+  <nierror code="-1074395948">
+    <![CDATA[Ungültiger Kalibriermodus]]>
+  </nierror>
+  <nierror code="-1074395947">
+    <![CDATA[Ungültiger Schwellwerttyp für Teilchenklassifizierung.]]>
+  </nierror>
+  <nierror code="-1074395946">
+    <![CDATA[Ungültiger Farbsegmentierungsabstand.]]>
+  </nierror>
+  <nierror code="-1074395945">
+    <![CDATA[Ungültiger Partikelbereich für die Farbsegmentierung.]]>
+  </nierror>
+  <nierror code="-1074395944">
+    <![CDATA[Der Name der "Required Class" wurde nicht in "Trained Labels/Class Names" gefunden.]]>
+  </nierror>
+  <nierror code="-1074395943">
+    <![CDATA[Beschriftungsanzahl hat die maximale Anzahl von Beschriftungsbildtypen überschritten.]]>
+  </nierror>
+  <nierror code="-1074395942">
+    <![CDATA[Ungültiger Distance-Level für die Farbsegmentierung.]]>
+  </nierror>
+  <nierror code="-1074395941">
+    <![CDATA[Ungültiger SVM-Modelltyp.]]>
+  </nierror>
+  <nierror code="-1074395940">
+    <![CDATA[Ungültiger SVM-Kernel-Typ.]]>
+  </nierror>
+  <nierror code="-1074395939">
+    <![CDATA[Kein Support Vector an SVM Training gefunden.]]>
+  </nierror>
+  <nierror code="-1074395938">
+    <![CDATA[Beschriftungsname wurde nicht in den hinzugefügten Samples gefunden.]]>
+  </nierror>
+  <nierror code="-1074395937">
+    <![CDATA["SVM Training" hat die maximale Iterationsanzahl überschritten.]]>
+  </nierror>
+  <nierror code="-1074395936">
+    <![CDATA[Ungültiger SVM-Parameter]]>
+  </nierror>
+  <nierror code="-1074395935">
+    <![CDATA[Ungültige ID-Angabe. Zulässige Werte sind 0-1000.]]>
+  </nierror>
+  <nierror code="-1074395934">
+    <![CDATA[Anfrage nach ungültiger Texturfunktion]]>
+  </nierror>
+  <nierror code="-1074395933">
+    <![CDATA[Das "coOccurrence Level" muss zwischen 1 und dem größten Pixelwert eines Bilds (255 für U8-Bilder) liegen.]]>
+  </nierror>
+  <nierror code="-1074395932">
+    <![CDATA[Es wurde ein ungültiges Wavelet-Unterband angefordert.]]>
+  </nierror>
+  <nierror code="-1074395931">
+    <![CDATA[Die Endschrittweite muss kleiner sein als die Anfangsschrittweite.]]>
+  </nierror>
+  <nierror code="-1074395930">
+    <![CDATA["Minimum Energy" muss zwischen 0 und 100 betragen.]]>
+  </nierror>
+  <nierror code="-1074395929">
+    <![CDATA[Die Beschriftung muss "texture" oder "defect" lauten]]>
+  </nierror>
+  <nierror code="-1074395928">
+    <![CDATA[Der Wavelet-Typ ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395927">
+    <![CDATA[Dasselbe Wellenband wurde mehrfach ausgewählt.]]>
+  </nierror>
+  <nierror code="-1074395926">
+    <![CDATA[Die beiden Eingangsbildgrößen unterscheiden sich.]]>
+  </nierror>
+  <nierror code="-1074395925">
+    <![CDATA[Die Eingabedatei ist keine gültige Objektverfolgungsdatei.]]>
+  </nierror>
+  <nierror code="-1074395924">
+    <![CDATA[Ungültiges Pyramidenlevel für Pyramiden-Mustererkennung.]]>
+  </nierror>
+  <nierror code="-1074395923">
+    <![CDATA[Ungültiger Winkelbereichwert für Pyramiden-Mustererkennung.]]>
+  </nierror>
+  <nierror code="-1074395922">
+    <![CDATA[Ungültiger Lernwinkelbereich für Pyramiden-Mustererkennung.]]>
+  </nierror>
+  <nierror code="-1074395921">
+    <![CDATA[Die Objektverfolgungsdatei, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395920">
+    <![CDATA[Falsche Anzahl von Klassen.]]>
+  </nierror>
+  <nierror code="-1074395919">
+    <![CDATA[Angegebener Schwellwerttyp ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395918">
+    <![CDATA[Mehrzeiliger Text wird nicht unterstützt ohne die Aktivierung der Eigenschaft "Text Location".]]>
+  </nierror>
+  <nierror code="-1074395917">
+    <![CDATA[Verwendetes Zeilentrennzeichen wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395916">
+    <![CDATA[Ungültige Objektposition angegeben. Das Objekt sollte sich im Bildrahmen befinden.]]>
+  </nierror>
+  <nierror code="-1074395915">
+    <![CDATA[Unterschiedliche Bildgröße zum Hinzufügen von Objekten weitergegeben. Alle hinzugefügten Objekte sollten die gleiche Bildgröße haben.]]>
+  </nierror>
+  <nierror code="-1074395914">
+    <![CDATA[Ungültiger Anfangswinkel angegeben. Er sollte sich im Bereich [0, 180] befinden.]]>
+  </nierror>
+  <nierror code="-1074395913">
+    <![CDATA[Shape Adapted MeanShift ist nicht initialisiert. Initialisieren Sie Shape Adapted MeanShift.]]>
+  </nierror>
+  <nierror code="-1074395912">
+    <![CDATA[MeanShift wurde nicht initialisiert. Initialisieren Sie MeanShift vor dem Abfragen der dazugehörigen Beschreibung.]]>
+  </nierror>
+  <nierror code="-1074395911">
+    <![CDATA[Es wurde eine ungültige minimale erzielte Punktzahl übergeben. Sie sollte sich im Bereich [0, 1000] befinden.]]>
+  </nierror>
+  <nierror code="-1074395910">
+    <![CDATA[Es wurde ein ungültige Begrenzungsbox übergeben.]]>
+  </nierror>
+  <nierror code="-1074395909">
+    <![CDATA[Es wurde eine ungültige Kovarianzmatrix übergeben.]]>
+  </nierror>
+  <nierror code="-1074395908">
+    <![CDATA[Es wurde ein ungültiger gaußscher Kernel erzeugt. Initialisieren Sie dieses Objekt erneut.]]>
+  </nierror>
+  <nierror code="-1074395907">
+    <![CDATA[Das Objekt, das nachverfolgt werden soll, ging verloren. Initialisieren Sie das Objekt erneut.]]>
+  </nierror>
+  <nierror code="-1074395906">
+    <![CDATA[Ungültige Histogramm-Größe. Geben Sie die gleiche Anzahl an Histogrammintervallen für den gleichen Bildtyp an.]]>
+  </nierror>
+  <nierror code="-1074395905">
+    <![CDATA[Ungültiger Histogramm-Typ. Fragen Sie das aktuelle Bild im gleichen Format wie das vorherige ab.]]>
+  </nierror>
+  <nierror code="-1074395904">
+    <![CDATA[Das Objekt befindet sich außerhalb des Rahmens. Initialisieren Sie dieses Objekt erneut.]]>
+  </nierror>
+  <nierror code="-1074395903">
+    <![CDATA[Ungültige Anzahl an Histogrammintervallen für die Farbverarbeitung. Sie sollte sich im Bereich [2, 40] befinden.]]>
+  </nierror>
+  <nierror code="-1074395902">
+    <![CDATA[Das Objekt kann nicht durch das Objekt-Histogramm beschrieben werden. Initialisieren Sie dieses Objekt erneut.]]>
+  </nierror>
+  <nierror code="-1074395901">
+    <![CDATA[Es wurde eine ungültige Objekt-Tracking-Referenz übergeben. Initialisieren Sie die richtige Referenz.]]>
+  </nierror>
+  <nierror code="-1074395900">
+    <![CDATA[Es wurde keine "Shape Adapted MeanShift"-Instanz gefunden. Initialisieren Sie mindestens eine Instanz.]]>
+  </nierror>
+  <nierror code="-1074395899">
+    <![CDATA[Es wurde keine "MeanShift"-Instanz gefunden. Initialisieren Sie mindestens eine Instanz.]]>
+  </nierror>
+  <nierror code="-1074395898">
+    <![CDATA[Es wurde eine ungültige Objektinstanz weitergeleitet. Die Objektinstanz sollte für ein Objekt angegebenen werden, damit das Objekt nachverfolgt werden kann.]]>
+  </nierror>
+  <nierror code="-1074395897">
+    <![CDATA[Es wurde eine ungültige Methode zur Nachverfolgung ausgewählt. Es sollte entweder "MeanShift" oder "ShapeAdapted MeanShift" ausgewählt werden.]]>
+  </nierror>
+  <nierror code="-1074395896">
+    <![CDATA[Es wurde eine ungültige Angabe zur Nachverfolgung des BLOB weitergeleitet. Initiieren Sie zuerst Objekte, die nachverfolgt werden sollen.]]>
+  </nierror>
+  <nierror code="-1074395895">
+    <![CDATA[Die Referenz für das Nachverfolgen von Objekten enthält keine Objekte zum Nachverfolgen. Fügen Sie Objektinstanzen hinzu, die nachverfolgt werden sollen.]]>
+  </nierror>
+  <nierror code="-1074395894">
+    <![CDATA[Es sollen mehr Instanzen gelöscht werden als vorhanden sind.]]>
+  </nierror>
+  <nierror code="-1074395893">
+    <![CDATA[Der Parameter "Max Shape Change" befindet sich außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.]]>
+  </nierror>
+  <nierror code="-1074395892">
+    <![CDATA[Der Parameter "Max Rotation Change" liegt außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 180,0] befinden.]]>
+  </nierror>
+  <nierror code="-1074395891">
+    <![CDATA[Der Parameter "Max Scale Change" befindet sich außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.]]>
+  </nierror>
+  <nierror code="-1074395890">
+    <![CDATA[Ungültige Anzahl an Histogrammintervallen. Die Anzahl der Histogrammintervalle sollte sich im Bereich [2, 256] befinden.]]>
+  </nierror>
+  <nierror code="-1074395889">
+    <![CDATA[Der Parameter "Blending" liegt außerhalb des zulässigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.]]>
+  </nierror>
+  <nierror code="-1074395888">
+    <![CDATA[Beide Dimensionen der Fenstergröße müssen ungerade, größer als 2 und kleiner als 16 sein.]]>
+  </nierror>
+  <nierror code="-1074395887">
+    <![CDATA[Der für die Funktion angegebene Matrixtyp wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395886">
+    <![CDATA[Es wurde ein ungültiges Abbruchkriterium für die Bestimmung des optischen Flusses angegeben.]]>
+  </nierror>
+  <nierror code="-1074395885">
+    <![CDATA[Die Pyramidenlevel konnten nicht ordnungsgemäß zugewiesen werden.]]>
+  </nierror>
+  <nierror code="-1074395884">
+    <![CDATA[Das angegebene Pyramidenlevel darf nicht negativ sein.]]>
+  </nierror>
+  <nierror code="-1074395883">
+    <![CDATA[Der Kernel muss symmetrisch mit von 0 verschiedenen Koeffizienten und ungerader Größe sein.]]>
+  </nierror>
+  <nierror code="-1074395882">
+    <![CDATA[Ungültiger Glättungsparameter in Horn-Schunck-Operation.]]>
+  </nierror>
+  <nierror code="-1074395881">
+    <![CDATA[Ungültiges Stoppkriterium für den optischen Fluss nach Horn und Schunck.]]>
+  </nierror>
+  <nierror code="-1074395880">
+    <![CDATA[Falscher Partikel.]]>
+  </nierror>
+  <nierror code="-1074395879">
+    <![CDATA[Falsche Messnummer.]]>
+  </nierror>
+  <nierror code="-1074395878">
+    <![CDATA[Das Bild-Anzeigeelement unterstützt das Schreiben dieser Eigenschaft nicht.]]>
+  </nierror>
+  <nierror code="-1074395877">
+    <![CDATA[Für den angegebenen Farbmodus wird imaqChangeColorSpace2 benötigt.]]>
+  </nierror>
+  <nierror code="-1074395876">
+    <![CDATA[Der angegebene Farbmodus wird gegenwärtig von IMAQ Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395875">
+    <![CDATA[Der Barcode ist kein gültiges Pharmacode-Zeichen.]]>
+  </nierror>
+  <nierror code="-1074395874">
+    <![CDATA[Der gewünschte Datentyp für das Array "External Data Value Reference" wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395873">
+    <![CDATA[Der gewünschte Datentyp für das Array "External Data Value Reference" (EDVR) ist nicht kompatibel mit den anderen Einstellungen.
+Die Breite von "Optional Rectangle" in Byte muss ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn der Eingang "Include Border" aktiviert ist, muss die Randbreite des Quellbilds multipliziert mit der Pixelgröße des Quellbilds in Byte ein gerades Mehrfaches der EDVR-Datentypgröße in Byte sein.
+Wenn "Include Border Pixels" aktiviert ist, muss die Rahmengröße des Quellbilds in Byte ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn das EDVR-Array ein 3D-Array ist, muss die Pixelgröße des Quellbilds in Byte ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn das EDVR-Array ein 1D-oder 2D-Array ist und "X Step Size" größer als 1 ist, muss die Pixelgröße des Quellbilds in Byte gleich der EDVR-Datentypgröße in Byte sein.]]>
+  </nierror>
+  <nierror code="-1074395872">
+    <![CDATA[Die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, muss größer als 0 sein.
+Wenn das EDVR-Array eindimensional ist, muss die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, gleich der X-Auflösung des Quellbilds sein.]]>
+  </nierror>
+  <nierror code="-1074395871">
+    <![CDATA[Die Höhe, die vom Eingang "Optional Rectangle" festgelegt wird, muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395870">
+    <![CDATA[Die Schrittgröße X muss größer als 0 sein.
+Die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, muss ein Vielfaches der Schrittgröße X sein.
+Wenn der Eingang "Include Border Pixels" aktiviert ist, muss die Randbreite des Quellbilds ein Mehrfaches der Schrittgröße X sein.
+Wenn das EDVR-Array eindimensional ist, muss die Randbreite des Quellbilds ein Mehrfaches der Schrittgröße X sein und die Füllgröße des Quellbilds muss ein Mehrfaches der Schrittgröße X sein.]]>
+  </nierror>
+  <nierror code="-1074395869">
+    <![CDATA[Die Schrittgröße Y muss größer als 0 sein.
+Die Höhe, die vom Eingang "Optional Rectangle" festgelegt wird, muss ein Vielfaches der Schrittgröße Y sein.
+Wenn der Eingang "Include Border Pixels" aktiviert ist, muss die Randbreite des Quellbilds ein Vielfaches der Schrittgröße Y sein.
+Wenn das EDVR-Array eindimensional ist, muss die Schrittgröße Y gleich 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395868">
+    <![CDATA[Die erforderliche Anzahl der angegebenen Barcodes sollte "1" sein, wenn "Skip Location Search" aktiviert ist.]]>
+  </nierror>
+  <nierror code="-1074395867">
+    <![CDATA[Die resultierende Größe des Bilds ist 0.  Wenn das Element "Image Size" als Breite und Höhe 0 angibt, muss "Image In" ein Bild enthalten, dessen Größe nicht null ist.  Anderenfalls muss das Element "Image Size" einen anderen Wert als null für Höhe und Breite angeben.]]>
+  </nierror>
+  <nierror code="-1074395866">
+    <![CDATA[Mehr als ein Element auf dem FPGA-Frontpanel stimmt mit dem gewünschten Typ überein.  Geben Sie zur Auswahl der gewünschten Instanz den Elementnamen an.]]>
+  </nierror>
+  <nierror code="-1074395865">
+    <![CDATA[Mehr als ein DMA FIFO stimmt mit dem gewünschten Typ überein.  Geben Sie zur Auswahl des gewünschten DMA-FIFOs den DMA-FIFO-Namen an.]]>
+  </nierror>
+  <nierror code="-1074395864">
+    <![CDATA[Die DMA-FIFO-Tiefe in Bildern kann nicht 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395863">
+    <![CDATA[Kein Element auf dem FPGA-Frontpanel stimmt mit dem gewünschten Typ überein.  Setzen Sie das Element auf "Skip" um diesen Schritt auszulassen und diesen Fehler zu ignorieren.]]>
+  </nierror>
+  <nierror code="-1074395862">
+    <![CDATA[Kein DMA FIFO stimmt mit dem gewünschten Typ überein.]]>
+  </nierror>
+  <nierror code="-1074395861">
+    <![CDATA[Der gegebene Wert für "Maximum Pixels per Write" oder "Maximum Pixels per Read" ist nicht gültig.]]>
+  </nierror>
+  <nierror code="-1074395860">
+    <![CDATA[Die Anzahl der Array-Dimensionen, die unter "External Data Value Reference" angegeben ist, muss gleich 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395859">
+    <![CDATA[Der X-Offset des Bildes ist größer oder gleich der Bildbreite, oder der Y-Offset des Bildes ist größer oder gleich der Bildhöhe.]]>
+  </nierror>
+  <nierror code="-1074395858">
+    <![CDATA[Die Größe der Bildpixel stimmt nicht mit der Größe des Elements "External Data Value Reference" überein.]]>
+  </nierror>
+  <nierror code="-1074395857">
+    <![CDATA[Es wurde eine ungültige Point Cloud-Referenz übergeben. Initialisieren Sie die richtige Referenz.]]>
+  </nierror>
+  <nierror code="-1074395841">
+    <![CDATA[Es konnte keine Verbindung mit dem Dämon-Server hergestellt werden oder es wurde ein falscher Befehl eingegeben.]]>
+  </nierror>
+  <nierror code="-1074395840">
+    <![CDATA[Ungültiger Index in der Handle-Tabelle.]]>
+  </nierror>
+  <nierror code="-1074395837">
+    <![CDATA[Das Komprimierungsverhältnis muss größer oder gleich 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395801">
+    <![CDATA[Die ROI enthält zu viele Konturen.]]>
+  </nierror>
+  <nierror code="-1074395800">
+    <![CDATA[Schutzfehler.]]>
+  </nierror>
+  <nierror code="-1074395799">
+    <![CDATA[Interner Fehler.]]>
+  </nierror>
+  <nierror code="-1074395798">
+    <![CDATA[Die Größe der Komponente in Custom Sample muss der Größe der bereits hinzugefügten Komponenten entsprechen.]]>
+  </nierror>
+  <nierror code="-1074395797">
+    <![CDATA[Ungültige Classifier-Session.]]>
+  </nierror>
+  <nierror code="-1074395796">
+    <![CDATA[Es wurde eine ungültige Nächster-Nachbar-Classifier-Methode angefordert.]]>
+  </nierror>
+  <nierror code="-1074395795">
+    <![CDATA[Der k-Parameter muss größer als Zwei sein.]]>
+  </nierror>
+  <nierror code="-1074395794">
+    <![CDATA[Der k-Parameter muss kleiner oder gleich der Anzahl der Samples jeder Klasse sein.]]>
+  </nierror>
+  <nierror code="-1074395793">
+    <![CDATA[Diese Classifier-Session ist kompakt. Nur Classify- und Dispose-Funktionen können für eine kompakte Classifier-Session aufgerufen werden.]]>
+  </nierror>
+  <nierror code="-1074395792">
+    <![CDATA[Diese Classifier-Session wurde nicht trainiert. Sie können diese Funktion nur für eine trainierte Classifier-Session aufrufen.]]>
+  </nierror>
+  <nierror code="-1074395791">
+    <![CDATA[Diese Classifier-Funktion kann für diesen Typ der Classifier-Session nicht aufgerufen werden.]]>
+  </nierror>
+  <nierror code="-1074395790">
+    <![CDATA[Es wurde eine ungültige Distanz-Metrik angefordert.]]>
+  </nierror>
+  <nierror code="-1074395789">
+    <![CDATA[Die Classifier-Session, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395788">
+    <![CDATA[Die Operation kann nicht durchgeführt werden, da keine Samples hinzugefügt wurden.]]>
+  </nierror>
+  <nierror code="-1074395787">
+    <![CDATA[Es wurde ein ungültiger Classifier-Typ angefordert.]]>
+  </nierror>
+  <nierror code="-1074395786">
+    <![CDATA[Die Summe von Skalierungsabhängigkeit und Symmetrieabhängigkeit muss kleiner als 1000 sein.]]>
+  </nierror>
+  <nierror code="-1074395785">
+    <![CDATA[Die Abbildung lieferte keine Partikel.]]>
+  </nierror>
+  <nierror code="-1074395784">
+    <![CDATA[Die übergebenen Grenzen sind nicht gültig.]]>
+  </nierror>
+  <nierror code="-1074395783">
+    <![CDATA[Der Sample-Index fiel außerhalb des Bereichs der Samples.]]>
+  </nierror>
+  <nierror code="-1074395782">
+    <![CDATA[Die Anzahl der Zeichen der Beschreibung muss <= 255 Zeichen sein.]]>
+  </nierror>
+  <nierror code="-1074395781">
+    <![CDATA[Die Engine für diese Classifier-Session unterstützt diese Operation nicht.]]>
+  </nierror>
+  <nierror code="-1074395780">
+    <![CDATA[Es wurde ein ungültiger Partikeltyp angefordert.]]>
+  </nierror>
+  <nierror code="-1074395779">
+    <![CDATA[Eine Session kann nur in Kompaktform gespeichert werden, wenn sie bereits eintrainiert wurde.]]>
+  </nierror>
+  <nierror code="-1074395778">
+    <![CDATA[Die Kernel-Größe muss kleiner als die Bildgröße sein.]]>
+  </nierror>
+  <nierror code="-1074395777">
+    <![CDATA[Die Session, die aus der Datei gelesen wird, muss den gleichen Typ haben, wie die übergebene Session.]]>
+  </nierror>
+  <nierror code="-1074395776">
+    <![CDATA[Sie können eine kompakte Klassifizierungsdatei nur mit der Option Read_All verwenden.]]>
+  </nierror>
+  <nierror code="-1074395775">
+    <![CDATA[Die übergebene ROI darf nur geschlossene Konturen enthalten.]]>
+  </nierror>
+  <nierror code="-1074395774">
+    <![CDATA[Sie müssen eine Beschriftung übergeben.]]>
+  </nierror>
+  <nierror code="-1074395773">
+    <![CDATA[Sie müssen ein Zielbild angeben.]]>
+  </nierror>
+  <nierror code="-1074395772">
+    <![CDATA[Sie müssen eine gültige Registrierungsmethode angeben.]]>
+  </nierror>
+  <nierror code="-1074395771">
+    <![CDATA[Die goldene Vorlage, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395770">
+    <![CDATA[Ungültige goldene Vorlage.]]>
+  </nierror>
+  <nierror code="-1074395769">
+    <![CDATA["Edge Thickness to Ignore" muss größer als Null sein.]]>
+  </nierror>
+  <nierror code="-1074395768">
+    <![CDATA[Skalierung muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395767">
+    <![CDATA[Die angegebene Skalierung ist für Vorlage ungültig.]]>
+  </nierror>
+  <nierror code="-1074395766">
+    <![CDATA[Die Abwärtskompatibilitätsfunktion kann in dieser Session nicht verwendet werden. Verwenden Sie stattdessen neuere unterstützte Funktionen.]]>
+  </nierror>
+  <nierror code="-1074395763">
+    <![CDATA[Sie müssen eine gültige Normalisierungsmethode angeben.]]>
+  </nierror>
+  <nierror code="-1074395762">
+    <![CDATA[Der Abweichungsfaktor für den lokalen Niblack-Schwellwert muss zwischen 0 und 1 liegen.]]>
+  </nierror>
+  <nierror code="-1074395761">
+    <![CDATA[Der Abweichungsbereich für den lokalen Sauvola-Schwellwert muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395760">
+    <![CDATA[Die Karte wurde nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395759">
+    <![CDATA[I/O Fehler.]]>
+  </nierror>
+  <nierror code="-1074395758">
+    <![CDATA[Karte nicht geöffnet.]]>
+  </nierror>
+  <nierror code="-1074395757">
+    <![CDATA[DLL nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395756">
+    <![CDATA[DLL-Funktion nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395755">
+    <![CDATA[Interner Fehler.]]>
+  </nierror>
+  <nierror code="-1074395754">
+    <![CDATA[Trigger-Timeout.]]>
+  </nierror>
+  <nierror code="-1074395746">
+    <![CDATA[Ungültiger Wert für maximal mögliche Konturverfeinerungen.]]>
+  </nierror>
+  <nierror code="-1074395745">
+    <![CDATA[Es wurden zu viele Kurven vom Bild extrahiert. Erhöhen Sie den Kantenschwellwert oder reduzieren Sie den ROI.]]>
+  </nierror>
+  <nierror code="-1074395744">
+    <![CDATA[Ungültiger Kernel für Konturglättung. 0 bedeutet, es findet keine Glättung statt. Werte für die Glättung müssen ungerade sein.]]>
+  </nierror>
+  <nierror code="-1074395743">
+    <![CDATA[Ungültige Konturlinienanpassung. Start und Stopp des Liniensegments müssen unterschiedlich sein.]]>
+  </nierror>
+  <nierror code="-1074395742">
+    <![CDATA[Die Vorlage muss mit "IMAQ Learn Contour Pattern" bearbeitet worden sein oder dieselbe Größe wie das Zielbild haben.]]>
+  </nierror>
+  <nierror code="-1074395741">
+    <![CDATA[Die Konturen der Vorlage und des Ziels konnten nicht ausgerichtet werden.]]>
+  </nierror>
+  <nierror code="-1074395740">
+    <![CDATA[Die Kontur, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395739">
+    <![CDATA[Pro Art der Bedingung für die Kurvenverbindung ist nur ein Bereich zulässig.]]>
+  </nierror>
+  <nierror code="-1074395738">
+    <![CDATA[Ungültige Art der Bedingung für Konturverbindung.]]>
+  </nierror>
+  <nierror code="-1074395737">
+    <![CDATA[Zur Verwendung des Konturenvergleichs ist eine Vorlage nötig, die mit "IMAQ Learn Contour Pattern" bearbeitet wurde.]]>
+  </nierror>
+  <nierror code="-1074395736">
+    <![CDATA[Ungültige Kernel-Breite für Bogenlaufberechnung. Der Wert muss ungerade und größer als 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395735">
+    <![CDATA[Ungültige Methode der Konturauswahl für Konturextraktion.]]>
+  </nierror>
+  <nierror code="-1074395734">
+    <![CDATA[Ungültige Suchrichtung für Konturextraktion.]]>
+  </nierror>
+  <nierror code="-1074395733">
+    <![CDATA[Ungültiger ROI für Konturextraktion. Der ROI muss einen Ring oder ein Rechteck enthalten.]]>
+  </nierror>
+  <nierror code="-1074395732">
+    <![CDATA[Es wurden keine Kurven im Bild gefunden.]]>
+  </nierror>
+  <nierror code="-1074395731">
+    <![CDATA[Breite von "Smoothing Kernel" für den Konturvergleich ist ungültig. Der Wert muss 0 oder eine ungerade positive Ganzzahl sein.]]>
+  </nierror>
+  <nierror code="-1074395730">
+    <![CDATA[Wenn keine Vorlage vorliegt, muss das Zielbild eine Kontur mit extrahierten Punkten und eine angepasste Gleichung enthalten.]]>
+  </nierror>
+  <nierror code="-1074395729">
+    <![CDATA[Ungültiges Konturbild.]]>
+  </nierror>
+  <nierror code="-1074395728">
+    <![CDATA[NI Vision unterstützt den angegebenen Suchmodus nicht.]]>
+  </nierror>
+  <nierror code="-1074395727">
+    <![CDATA[NI Vision unterstützt den von Ihnen angegebenen Suchmodus für den gesuchten 2D-Barcode-Typ nicht.]]>
+  </nierror>
+  <nierror code="-1074395726">
+    <![CDATA[matchFactor wird nicht mehr verwendet. Stattdessen sollten Sie initialMatchListLength und matchListReductionFactor in der Struktur MatchPatternAdvancedOptions setzen.]]>
+  </nierror>
+  <nierror code="-1074395725">
+    <![CDATA[Die Daten wurden mit einer neueren Version von NI Vision gespeichert. Aktualisieren Sie NI Vision, damit dieses Daten gelesen werden können.]]>
+  </nierror>
+  <nierror code="-1074395724">
+    <![CDATA[Die angegebene Größe liegt außerhalb des gültigen Bereichs.]]>
+  </nierror>
+  <nierror code="-1074395723">
+    <![CDATA[Der angegebene Schlüssel kann in der Abbildung nicht gefunden werden.]]>
+  </nierror>
+  <nierror code="-1074395722">
+    <![CDATA[Angepasste Classifier-Sessions klassifizieren nur Funktionen-/Eigenschaftenvektoren. Sie unterstützen keine klassifizierenden Bilder.]]>
+  </nierror>
+  <nierror code="-1074395721">
+    <![CDATA[Die für das verwendete Bild angegebene Bittiefe wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395720">
+    <![CDATA[Ungültiger ROI-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395719">
+    <![CDATA[Das die ROI umfassende globale Rechteck ist nicht korrekt.]]>
+  </nierror>
+  <nierror code="-1074395718">
+    <![CDATA[Die installierte Version von LabVIEW beziehungsweise BridgeVIEW unterstützt diese Operation nicht.]]>
+  </nierror>
+  <nierror code="-1074395717">
+    <![CDATA[Der von Ihnen angegebene Bereich ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395716">
+    <![CDATA[Angegebene Skalierungsmethode wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395715">
+    <![CDATA[Angegebene Kalibriereinheit wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395714">
+    <![CDATA[Angegebene Achsenorientierung wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395713">
+    <![CDATA[Wert nicht in Aufzählung]]>
+  </nierror>
+  <nierror code="-1074395712">
+    <![CDATA[Die ausgewählte Region ist nicht vom erforderlichen Typ.]]>
+  </nierror>
+  <nierror code="-1074395711">
+    <![CDATA[Sie haben einen Bildanzeiger angegeben, der nicht genügend Regionen enthält.]]>
+  </nierror>
+  <nierror code="-1074395710">
+    <![CDATA[Das Bild hat für diesen Vorgang zu viele Partikel.]]>
+  </nierror>
+  <nierror code="-1074395709">
+    <![CDATA[Die AVI-Session wurde noch nicht gestartet.]]>
+  </nierror>
+  <nierror code="-1074395708">
+    <![CDATA[Die AVI-Session ist eine Schreib-Session - diese Operation erfordert jedoch eine Lese-Session.]]>
+  </nierror>
+  <nierror code="-1074395707">
+    <![CDATA[Die AVI-Session ist eine Lese-Session - diese Operation erfordert jedoch eine Schreib-Session.]]>
+  </nierror>
+  <nierror code="-1074395706">
+    <![CDATA[Die AVI-Session ist bereits gestartet. Sie muss erst beendet werden, bevor Create oder Open aufgerufen wird.]]>
+  </nierror>
+  <nierror code="-1074395705">
+    <![CDATA[Die Daten sind beschädigt und können nicht gelesen werden.]]>
+  </nierror>
+  <nierror code="-1074395704">
+    <![CDATA[Ungültiger Komprimierungstyp.]]>
+  </nierror>
+  <nierror code="-1074395703">
+    <![CDATA[Ungültiger Typ für die Konvertierung.]]>
+  </nierror>
+  <nierror code="-1074395702">
+    <![CDATA[Die Länge der Kantenerkennungslinie muss größer als Null sein.]]>
+  </nierror>
+  <nierror code="-1074395701">
+    <![CDATA[Die maximale Datenmatrix-Barcode-Größe muss gleich oder größer der minimalen Datenmatrix-Barcode-Größe sein.]]>
+  </nierror>
+  <nierror code="-1074395700">
+    <![CDATA[Die Funktion erfordert mindestens Microsoft Windows 2000 als Betriebssystem.]]>
+  </nierror>
+  <nierror code="-1074395662">
+    <![CDATA[Es wurde eine ungültige Kalibriermethode angefordert.]]>
+  </nierror>
+  <nierror code="-1074395661">
+    <![CDATA[Diese Kalibrierung ist kompakt. Ein erneutes Erlernen der Kalibrierung und Abfragen von Thumbnails ist mit dieser Kalibrierung nicht möglich.]]>
+  </nierror>
+  <nierror code="-1074395660">
+    <![CDATA[Ungültige Anzahl von K-Werten]]>
+  </nierror>
+  <nierror code="-1074395659">
+    <![CDATA[Ungültiger Verzerrungsmodelltyp.]]>
+  </nierror>
+  <nierror code="-1074395658">
+    <![CDATA[Das Kameramodell wurde nicht erlernt.]]>
+  </nierror>
+  <nierror code="-1074395657">
+    <![CDATA[Der angegebene Thumbnail-Index ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395656">
+    <![CDATA[Sie müssen für alle zu vergleichenden Vorlagen denselben Wert für die fortgeschrittene Vergleichsoption "smooth contours" angeben.]]>
+  </nierror>
+  <nierror code="-1074395655">
+    <![CDATA[Sie müssen für alle zu vergleichenden Vorlagen denselben Wert für die fortgeschrittene Vergleichsoption "enable calibration support" angeben.]]>
+  </nierror>
+  <nierror code="-1074395654">
+    <![CDATA[Das Quellbild enthält keine Einstufungsinformationen (Grading). Sie müssen das Quellbild für das Grading beim Lesen der Datenmatrix vorbereiten. Sie können Inhalte des Quellbilds nicht zwischen Lesen und Grading der Datenmatrix ändern.]]>
+  </nierror>
+  <nierror code="-1074395653">
+    <![CDATA[Die Vorlage für den Vergleich verschiedener geometrischer Formen, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395652">
+    <![CDATA[Die Vorlage für den geometrischen Vergleich, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395651">
+    <![CDATA[Sie müssen für alle zu vergleichenden Vorlagen dieselbe Kantenfiltergröße angeben.]]>
+  </nierror>
+  <nierror code="-1074395650">
+    <![CDATA[Sie müssen für alle zu vergleichenden Vorlagen denselben Kurvenextraktionsmodus angeben.]]>
+  </nierror>
+  <nierror code="-1074395649">
+    <![CDATA[Die angegebene geometrische Eigenschaft ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395648">
+    <![CDATA[Angegebene Vorlage wurde noch nicht erlernt.]]>
+  </nierror>
+  <nierror code="-1074395647">
+    <![CDATA[Ungültige geometrische Vorlage.]]>
+  </nierror>
+  <nierror code="-1074395646">
+    <![CDATA[Es wird mindestens eine zu erlernende Vorlage benötigt.]]>
+  </nierror>
+  <nierror code="-1074395645">
+    <![CDATA[Angegebene Anzahl an Beschriftungen ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395644">
+    <![CDATA[Beschriftungen müssen <= 255 Zeichen sein.]]>
+  </nierror>
+  <nierror code="-1074395643">
+    <![CDATA[Angegebene Anzahl an Suchoptionen ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395642">
+    <![CDATA[Für die angegebene Beschriftung kann keine Entsprechung gefunden werden.]]>
+  </nierror>
+  <nierror code="-1074395641">
+    <![CDATA[Doppelte Beschriftungen sind nicht erlaubt.]]>
+  </nierror>
+  <nierror code="-1074395640">
+    <![CDATA[Die Anzahl der gefundenen Zonen überschreitet die Kapazität des Algorithmus.]]>
+  </nierror>
+  <nierror code="-1074395639">
+    <![CDATA[Der Hatch-Stil für den Fensterhintergrund ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395638">
+    <![CDATA[Der Füllmodus für den Fensterhintergrund ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395637">
+    <![CDATA[Ihre Hardware wird nicht von DirectX unterstützt und kann nicht in den NonTearing-Modus versetzt werden.]]>
+  </nierror>
+  <nierror code="-1074395636">
+    <![CDATA[Für diese Eigenschaft wird DirectX benötigt.  Installieren Sie die neueste Version.]]>
+  </nierror>
+  <nierror code="-1074395635">
+    <![CDATA[Der weitergeleitete Form-Deskriptor ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395634">
+    <![CDATA[Ungültige Überlappung für Max.-Überlappung.  Werte müssen zwischen -1 und 100 liegen.]]>
+  </nierror>
+  <nierror code="-1074395633">
+    <![CDATA[Ungültige minimale Separierungsskalierung für Übereinstimmung.  Werte müssen größer oder gleich -1 sein.]]>
+  </nierror>
+  <nierror code="-1074395632">
+    <![CDATA[Ungültiger minimaler Separierungswinkel für Übereinstimmung.  Werte müssen zwischen -1 und 360 liegen.]]>
+  </nierror>
+  <nierror code="-1074395631">
+    <![CDATA[Ungültige minimale Separierungsdistanz für Übereinstimmung.  Werte müssen größer oder gleich -1 sein.]]>
+  </nierror>
+  <nierror code="-1074395630">
+    <![CDATA[Ungültige maximale Anzahl zu lernender Features. Die Werte müssen ganzzahlig und größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395629">
+    <![CDATA[Ungültiger maximaler Pixelabstand zur Linie. Es muss sich um positive reelle Werte handeln.]]>
+  </nierror>
+  <nierror code="-1074395628">
+    <![CDATA[Ungültige Bildvorlage für geometrischen Vergleich.]]>
+  </nierror>
+  <nierror code="-1074395627">
+    <![CDATA[Die Vorlage enthält nicht genügend Features für den geometrischen Vergleich.]]>
+  </nierror>
+  <nierror code="-1074395626">
+    <![CDATA[Die Vorlage enthält nicht genügend Features für den geometrischen Vergleich.]]>
+  </nierror>
+  <nierror code="-1074395625">
+    <![CDATA[Sie haben in den Bereichseinstellungen ein ungültiges Vergleichskriterium angegeben.]]>
+  </nierror>
+  <nierror code="-1074395624">
+    <![CDATA[Ungültiger Flächenbereich. Gültige Werte für die Begrenzungen liegen zwischen 0 und 100 und die obere Begrenzung muss größer oder gleich der unteren Begrenzung sein.]]>
+  </nierror>
+  <nierror code="-1074395623">
+    <![CDATA[Ungültiger Skalierungsbereich. Die Werte für die untere Begrenzung müssen positiv reell und die obere Begrenzung muss größer oder gleich der unteren Begrenzung sein.]]>
+  </nierror>
+  <nierror code="-1074395622">
+    <![CDATA[Setup-Daten für das Vergleichen geometrischer Muster sind nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395621">
+    <![CDATA[Setup-Daten für das Lernen geometrischer Muster sind nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395620">
+    <![CDATA[Ungültiger Kurven-Extraktionsmodus.]]>
+  </nierror>
+  <nierror code="-1074395619">
+    <![CDATA[Es kann nur ein einzelner Okklusionsbereich angegeben werden.]]>
+  </nierror>
+  <nierror code="-1074395618">
+    <![CDATA[Es kann nur ein einzelner Skalierungsbereich angegeben werden.]]>
+  </nierror>
+  <nierror code="-1074395617">
+    <![CDATA[Die minimale Anzahl von Funktionen/Eigenschaften muss kleiner oder gleich der maximalen Anzahl von Funktionen/Eigenschaften sein.]]>
+  </nierror>
+  <nierror code="-1074395616">
+    <![CDATA[Ungültige Größe für Kantenfilter.]]>
+  </nierror>
+  <nierror code="-1074395615">
+    <![CDATA[Ungültige minimale Stärke von Funktionen/Eigenschaften. Es muss sich um positive reelle Werte handeln.]]>
+  </nierror>
+  <nierror code="-1074395614">
+    <![CDATA[Ungültiges Seitenverhältnis für Rechteckfunktionen/-eigenschaften. Die Werte müssen positiv reell sein und im Bereich 0,01 bis 1,0 liegen.]]>
+  </nierror>
+  <nierror code="-1074395613">
+    <![CDATA[Ungültige minimale Länge für lineare Funktionen/Eigenschaften. Die Werte müssen ganzzahlig und größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395612">
+    <![CDATA[Ungültiger minimaler Radius für Kreisfunktionen/-eigenschaften. Die Werte müssen ganzzahlig und größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395611">
+    <![CDATA[Ungültige minimale Rechteckdimension. Die Werte müssen ganzzahlig und größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395610">
+    <![CDATA[Ungültige Anfangs-Suchlistenlänge. Die Werte müssen ganzzahlig und größer als 5 sein.]]>
+  </nierror>
+  <nierror code="-1074395609">
+    <![CDATA[Ungültige SubPixel-Toleranz. Es muss sich um positive reelle Werte handeln.]]>
+  </nierror>
+  <nierror code="-1074395608">
+    <![CDATA[Ungültige Anzahl an SubPixel-Iterationen. Die Werte müssen ganzzahlig und größer als 10 sein.]]>
+  </nierror>
+  <nierror code="-1074395607">
+    <![CDATA[Ungültige maximale Anzahl von Features für Vergleich. Die Werte müssen ganzzahlig und größer oder gleich Null sein.]]>
+  </nierror>
+  <nierror code="-1074395606">
+    <![CDATA[Ungültige minimale Anzahl von Features für Vergleich. Die Werte müssen ganzzahlig und größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395605">
+    <![CDATA[Ungültige maximale Endpunktlücke. Gültige Werte liegen im Bereich von 0 bis 32767.]]>
+  </nierror>
+  <nierror code="-1074395604">
+    <![CDATA[Ungültiger Spaltenschritt. Der gültige Bereich ist 1 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395603">
+    <![CDATA[Ungültiger Zeilenschritt. Der gültige Bereich ist 1 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395602">
+    <![CDATA[Ungültige Mindestlänge. Gültige Werte müssen größer oder gleich Null sein.]]>
+  </nierror>
+  <nierror code="-1074395601">
+    <![CDATA[Ungültiger Kantenschwellwert. Gültige Werte liegen im Bereich von 1 bis 65535.]]>
+  </nierror>
+  <nierror code="-1074395600">
+    <![CDATA[Es müssen Informationen über das Teilbild innerhalb des Browsers angegeben werden.]]>
+  </nierror>
+  <nierror code="-1074395598">
+    <![CDATA[Der Akzeptanz-Level liegt außerhalb des gültigen Bereichs von 0 bis 1000.]]>
+  </nierror>
+  <nierror code="-1074395597">
+    <![CDATA[Keine gültige NI-OCR-Session.]]>
+  </nierror>
+  <nierror code="-1074395596">
+    <![CDATA[Ungültige Zeichengröße. Zeichengrößen müssen > = 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395595">
+    <![CDATA[Ungültiger Wert für Schwellwertmodus.]]>
+  </nierror>
+  <nierror code="-1074395594">
+    <![CDATA[Ungültiges Ersetzungszeichen. Gültige Ersetzungszeichen sind ASCII-Werte im Bereich von 1 bis 254.]]>
+  </nierror>
+  <nierror code="-1074395593">
+    <![CDATA[Ungültige Anzahl von Blöcken. Die Anzahl der Blöcke muss > = 4 und <= 50 sein.]]>
+  </nierror>
+  <nierror code="-1074395592">
+    <![CDATA[Ungültige Lese-Strategie.]]>
+  </nierror>
+  <nierror code="-1074395591">
+    <![CDATA[Ungültiger Zeichenindex.]]>
+  </nierror>
+  <nierror code="-1074395590">
+    <![CDATA[Ungültige Anzahl von Zeichenpositionen. Gültige Werte liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395589">
+    <![CDATA[Ungültiger unterer Schwellwert. Gültige Schwellwerte liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395588">
+    <![CDATA[Ungültiger oberer Schwellwert. Gültige Schwellwerte liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395587">
+    <![CDATA[Der untere Schwellwert muss kleiner als der obere Schwellwert sein.]]>
+  </nierror>
+  <nierror code="-1074395586">
+    <![CDATA[Ungültige untere Schwellwertgrenze. Gültige untere Schwellwertgrenzen liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395585">
+    <![CDATA[Ungültige obere Schwellwertgrenze. Gültige obere Schwellwertgrenzen liegen im Bereich von 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395584">
+    <![CDATA[Die untere Schwellwertgrenze muss kleiner als die obere Schwellwertgrenze sein.]]>
+  </nierror>
+  <nierror code="-1074395583">
+    <![CDATA[Ungültiger minimaler Wert für Zeichenabstände. Zeichenabstände müssen > = 1 Pixel sein.]]>
+  </nierror>
+  <nierror code="-1074395582">
+    <![CDATA[Ungültiger maximaler Wert für horizontale Elementabstände. Der maximale horizontale Elementabstand muss > = 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395581">
+    <![CDATA[Ungültiger maximaler Wert für vertikale Elementabstände. Der maximale vertikale Elementabstand muss > = 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395580">
+    <![CDATA[Ungültige minimale Begrenzungsbreite für Rechteck. Die minimale Begrenzungsbreite für das Rechteck muss > = 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395579">
+    <![CDATA[Ungültiger Wert für Seitenverhältnis. Das Seitenverhältnis muss 0 oder > = 100 sein.]]>
+  </nierror>
+  <nierror code="-1074395578">
+    <![CDATA[Ungültige oder beschädigte Zeichensatz-Datei.]]>
+  </nierror>
+  <nierror code="-1074395577">
+    <![CDATA[Der Zeichenwert darf kein leerer String sein.]]>
+  </nierror>
+  <nierror code="-1074395576">
+    <![CDATA[Zeichenwerte müssen <= 255 Zeichen sein.]]>
+  </nierror>
+  <nierror code="-1074395575">
+    <![CDATA[Ungültige Anzahl von Abträgen. Die Anzahl der Abträge muss > = 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395574">
+    <![CDATA[Die Zeichensatz-Beschreibung muss <= 255 Zeichen sein.]]>
+  </nierror>
+  <nierror code="-1074395573">
+    <![CDATA[Die Zeichensatz-Datei wurde von einer aktuelleren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Zeichensatz-Datei verwendet werden kann.]]>
+  </nierror>
+  <nierror code="-1074395572">
+    <![CDATA[Für einen String müssen Sie Zeichen angeben. Ein String kann keine Integer-Werte enthalten.]]>
+  </nierror>
+  <nierror code="-1074395571">
+    <![CDATA[Dieses Attribut ist schreibgeschützt.]]>
+  </nierror>
+  <nierror code="-1074395570">
+    <![CDATA[Dieses Attribut erfordert einen booleschen Wert.]]>
+  </nierror>
+  <nierror code="-1074395569">
+    <![CDATA[Ungültiges Attribut.]]>
+  </nierror>
+  <nierror code="-1074395568">
+    <![CDATA[Dieses Attribut erfordert Integer-Werte.]]>
+  </nierror>
+  <nierror code="-1074395567">
+    <![CDATA[String-Werte sind für dieses Attribut nicht zulässig. Geben Sie einen booleschen Wert ein.]]>
+  </nierror>
+  <nierror code="-1074395566">
+    <![CDATA[Boolesche Werte sind für dieses Attribut nicht zulässig. Geben Sie einen Integer-Wert ein.]]>
+  </nierror>
+  <nierror code="-1074395565">
+    <![CDATA[Erfordert einen Einzelzeichen-String.]]>
+  </nierror>
+  <nierror code="-1074395564">
+    <![CDATA[Ungültiger vordefinierter Zeichenwert.]]>
+  </nierror>
+  <nierror code="-1074395563">
+    <![CDATA[Diese Kopie von NI OCR ist nicht lizenziert.]]>
+  </nierror>
+  <nierror code="-1074395562">
+    <![CDATA[String-Werte sind für dieses Attribut nicht zulässig. Geben Sie einen booleschen Wert ein.]]>
+  </nierror>
+  <nierror code="-1074395561">
+    <![CDATA[Die Anzahl der Zeichen im Zeichenwert muss mit der Anzahl der Objekte im Bild übereinstimmen.]]>
+  </nierror>
+  <nierror code="-1074395560">
+    <![CDATA[Ungültiger Objektindex.]]>
+  </nierror>
+  <nierror code="-1074395559">
+    <![CDATA[Ungültige Lese-Option.]]>
+  </nierror>
+  <nierror code="-1074395558">
+    <![CDATA[Die minimale Zeichengröße muss kleiner sein, als die maximale Zeichengröße.]]>
+  </nierror>
+  <nierror code="-1074395557">
+    <![CDATA[Der minimale Wert für die Breite des zeichenbegrenzenden Rechtecks muss kleiner als das Maximum für die Breite des zeichenbegrenzenden Rechtecks sein.]]>
+  </nierror>
+  <nierror code="-1074395556">
+    <![CDATA[Der minimale Wert für die Höhe des zeichenbegrenzenden Rechtecks muss kleiner als das Maximum für die Höhe des zeichenbegrenzenden Rechtecks sein.]]>
+  </nierror>
+  <nierror code="-1074395555">
+    <![CDATA[Der maximale Wert der horizontalen Elementabstände darf den minimalen Wert für den Zeichenabstand nicht übersteigen.]]>
+  </nierror>
+  <nierror code="-1074395554">
+    <![CDATA[Ungültige Lese-Auflösung.]]>
+  </nierror>
+  <nierror code="-1074395553">
+    <![CDATA[Ungültige minimale Begrenzungshöhe für Rechteck. Die minimale Begrenzungshöhe für das Rechteck muss > = 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395552">
+    <![CDATA[Kein gültiger Zeichensatz.]]>
+  </nierror>
+  <nierror code="-1074395551">
+    <![CDATA[Ein erlerntes OCR-Zeichen kann nicht umbenannt werden, solange es sich dabei um ein Referenzzeichen handelt.]]>
+  </nierror>
+  <nierror code="-1074395550">
+    <![CDATA[Ein Zeichen kann nicht den ASCII-Wert 255 haben.]]>
+  </nierror>
+  <nierror code="-1074395549">
+    <![CDATA[Die Anzahl der gefundenen Objekte entspricht nicht der Anzahl der erwarteten Zeichen oder Muster, die zu prüfen sind.]]>
+  </nierror>
+  <nierror code="-1074395548">
+    <![CDATA[Die Anzahl der Bilder muss größer als 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395547">
+    <![CDATA[Die Anzahl der Bilder muss größer als 2 sein.]]>
+  </nierror>
+  <nierror code="-1074395546">
+    <![CDATA[Es liegen keine Vision-Informationen für die Flatfield-Korrektur vor.]]>
+  </nierror>
+  <nierror code="-1074395545">
+    <![CDATA[Flatfield-Bild und Dunkelbild sind nicht vorhanden. Zum Durchführen der Flatfield-Korrektur muss mindestens eins der Bilder vorhanden sein.]]>
+  </nierror>
+  <nierror code="-1074395544">
+    <![CDATA[Nicht unterstützte voreingestellte Vergleichsoption wird mitgeliefert.]]>
+  </nierror>
+  <nierror code="-1074395543">
+    <![CDATA[Nicht unterstützte Funktionsoption wird mitgeliefert.]]>
+  </nierror>
+  <nierror code="-1074395542">
+    <![CDATA[Der ausgewählte Algorithmus wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395541">
+    <![CDATA[Diese Funktion wird auf der aktuellen Plattform nicht unterstützt. Suchen Sie in der Hilfe nach einer Liste unterstützter Plattformen.]]>
+  </nierror>
+  <nierror code="-1074395540">
+    <![CDATA[Die "Deep Learning"-Bibliothek kann nicht geladen werden.]]>
+  </nierror>
+  <nierror code="-1074395539">
+    <![CDATA[Die Modelldatei kann nicht geladen werden.]]>
+  </nierror>
+  <nierror code="-1074395538">
+    <![CDATA[Ungültige Modell-Session.]]>
+  </nierror>
+  <nierror code="-1074395537">
+    <![CDATA[Der Datentyp-Eingang wird nicht unterstützt. Bitte überprüfen Sie die unterstützten Datentypen.]]>
+  </nierror>
+  <nierror code="-1074395536">
+    <![CDATA[Der angegebene Knotenname wurde im geladenen Modellgraphen nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395535">
+    <![CDATA[Bei der Ausführung des Modells (Graph) ist ein Fehler aufgetreten.]]>
+  </nierror>
+  <nierror code="-1074395534">
+    <![CDATA[Die Dimensionen des Ausgangssensors stimmen nicht mit den erwarteten Datendimensionen überein.]]>
+  </nierror>
+  <nierror code="-1074395533">
+    <![CDATA[Eine leere Zuordnungstabelle kann nicht zum Konvertieren eines Bilds mithilfe der Zuordnungsmethode verwendet werden.]]>
+  </nierror>
+  <nierror code="-1074395532">
+    <![CDATA[Die bereitgestellte Methode wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395531">
+    <![CDATA[Für das Modell wurde kein Eingang festgelegt.]]>
+  </nierror>
+  <nierror code="-1074395530">
+    <![CDATA[Fehler beim Laden des CPU-Plugins aus dem angegebenen Pfad. Installation ist fehlerhaft oder PATH-Umgebungsvariable wurde nicht aktualisiert.]]>
+  </nierror>
+  <nierror code="-1074395453">
+    <![CDATA[Bei dem Algorithmus sollte es sich um "Grayscale Value Pyramid/Low Discrepancy Sampling" handeln, wenn "Screenshot Preset" ausgewählt ist.]]>
+  </nierror>
+  <nierror code="-1074395452">
+    <![CDATA[Die Bittiefe im angegebenen 16-Bit-SGL-Bild ist Null. Diese Funktion erfordert das Konfigurieren einer Bittiefe, die nicht Null ist.]]>
+  </nierror>
+  <nierror code="-1074395451">
+    <![CDATA[Die Bittiefe im angegebenen 16-Bit-Bild ist Null. Diese Funktion erfordert das Konfigurieren einer Bittiefe, die nicht Null ist.]]>
+  </nierror>
+  <nierror code="-1074395450">
+    <![CDATA[Die Vorlage und das Entsprechungsbild haben nicht dieselbe Bittiefe.]]>
+  </nierror>
+  <nierror code="-1074395449">
+    <![CDATA[Erfordert einen Einzelzeichen-ASCII-String.]]>
+  </nierror>
+  <nierror code="-1074395448">
+    <![CDATA[Der Wert "Inf" oder "NaN" wurde an den Parameter übergeben.]]>
+  </nierror>
+  <nierror code="-1074395447">
+    <![CDATA[Die angegebenen Farbpunkte sind nicht ausreichend zum Erstellen einer Palette.]]>
+  </nierror>
+  <nierror code="-1074395446">
+    <![CDATA[Farbpunktpixel ist ungültig. Pixel liegen im Bereich von 0-65535 für 16-Bit-Paletten und im Bereich von 0-255 für 8-Bit-Paletten.]]>
+  </nierror>
+  <nierror code="-1074395445">
+    <![CDATA[Es liegen zu wenige Übereinstimmungen vor, um die Operation durchführen zu können.]]>
+  </nierror>
+  <nierror code="-1074395444">
+    <![CDATA[Die Gittergröße X und die Gittergröße Y sollten größer als 1 sein.]]>
+  </nierror>
+  <nierror code="-1074395443">
+    <![CDATA[Die Gittergröße X und die Gittergröße Y können nicht größer als die Breite und Höhe des Bildes oder ROI sein.]]>
+  </nierror>
+  <nierror code="-1074395442">
+    <![CDATA[Die Feature-Punkte und Deskriptoren eines Bildes sollten gleich groß sein.]]>
+  </nierror>
+  <nierror code="-1074395441">
+    <![CDATA[Die maximal zulässige Entfernung sollte größer als null sein.]]>
+  </nierror>
+  <nierror code="-1074395440">
+    <![CDATA[Die Deskriptoren sollten nicht NULL sein, damit die Matching-Operation durchgeführt werden kann.]]>
+  </nierror>
+  <nierror code="-1074395439">
+    <![CDATA[Die übergebenen Feature-Punkte sind NULL.]]>
+  </nierror>
+  <nierror code="-1074395438">
+    <![CDATA[Das Pyramidenlevel sollte größer als 1 sein, damit die Operation durchgeführt werden kann.]]>
+  </nierror>
+  <nierror code="-1074395437">
+    <![CDATA[Maximale Länge von 255 Zeichen pro Zeile erreicht.]]>
+  </nierror>
+  <nierror code="-1074395436">
+    <![CDATA[Inkompatible Bildgröße zur Objektverfolgung weitergegeben. Alle Bilder sollten die gleiche Größe haben.]]>
+  </nierror>
+  <nierror code="-1074395435">
+    <![CDATA[Das angegebene Minimum und/oder Maximum für die Tiefe wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395434">
+    <![CDATA[Die angegebene Polynomordnung wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395433">
+    <![CDATA[Die angegebene Sample-Frequenz wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395432">
+    <![CDATA[Die angegebene Mindesttiefe muss größer als 0 sein.]]>
+  </nierror>
+  <nierror code="-1074395431">
+    <![CDATA[Der angegebene Pixelwert für ungültige Disparitäten ist unzulässig.]]>
+  </nierror>
+  <nierror code="-1074395430">
+    <![CDATA[Die Übersetzung zwischen Stereokameras ist 0.]]>
+  </nierror>
+  <nierror code="-1074395429">
+    <![CDATA[Die angegebene Kameraposition ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395428">
+    <![CDATA[Der angegebene Grautonbereich für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395427">
+    <![CDATA[Die Größe des Grautonfensters ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395426">
+    <![CDATA[Der angegebene Texturschwellwert für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395425">
+    <![CDATA[Die angegebene Eindeutigkeitswert für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395424">
+    <![CDATA[Der Wert für die Mindesttiefe ist falsch.]]>
+  </nierror>
+  <nierror code="-1074395423">
+    <![CDATA[Ungültige Größe der Q-Matrix.]]>
+  </nierror>
+  <nierror code="-1074395422">
+    <![CDATA[Der angegebene Wert für den Skalierungsparameter ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395421">
+    <![CDATA[Der angegebene Wert für die Filterkappe für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395420">
+    <![CDATA[Die angegebene Vorfiltergröße für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395419">
+    <![CDATA[Der angegebene Vorfiltertyp für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395418">
+    <![CDATA[Der angegebene Wert für die Anzahl der Unterschiede oder die Mindestanzahl der Unterschiede ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395417">
+    <![CDATA[Die angegebene Fenstergröße für die Blockübereinstimmung ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395416">
+    <![CDATA[Diese 3D-Vision-Funktion kann für diesen Typ der 3D-Vision-Session nicht aufgerufen werden.]]>
+  </nierror>
+  <nierror code="-1074395415">
+    <![CDATA[Es sind zu viele 3D-Vision-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.]]>
+  </nierror>
+  <nierror code="-1074395414">
+    <![CDATA[Die 3D-Vision-Session, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395413">
+    <![CDATA[Sie haben einen ungültigen Filtertyp für die Blockübereinstimmung angegeben.]]>
+  </nierror>
+  <nierror code="-1074395412">
+    <![CDATA[Sie haben Ergebnisse von einer ungültigen Kameraposition im Stereo-Setup angefordert.]]>
+  </nierror>
+  <nierror code="-1074395411">
+    <![CDATA[Ungültige 3D-Vision-Session.]]>
+  </nierror>
+  <nierror code="-1074395410">
+    <![CDATA[Weniger als ein Symbol pro Zeile wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395409">
+    <![CDATA[Ungültige Sub-Pixel-Unterteilungen.]]>
+  </nierror>
+  <nierror code="-1074395408">
+    <![CDATA[Ungültiger Erkennungsmodus.]]>
+  </nierror>
+  <nierror code="-1074395407">
+    <![CDATA[Ungültiger Kontrastwert. Gültige Werte liegen im Bereich 0 bis 255.]]>
+  </nierror>
+  <nierror code="-1074395406">
+    <![CDATA[Das Koordinatensystem konnte auf diesem Bild nicht gefunden werden.]]>
+  </nierror>
+  <nierror code="-1074395405">
+    <![CDATA[Der angegebene Wert für die Textausrichtung wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395404">
+    <![CDATA[Die angegebene Interpolationsmethode wird von UnwrapImage nicht unterstützt.  Sie können nur ZERO_ORDER oder BILINEAR auswählen.]]>
+  </nierror>
+  <nierror code="-1074395403">
+    <![CDATA[Das Bild wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision.]]>
+  </nierror>
+  <nierror code="-1074395402">
+    <![CDATA[Die angegebene maximale Punktanzahl wird von der Funktion nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395401">
+    <![CDATA[Angegebener matchFactor wird von der Funktion nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395400">
+    <![CDATA[Die Operation für "Multicore Options" ist ungültig. Verwenden Sie einen der verfügbaren Werte für den Modus "Multicore Options".]]>
+  </nierror>
+  <nierror code="-1074395399">
+    <![CDATA[Ungültiges Argument für "Multicore Options".]]>
+  </nierror>
+  <nierror code="-1074395397">
+    <![CDATA[Es wird ein komplexes Bild erwartet.]]>
+  </nierror>
+  <nierror code="-1074395395">
+    <![CDATA[Das Eingangsbild muss ein Farbbild sein.]]>
+  </nierror>
+  <nierror code="-1074395394">
+    <![CDATA[Die Farbmaske entfernt zu viele Farbinformationen.]]>
+  </nierror>
+  <nierror code="-1074395393">
+    <![CDATA[Das Bild der Farbvorlage ist zu klein.]]>
+  </nierror>
+  <nierror code="-1074395392">
+    <![CDATA[Das Bild der Farbvorlage ist zu groß.]]>
+  </nierror>
+  <nierror code="-1074395391">
+    <![CDATA[Der Kontrast in der Farbtonebene des Bildes ist für das Erlernen von Shape-Funktionen zu niedrig.]]>
+  </nierror>
+  <nierror code="-1074395390">
+    <![CDATA[Der Kontrast in der Helligkeitsebene des Bildes ist für das Erlernen von Shape-Funktionen zu niedrig.]]>
+  </nierror>
+  <nierror code="-1074395389">
+    <![CDATA[Ungültige Setup-Daten für Color_Matching.]]>
+  </nierror>
+  <nierror code="-1074395388">
+    <![CDATA[Ungültige Setup-Daten für Color_Matching.]]>
+  </nierror>
+  <nierror code="-1074395387">
+    <![CDATA[Ungültige Setup-Daten für Color_Matching.]]>
+  </nierror>
+  <nierror code="-1074395386">
+    <![CDATA[Ungültige Setup-Daten für Color_Matching.]]>
+  </nierror>
+  <nierror code="-1074395385">
+    <![CDATA[Das rotationsinvariante Color_Pattern_Matching benötigt einen Modus, der Shape-Informationen beinhaltet.]]>
+  </nierror>
+  <nierror code="-1074395384">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395383">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395382">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395381">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395380">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395379">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395378">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395377">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395376">
+    <![CDATA[Das Bild der Farbvorlage enthält keine Daten für das bewegungsinvariante Color-Matching.]]>
+  </nierror>
+  <nierror code="-1074395375">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395374">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395373">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395372">
+    <![CDATA[Das Bild der Farbvorlage enthält keine Daten für das rotationsinvariante Color-Matching.]]>
+  </nierror>
+  <nierror code="-1074395371">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395370">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395369">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395368">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395367">
+    <![CDATA[Ungültiges Bild in Farbvorlage.]]>
+  </nierror>
+  <nierror code="-1074395366">
+    <![CDATA[Die Farbvorlage des Bildes enthält nicht die für das Color-Matching notwendigen Daten (Shape_Feature-Mode).]]>
+  </nierror>
+  <nierror code="-1074395365">
+    <![CDATA[Die Farbvorlage des Bildes enthält nicht die für das Color-Matching notwendigen Daten (Color_Feature-Mode).]]>
+  </nierror>
+  <nierror code="-1074395364">
+    <![CDATA[Das Array zum Herausfiltern von Farbspektren ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395363">
+    <![CDATA[Ungültiges Verhältnis für Unterabtastung.]]>
+  </nierror>
+  <nierror code="-1074395362">
+    <![CDATA[Ungültige Pixel-Breite.]]>
+  </nierror>
+  <nierror code="-1074395361">
+    <![CDATA[Ungültige Steilheit.]]>
+  </nierror>
+  <nierror code="-1074395360">
+    <![CDATA[Schlechte komplexe Ebene.]]>
+  </nierror>
+  <nierror code="-1074395357">
+    <![CDATA[Ungültiger Modus für Farbausgrenzung.]]>
+  </nierror>
+  <nierror code="-1074395356">
+    <![CDATA[Ungültige minimale Zahl von Suchergebnissen. Akzeptable Werte liegen im Bereich von 0 bis 1000.]]>
+  </nierror>
+  <nierror code="-1074395355">
+    <![CDATA[Ungültige Anzahl von Übereinstimmungen angegeben. Es darf minimal eine Übereinstimmung angegeben werden.]]>
+  </nierror>
+  <nierror code="-1074395354">
+    <![CDATA[Ungültige Farbgewichtung. Akzeptable Werte liegen im Bereich von 0 bis 1000.]]>
+  </nierror>
+  <nierror code="-1074395353">
+    <![CDATA[Suchstrategie nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395352">
+    <![CDATA[Ungültiger Merkmal-Modus]]>
+  </nierror>
+  <nierror code="-1074395351">
+    <![CDATA[NI Vision unterstützt Rechtecke mit negativen Breiten oder Höhen nicht.]]>
+  </nierror>
+  <nierror code="-1074395350">
+    <![CDATA[Angabe für "vision information type" wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395349">
+    <![CDATA[Angegebener SkeletonMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395348">
+    <![CDATA[Angegebener 3DPlane-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395347">
+    <![CDATA[Angegebener 3DDirection-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395346">
+    <![CDATA[imaqRotate unterstützt den von Ihnen angegebenen Wert für InterpolationMethod nicht.]]>
+  </nierror>
+  <nierror code="-1074395345">
+    <![CDATA[NI Vision unterstützt die angegebene Achsensymmetrie nicht.]]>
+  </nierror>
+  <nierror code="-1074395343">
+    <![CDATA[Sie müssen einen gültigen Dateinamen übergeben. NULL darf nicht übergeben werden.]]>
+  </nierror>
+  <nierror code="-1074395340">
+    <![CDATA[Angegebener SizeType-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395336">
+    <![CDATA[Es wurde ein Dispatch-Status für einen unbekannten Algorithmus angegeben.]]>
+  </nierror>
+  <nierror code="-1074395335">
+    <![CDATA[Es wird versucht, denselben Algorithmus für das Senden und Nicht-Senden zu konfigurieren. Entfernen Sie eine der beiden Einstellungen.]]>
+  </nierror>
+  <nierror code="-1074395334">
+    <![CDATA[Angegebener Wert für "Conversion Method" wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395333">
+    <![CDATA[Angegebener VerticalTextAlignment-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395332">
+    <![CDATA[Angegebener CompareFunction-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395331">
+    <![CDATA[Angegebener BorderMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395330">
+    <![CDATA[Ungültige Rahmengröße. Akzeptable Werte liegen im Bereich von 0 bis 50.]]>
+  </nierror>
+  <nierror code="-1074395329">
+    <![CDATA[Angegebener OutlineMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395328">
+    <![CDATA[Angegebener InterpolationMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395327">
+    <![CDATA[Angegebener ScalingMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395326">
+    <![CDATA[imaqDrawLineOnImage unterstützt den von Ihnen angegebenen Wert für DrawMode nicht.]]>
+  </nierror>
+  <nierror code="-1074395325">
+    <![CDATA[Angegebener DrawMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395324">
+    <![CDATA[Angegebener ShapeMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395323">
+    <![CDATA[Angegebener FontColor-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395322">
+    <![CDATA[Angegebener TextAlignment-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395321">
+    <![CDATA[Angegebener MorphologyMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395320">
+    <![CDATA[Die Bildvorlage ist leer.]]>
+  </nierror>
+  <nierror code="-1074395319">
+    <![CDATA[Angegebener Interpolationstyp wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395318">
+    <![CDATA[Es wurden nicht genügend Punkte zur Anwendung dieser Operation zur Verfügung gestellt.]]>
+  </nierror>
+  <nierror code="-1074395317">
+    <![CDATA[Sie haben einen Punkt außerhalb des Bilds angegeben.]]>
+  </nierror>
+  <nierror code="-1074395316">
+    <![CDATA[Ungültiger Kernel-Code.]]>
+  </nierror>
+  <nierror code="-1074395315">
+    <![CDATA[Die angegebene Anzahl Punkte ist unzureichend.]]>
+  </nierror>
+  <nierror code="-1074395313">
+    <![CDATA[Das Schreiben von Dateien wird auf diesem Gerät nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395312">
+    <![CDATA[Bei dem Bild scheint es sich nicht um ein LCD- oder LED-Kalibrierbild zu handeln.]]>
+  </nierror>
+  <nierror code="-1074395311">
+    <![CDATA[Das Farbspektrum-Array enthält eine ungültige Anzahl Elemente oder es enthält ein NaN-Element.]]>
+  </nierror>
+  <nierror code="-1074395310">
+    <![CDATA[Angegebener PaletteType-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395309">
+    <![CDATA[Angegebener WindowThreadPolicy-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395308">
+    <![CDATA[Angegebener ColorSensitivity-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395307">
+    <![CDATA[Parameter für die Genauigkeit muss größer Null sein.]]>
+  </nierror>
+  <nierror code="-1074395306">
+    <![CDATA[Angegebener Tool-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395305">
+    <![CDATA[Angegebener ReferenceMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395304">
+    <![CDATA[Angegebener MathTransformMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395303">
+    <![CDATA[Ungültige Klassenanzahl für Auto-Schwellwert. Akzeptable Werte liegen im Bereich von 2 bis 256.]]>
+  </nierror>
+  <nierror code="-1074395302">
+    <![CDATA[Angegebene Schwellwert-Methode wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395301">
+    <![CDATA[Die an imaqGetMeterArc übergebene ROI muss aus zwei Linien bestehen.]]>
+  </nierror>
+  <nierror code="-1074395300">
+    <![CDATA[Angegebener MeterArcMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395299">
+    <![CDATA[Angegebener ComplexPlane-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395298">
+    <![CDATA[Operation kann nur entweder in einer realen oder imaginären komplexen Ebene ausgeführt werden.]]>
+  </nierror>
+  <nierror code="-1074395297">
+    <![CDATA[Angegebener ParticleInfoMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395296">
+    <![CDATA[Angegebener BarcodeType-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395295">
+    <![CDATA[imaqInterpolatePoints unterstützt den von Ihnen angegebenen Wert für InterpolationMethod nicht.]]>
+  </nierror>
+  <nierror code="-1074395294">
+    <![CDATA[Angegebener Konturindex ist größer als die Anzahl der Konturen in ROI.]]>
+  </nierror>
+  <nierror code="-1074395293">
+    <![CDATA[Die vorhandene ContourID entspricht keiner Kontur innerhalb der ROI.]]>
+  </nierror>
+  <nierror code="-1074395292">
+    <![CDATA[Verwenden Sie für diese Operation keine kollinearen Punkte.]]>
+  </nierror>
+  <nierror code="-1074395291">
+    <![CDATA[Pixelwerte des Bildes dürfen für Shape_Match nur die Werte 0 oder 1 enthalten.]]>
+  </nierror>
+  <nierror code="-1074395290">
+    <![CDATA[Die von Ihnen angegebene Vorlage für ShapeMatch enthält keine Shape-Informationen]]>
+  </nierror>
+  <nierror code="-1074395289">
+    <![CDATA[Die Operation hätte die Kapazität eines internen Containers (maximal 4294967296 eindeutige Elemente) überschritten.]]>
+  </nierror>
+  <nierror code="-1074395288">
+    <![CDATA[Die Operation hätte die Kapazität eines internen Containers (maximal 2147483648 eindeutige Elemente) überschritten.]]>
+  </nierror>
+  <nierror code="-1074395287">
+    <![CDATA[Die angegebene Linie enthält zwei identische Punkte oder eine der Koordinaten für die Linie ist ein ungültiger Wert (NaN).]]>
+  </nierror>
+  <nierror code="-1074395286">
+    <![CDATA[Ungültige konzentrische Harken(Rake-)-Richtung.]]>
+  </nierror>
+  <nierror code="-1074395285">
+    <![CDATA[Ungültige Speichen(Spoke-)-Richtung.]]>
+  </nierror>
+  <nierror code="-1074395284">
+    <![CDATA[Ungültiger Kantenprozess.]]>
+  </nierror>
+  <nierror code="-1074395283">
+    <![CDATA[Ungültige Harken-(Rake-)Richtung.]]>
+  </nierror>
+  <nierror code="-1074395282">
+    <![CDATA[Bilddarstellung im Betrachter nicht möglich. Sie benötigen die aktuelle Version des Betrachters.]]>
+  </nierror>
+  <nierror code="-1074395281">
+    <![CDATA[Für diese Operation muss das Bild größer als seine Rahmengröße sein.]]>
+  </nierror>
+  <nierror code="-1074395280">
+    <![CDATA[Die ROI darf nur eine Rechteckkontur enthalten.]]>
+  </nierror>
+  <nierror code="-1074395279">
+    <![CDATA[ROI ist kein Vieleck.]]>
+  </nierror>
+  <nierror code="-1074395278">
+    <![CDATA[Kann Sequenz-Grabber nicht öffnen.]]>
+  </nierror>
+  <nierror code="-1074395277">
+    <![CDATA[Informationen des entschlüsselten Strichcodes bestanden den checksum-Test nicht.]]>
+  </nierror>
+  <nierror code="-1074395276">
+    <![CDATA[Für ROI-Instrument angegebene Leitungen sind parallel.]]>
+  </nierror>
+  <nierror code="-1074395275">
+    <![CDATA[Ungültige Browser-Grafik.]]>
+  </nierror>
+  <nierror code="-1074395270">
+    <![CDATA[Division durch Null nicht erlaubt.]]>
+  </nierror>
+  <nierror code="-1074395269">
+    <![CDATA[Null-Zeiger.]]>
+  </nierror>
+  <nierror code="-1074395268">
+    <![CDATA[Lineare Gleichungen sind nicht unabhängig.]]>
+  </nierror>
+  <nierror code="-1074395267">
+    <![CDATA[Die Nullstellen der Gleichung sind komplex.]]>
+  </nierror>
+  <nierror code="-1074395265">
+    <![CDATA[Strichcode entspricht nicht dem angegebenen Typ.]]>
+  </nierror>
+  <nierror code="-1074395263">
+    <![CDATA[Kein Segment erhellt.]]>
+  </nierror>
+  <nierror code="-1074395262">
+    <![CDATA[LCD zeigt kein gültiges Zeichen an.]]>
+  </nierror>
+  <nierror code="-1074395261">
+    <![CDATA[Interner Fehler beim Zugriff auf ungültige Bildkoordinate.]]>
+  </nierror>
+  <nierror code="-1074395260">
+    <![CDATA[Interner Speicherfehler.]]>
+  </nierror>
+  <nierror code="-1074395259">
+    <![CDATA[Die installierte Version von LabVIEW beziehungsweise BridgeVIEW unterstützt diese Operation nicht.]]>
+  </nierror>
+  <nierror code="-1074395258">
+    <![CDATA[Filterbreite muss für Canny-Operator ungerade sein.]]>
+  </nierror>
+  <nierror code="-1074395257">
+    <![CDATA[Falsche Flankenfilterrichtung in Canny-Operator.]]>
+  </nierror>
+  <nierror code="-1074395256">
+    <![CDATA[Die Fenstergröße muss für den Canny-Operator ungerade sein.]]>
+  </nierror>
+  <nierror code="-1074395253">
+    <![CDATA[Ungültiger Lernmodus.]]>
+  </nierror>
+  <nierror code="-1074395252">
+    <![CDATA[Lern-Setup-Daten nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395251">
+    <![CDATA[Match-Modus nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395250">
+    <![CDATA[Match-Setup-Daten nicht zulässig.]]>
+  </nierror>
+  <nierror code="-1074395249">
+    <![CDATA[Mindestens einer der Bereiche für Rotationswinkel überschreitet 360 Grad.]]>
+  </nierror>
+  <nierror code="-1074395248">
+    <![CDATA[Das Bereichsarray für Rotationswinkel enthält zuviele Bereiche.]]>
+  </nierror>
+  <nierror code="-1074395247">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395246">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395245">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395244">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395243">
+    <![CDATA[Der Template-Deskriptor wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit dieses Template verwendet werden kann.]]>
+  </nierror>
+  <nierror code="-1074395242">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395241">
+    <![CDATA[Deskriptor der Vorlage enthält nicht die für die rotationsunabhängige Vergleichsoperation benötigten Daten.]]>
+  </nierror>
+  <nierror code="-1074395240">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395239">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395238">
+    <![CDATA[Deskriptor der Vorlage enthält nicht die für die verschiebungsunabhängige Vergleichsoperation benötigten Daten.]]>
+  </nierror>
+  <nierror code="-1074395237">
+    <![CDATA[Ungültiger Vorlagen-Deskriptor.]]>
+  </nierror>
+  <nierror code="-1074395236">
+    <![CDATA[Der Vorlagendeskriptor enthält nicht die Daten, die für einen skaleninvarianten Vergleich erforderlich sind.]]>
+  </nierror>
+  <nierror code="-1074395235">
+    <![CDATA[Kontrast in der Bildvorlage ist zu gering.]]>
+  </nierror>
+  <nierror code="-1074395234">
+    <![CDATA[Vorlagenbild zu klein.]]>
+  </nierror>
+  <nierror code="-1074395233">
+    <![CDATA[Vorlagenbild zu groß.]]>
+  </nierror>
+  <nierror code="-1074395219">
+    <![CDATA[Die Gewichtungs-Map hat einen ungültigen Bildtyp. Der unterstützte Typ lautet Float (Graustufen SGL).]]>
+  </nierror>
+  <nierror code="-1074395218">
+    <![CDATA[Es wurden keine Treffer vom Musterabgleich für das Berechnen der Defect Map gefunden.]]>
+  </nierror>
+  <nierror code="-1074395217">
+    <![CDATA[Die Anzahl der eingegebenen defekten Bilder für die Defect Map ist nicht ausreichend.]]>
+  </nierror>
+  <nierror code="-1074395216">
+    <![CDATA[Das Bild enthält keine Defect-Map-Angaben.]]>
+  </nierror>
+  <nierror code="-1074395215">
+    <![CDATA[Die Defect-Map-Daten des Bildes, das Sie öffnen wollten, wurden mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395214">
+    <![CDATA[Es sind zu viele OCR-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.]]>
+  </nierror>
+  <nierror code="-1074395212">
+    <![CDATA[Die Größe des Vorlagen-Strings muss mit der Größe des zu korrigierenden Strings übereinstimmen.]]>
+  </nierror>
+  <nierror code="-1074395211">
+    <![CDATA[Die vorhandene Textvorlage enthält Nicht-Standard-Zeichen, die von OCR nicht generiert werden können.]]>
+  </nierror>
+  <nierror code="-1074395210">
+    <![CDATA[Mindestens ein Zeichen in der Textvorlage gehört zu einer lexikalischen Klasse, die mit den vorhandenen Zeichen-Reports nicht übereinstimmen.]]>
+  </nierror>
+  <nierror code="-1074395208">
+    <![CDATA[Der DataMatrix-ECC-Code wird nicht vom DataMatrix-Grading-Standard unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395207">
+    <![CDATA[IMAQ Vision unterstützt den vorliegenden Wert für "Grading Reflectance" nicht.]]>
+  </nierror>
+  <nierror code="-1074395203">
+    <![CDATA[Die OCR-Bibliothek konnte nicht ordnungsgemäß initialisiert werden.]]>
+  </nierror>
+  <nierror code="-1074395201">
+    <![CDATA[Beim Laden der internen OCR-Engine oder der LabVIEW-Bibliotheken ist ein Fehler aufgetreten.]]>
+  </nierror>
+  <nierror code="-1074395200">
+    <![CDATA[Einer der an die OCR-Funktion übergebenen Parameter, der diesen Fehler erzeugt hat, ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395199">
+    <![CDATA[Marker-Bild und -Punkte wurden nicht angegeben]]>
+  </nierror>
+  <nierror code="-1074395198">
+    <![CDATA[Quell- und Marker-Bild sollten die gleiche Größe haben.]]>
+  </nierror>
+  <nierror code="-1074395197">
+    <![CDATA[Es wurden Marker-Bild und -Punkte angegeben.]]>
+  </nierror>
+  <nierror code="-1074395196">
+    <![CDATA[Ungültige morphologische Operation.]]>
+  </nierror>
+  <nierror code="-1074395195">
+    <![CDATA[Float-Bild enthält NaN-Werte.]]>
+  </nierror>
+  <nierror code="-1074395194">
+    <![CDATA[Die Overlay-Informationen konnten nicht geöffnet werden, da sie mit einer neueren Version von NI Vision erzeugt wurden. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.]]>
+  </nierror>
+  <nierror code="-1074395193">
+    <![CDATA[In der aktuellen Konfiguration wurde kein gültiger Clamp-Wert gefunden.]]>
+  </nierror>
+  <nierror code="-1074395192">
+    <![CDATA[Der angegebene Clamp-Winkelbereich reicht nicht aus.]]>
+  </nierror>
+  <nierror code="-1074395188">
+    <![CDATA[Die fortgeschrittene Option der Verwendung aller Kurven wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395187">
+    <![CDATA[Der angegebene Sigmawert für den gaußschen Filter ist zu klein.]]>
+  </nierror>
+  <nierror code="-1074395186">
+    <![CDATA[Der angegebene gaußsche Filtertyp wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395185">
+    <![CDATA[Der Kontrastwechsel beim Durchführen von Vergleichen ist ungültig.]]>
+  </nierror>
+  <nierror code="-1074395184">
+    <![CDATA[Ungültiger Bereich für Drehwinkel. Der obere Wert muss größer als oder gleich dem unteren Wert sein.]]>
+  </nierror>
+  <nierror code="-1074395183">
+    <![CDATA[Der kleinste Drehwinkel, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395182">
+    <![CDATA[Der größte Drehwinkel, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395181">
+    <![CDATA[Der größte Skalierungsfaktor, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395180">
+    <![CDATA[Der kleinste Skalierungsfaktor, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395179">
+    <![CDATA[OCR-Engine ist während der Vorbearbeitungsphase fehlgeschlagen.]]>
+  </nierror>
+  <nierror code="-1074395178">
+    <![CDATA[OCR-Engine ist während der Erkennungsphase fehlgeschlagen.]]>
+  </nierror>
+  <nierror code="-1074395175">
+    <![CDATA[Der angegebene Dateiname ist kein gültiger Name für das Anwender-Wörterverzeichnis.]]>
+  </nierror>
+  <nierror code="-1074395174">
+    <![CDATA[Angegebener AutoOrientMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395173">
+    <![CDATA[Angegebene Sprache wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395172">
+    <![CDATA[Angegebener CharacterSet-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395171">
+    <![CDATA[Das System konnte die für die OCR-Initialisierung notwendige Initialisierungsdatei nicht finden.]]>
+  </nierror>
+  <nierror code="-1074395170">
+    <![CDATA[Angegebener CharacterType-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395169">
+    <![CDATA[Angegebener RecognitionMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395168">
+    <![CDATA[Angegebener AutoCorrectionMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395167">
+    <![CDATA[Angegebener OutputDelimiter-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395166">
+    <![CDATA[Das System konnte das für die OCR-Initialisierung notwendige OCR-Binär-Verzeichnis nicht finden.]]>
+  </nierror>
+  <nierror code="-1074395165">
+    <![CDATA[Das System konnte das für die OCR-Initialisierung notwendige OCR-Weights-Verzeichnis nicht finden.]]>
+  </nierror>
+  <nierror code="-1074395164">
+    <![CDATA[Das übergebene Wort konnte dem Anwender-Wörterverzeichnis hinzugefügt werden.]]>
+  </nierror>
+  <nierror code="-1074395163">
+    <![CDATA[Angegebener CharacterPreference-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395162">
+    <![CDATA[Angegebener CorrectionMethod-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395161">
+    <![CDATA[Angegebener CorrectionLevel-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395160">
+    <![CDATA[Angegebene maximale Punktgröße wird von NI Vision nicht unterstützt.  Gültige Werte liegen im Bereich von 4 bis 72.]]>
+  </nierror>
+  <nierror code="-1074395159">
+    <![CDATA[Angegebener Toleranzwert wird von NI Vision nicht unterstützt.  Werte müssen positiv sein.]]>
+  </nierror>
+  <nierror code="-1074395158">
+    <![CDATA[Angegebener ContrastMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395156">
+    <![CDATA[OCR konnte die Textschräge nicht feststellen.]]>
+  </nierror>
+  <nierror code="-1074395155">
+    <![CDATA[OCR konnte die Textorientierung nicht feststellen.]]>
+  </nierror>
+  <nierror code="-1074395153">
+    <![CDATA[Ungültiges Schriftartendateiformat.]]>
+  </nierror>
+  <nierror code="-1074395152">
+    <![CDATA[Schriftartendatei nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395151">
+    <![CDATA[OCR-Engine ist während der Korrekturphase fehlgeschlagen.]]>
+  </nierror>
+  <nierror code="-1074395150">
+    <![CDATA[Angegebener RoundingMode-Wert wird von NI Vision nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395149">
+    <![CDATA[Es wurde ein doppelter Transformationstyp im Eigenschaften-Array gefunden. Ein Eigenschaften-Array kann nur jeweils eine Verhaltensweise pro Transformationstyp enthalten.]]>
+  </nierror>
+  <nierror code="-1074395148">
+    <![CDATA[Überlagerungsgruppe nicht gefunden.]]>
+  </nierror>
+  <nierror code="-1074395147">
+    <![CDATA[Der Barcode ist kein gültiges RSS-Limited-Zeichen.]]>
+  </nierror>
+  <nierror code="-1074395146">
+    <![CDATA[Konnte nicht die richtige Version des QR-Codes ermitteln.]]>
+  </nierror>
+  <nierror code="-1074395145">
+    <![CDATA[Ausgelesener QR-Code ungültig.]]>
+  </nierror>
+  <nierror code="-1074395144">
+    <![CDATA[Der eingelesene Barcode enthält ungültige Parameter.]]>
+  </nierror>
+  <nierror code="-1074395143">
+    <![CDATA[Der demodulierte Datenstrom war nicht zu entziffern, da der Modus nicht ermittelt werden konnte.]]>
+  </nierror>
+  <nierror code="-1074395142">
+    <![CDATA[Konnte das richtige Modell für den QR-Code nicht finden.]]>
+  </nierror>
+  <nierror code="-1074395141">
+    <![CDATA[OCR-Engine konnte im angegebenen Bereich keinen Text finden.]]>
+  </nierror>
+  <nierror code="-1074395140">
+    <![CDATA[Einer der Zeichenerkennungs-Reports kann vom System nicht mehr verwendet werden.]]>
+  </nierror>
+  <nierror code="-1074395139">
+    <![CDATA[Ungültige Dimensionen.]]>
+  </nierror>
+  <nierror code="-1074395138">
+    <![CDATA[Der für OCR bestimmte Bereich war zu klein, um Zeichen zu enthalten.]]>
+  </nierror>
+  <nierror code="-1074395135">
+    <![CDATA[Der angegebene Bayer-Dekodieralgorithmus wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395134">
+    <![CDATA[Das angegebene Bayer-Muster wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395133">
+    <![CDATA[Die Verstärkung für den Rot-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.]]>
+  </nierror>
+  <nierror code="-1074395132">
+    <![CDATA[Die Verstärkung für den Grün-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.]]>
+  </nierror>
+  <nierror code="-1074395131">
+    <![CDATA[Die Verstärkung für den Blau-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.]]>
+  </nierror>
+  <nierror code="-1074395130">
+    <![CDATA[Diese IP-Adresse wird vom aktuellen Zielsystem nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395129">
+    <![CDATA[Diese Variante wird vom aktuellen Zielsystem nicht unterstützt. Verwenden Sie eine andere Variante der IP.]]>
+  </nierror>
+  <nierror code="-1074395128">
+    <![CDATA[Für den Vorgang sind nicht genügend Quelldaten vorhanden.]]>
+  </nierror>
+  <nierror code="-1074395127">
+    <![CDATA[Die bereitgestellten Quelldaten machen kein vollständiges Bild mit den angegebenen Abmessungen und dem angegebenen Typ aus.]]>
+  </nierror>
+  <nierror code="-1074395126">
+    <![CDATA[Der Byte-Offset des Bilds ist größer oder gleich seiner Nutzdatengröße in Byte.]]>
+  </nierror>
+  <nierror code="-1074395125">
+    <![CDATA[Für das Bild wird ein Byte-Offset ungleich Null nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395124">
+    <![CDATA[Das bereitgestellte MIPI-CSI-2-Format wird nicht unterstützt.]]>
+  </nierror>
+  <nierror code="-1074395123">
+    <![CDATA[Die Y-Auflösung des Bilds ist ungerade. Das Pixelformat erfordert jedoch eine gerade Zeilenanzahl.]]>
+  </nierror>
+</nidocument>

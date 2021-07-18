@@ -1,0 +1,2462 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Vision" familyname="Vision">
+</nifamily>
+</nicomment>
+<nierror code="-1074396200">
+Aucune erreur.
+</nierror>
+<nierror code="-1074396160">
+Erreur système.
+</nierror>
+<nierror code="-1074396159">
+Mémoire insuffisante pour effectuer l'opération requise.
+</nierror>
+<nierror code="-1074396158">
+Erreur de mémoire.
+</nierror>
+<nierror code="-1074396157">
+Copie sans licence du module NI Vision Development ou du moteur d'exécution NI Vision.
+</nierror>
+<nierror code="-1074396156">
+La fonction requiert une licence NI Vision 5.0 Advanced.
+</nierror>
+<nierror code="-1074396155">
+NI Vision ne s'est pas initialisé correctement.
+</nierror>
+<nierror code="-1074396154">
+L'image n'est pas assez grande pour l'opération.
+</nierror>
+<nierror code="-1074396153">
+Le code-barres n'est pas un code-barres Codabar valide.
+</nierror>
+<nierror code="-1074396152">
+Le code-barres n'est pas un code 3 valide d'un code-barre 9.
+</nierror>
+<nierror code="-1074396151">
+Le code-barres n'est pas un code-barres Code93 valide.
+</nierror>
+<nierror code="-1074396150">
+Le code-barres n'est pas un code-barres Code128 valide.
+</nierror>
+<nierror code="-1074396149">
+Le code-barres n'est pas un code-barres EAN8 valide.
+</nierror>
+<nierror code="-1074396148">
+Le code-barres n'est pas un code-barres EAN13 valide.
+</nierror>
+<nierror code="-1074396147">
+Le code-barres n'est pas un code-barres Interleaved 2 of 5 valide.
+</nierror>
+<nierror code="-1074396146">
+Le code-barres n'est pas un code-barres MSI valide.
+</nierror>
+<nierror code="-1074396145">
+Le code-barres n'est pas un code-barres UPCA valide.
+</nierror>
+<nierror code="-1074396144">
+Le code-barres Code93 contient un shift encoding non valide.
+</nierror>
+<nierror code="-1074396143">
+Le type de code-barres n'est pas valide.
+</nierror>
+<nierror code="-1074396142">
+L'image ne représente pas un code-barres linéaire valide.
+</nierror>
+<nierror code="-1074396141">
+La valeur FNC dans le code-barres Code128 n'est pas située avant la valeur de la première donnée.
+</nierror>
+<nierror code="-1074396140">
+Le premier code défini dans le code-barres Code128 n'est pas valide.
+</nierror>
+<nierror code="-1074396139">
+Il n'y a pas assez de mémoire réservée dans l'environnement cadencé pour compléter l'opération requise.
+</nierror>
+<nierror code="-1074396138">
+La fonction n'est pas supportée lorsque une limite de temps est active.
+</nierror>
+<nierror code="-1074396137">
+Quartz.dll non trouvée.  Installez DirectX 8.1 ou une version plus récente.
+</nierror>
+<nierror code="-1074396136">
+La qualité du filtre sélectionnée n'est pas valide. La gamme de valeurs de qualité valides va de -1 à 1000.
+</nierror>
+<nierror code="-1074396135">
+Étiquette de bouton non valide.
+</nierror>
+<nierror code="-1074396134">
+Impossible d'exécuter la fonction dans le thread séparé car le thread n'a pas terminé son initialisation.
+</nierror>
+<nierror code="-1074396133">
+Impossible d'exécuter la fonction dans le thread séparé car le thread n'a pas pu être initialisé.
+</nierror>
+<nierror code="-1074396132">
+Le masque doit avoir la même taille que le modèle.
+</nierror>
+<nierror code="-1074396130">
+La région d'intérêt ne peut avoir qu'un seul contour rectangulaire (Rectangle) ou un seul contour rectangulaire pivoté (Rotated Rectangle).
+</nierror>
+<nierror code="-1074396129">
+Pendant une exécution cadencée, vous devez utiliser la version préallouée de cette opération.
+</nierror>
+<nierror code="-1074396128">
+Une image modifiée par un process ne peut pas être requise par un autre process tant qu'une limite de temps est active.
+</nierror>
+<nierror code="-1074396127">
+Une image avec reconnaissance de forme, étalonnage ou information en surimpression ne peut pas être manipulée tant qu'une limite de temps est active.
+</nierror>
+<nierror code="-1074396126">
+Une image crée avant que la limite de temps ne soit démarrée ne peut pas être redimensionnée tant qu'une limite de temps est active.
+</nierror>
+<nierror code="-1074396125">
+Paramètre de seuil de contraste non valide. La valeur de seuil doit être supérieure à zéro.
+</nierror>
+<nierror code="-1074396124">
+NI Vision ne supporte pas le mode ROI d'étalonnage que vous avez spécifié.
+</nierror>
+<nierror code="-1074396123">
+NI Vision ne supporte pas le mode d'étalonnage que vous avez spécifié.
+</nierror>
+<nierror code="-1074396122">
+Configurez les couleurs du texte de l'avant et de l'arrière plan en niveau de gris pour afficher une image à 8 bits non signés.
+</nierror>
+<nierror code="-1074396121">
+La valeur du seuil de saturation doit être comprise entre 0 et 255.
+</nierror>
+<nierror code="-1074396120">
+N'est pas une image.
+</nierror>
+<nierror code="-1074396119">
+La clé de données personnalisée que vous avez fournie n'est pas valide. Les seules valeurs de caractères valides sont les nombres décimaux de 32 à 126 et de 161 à 255. De plus, il ne peut pas y avoir d'espaces répétés, ou au début ou à la fin.
+</nierror>
+<nierror code="-1074396118">
+La taille de pas doit être supérieure à zéro et inférieure à la taille d'image.
+</nierror>
+<nierror code="-1074396117">
+Taille de matrice non valide dans l'élément structurant.
+</nierror>
+<nierror code="-1074396116">
+Nombre insuffisant de points pour la calibration.
+</nierror>
+<nierror code="-1074396115">
+L'opération n'est pas valide dans une image corrigée.
+</nierror>
+<nierror code="-1074396114">
+La région d'intérêt (ROI) contient un type de contour non valide ou n'est pas contenu dans la ROI apprise pour l'étalonnage.
+</nierror>
+<nierror code="-1074396113">
+L'image source/en entrée n'a pas été calibrée.
+</nierror>
+<nierror code="-1074396112">
+Les nombres de pixels et de coordonnées du monde réel doivent être égaux.
+</nierror>
+<nierror code="-1074396111">
+Impossible de détecter la grille automatiquement car l'image est trop distordue.
+</nierror>
+<nierror code="-1074396110">
+Version d'information de calibration non valide.
+</nierror>
+<nierror code="-1074396109">
+Facteur d'échelle de calibration non valide.
+</nierror>
+<nierror code="-1074396108">
+La cartographie de calibration ne peut pas être calculée.
+</nierror>
+<nierror code="-1074396107">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396106">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396105">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396104">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396103">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396102">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396101">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396100">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396099">
+Motif de calibration (template image) non valide.
+</nierror>
+<nierror code="-1074396098">
+Vous devez passer NULL pour le paramètre "reserved".
+</nierror>
+<nierror code="-1074396097">
+Vous avez entré une sélection non valide dans le paramètre Particle.
+</nierror>
+<nierror code="-1074396096">
+Pas un objet.
+</nierror>
+<nierror code="-1074396095">
+Les points de référence transmis ne sont pas cohérents.  Deux coordonnées pixel ou plus correspondent à des coordonnées physiques différentes.
+</nierror>
+<nierror code="-1074396094">
+Un conflit de ressources s'est produit dans l'environnement cadencé. Deux processus ne peuvent pas gérer la même ressource et être limités en temps.
+</nierror>
+<nierror code="-1074396093">
+Un conflit de ressources s'est produit dans l'environnement cadencé. Deux processus ne peuvent pas accéder à la même ressource et être limités en temps.
+</nierror>
+<nierror code="-1074396092">
+Le logiciel ne supporte pas plusieurs environnements cadencés.
+</nierror>
+<nierror code="-1074396091">
+Une limite de temps ne peut pas être démarrée tant que l'environnement cadencé n'est pas initialisé.
+</nierror>
+<nierror code="-1074396090">
+Le logiciel ne supporte pas plusieurs environnements cadencés.
+</nierror>
+<nierror code="-1074396089">
+L'environnement cadencé est déjà initialisé.
+</nierror>
+<nierror code="-1074396088">
+Les résultats de l'opération dépassent les limites de taille des tableaux de données en sortie.
+</nierror>
+<nierror code="-1074396087">
+Aucune limite de temps n'a été définie afin qu'un arrêt se produise.
+</nierror>
+<nierror code="-1074396086">
+Une limite de temps n'a pas pu être définie.
+</nierror>
+<nierror code="-1074396085">
+L'environnement cadencé n'a pas pu être initialisé.
+</nierror>
+<nierror code="-1074396084">
+Aucun environnement avec limite de temps n'est disponible pour se fermer.
+</nierror>
+<nierror code="-1074396083">
+La limite de temps a expiré.
+</nierror>
+<nierror code="-1074396082">
+Seules les images 8 bits font usage des palettes.  Veuillez ne pas utiliser de palette, ou convertissez votre image en couleurs 8 bits avant d'utiliser une palette.
+</nierror>
+<nierror code="-1074396081">
+Mot de passe incorrect.
+</nierror>
+<nierror code="-1074396080">
+Type d'image non valide.
+</nierror>
+<nierror code="-1074396079">
+Handle de métafichier non valide.
+</nierror>
+<nierror code="-1074396078">
+Type d'image non valide.
+</nierror>
+<nierror code="-1074396077">
+Type d'image incompatible.
+</nierror>
+<nierror code="-1074396076">
+Impossible d'ajuster une ligne pour l'axe primaire.
+</nierror>
+<nierror code="-1074396075">
+Impossible d'ajuster une ligne pour l'axe secondaire.
+</nierror>
+<nierror code="-1074396074">
+Taille d'image incompatible.
+</nierror>
+<nierror code="-1074396073">
+Lorsque l'offset de masque a été appliqué, le masque était complètement en dehors de l'image.
+</nierror>
+<nierror code="-1074396072">
+Contour d'image non correct.
+</nierror>
+<nierror code="-1074396071">
+Direction de balayage non valide.
+</nierror>
+<nierror code="-1074396070">
+Fonctionnalité non supportée.
+</nierror>
+<nierror code="-1074396069">
+NI Vision n'accepte pas le mode de couleur spécifié.
+</nierror>
+<nierror code="-1074396068">
+La fonction ne supporte pas l'action demandée.
+</nierror>
+<nierror code="-1074396067">
+L'image source et l'image de destination doivent être différentes.
+</nierror>
+<nierror code="-1074396066">
+Symbole de point non valide.
+</nierror>
+<nierror code="-1074396065">
+Vous ne pouvez pas redimensionner une image dans un buffer d'acquisition.
+</nierror>
+<nierror code="-1074396064">
+Cette opération n'est pas prise en charge pour des images dans un buffer d'acquisition.
+</nierror>
+<nierror code="-1074396063">
+Le buffer externe doit être aligné sur une limite de 4 octets. La largeur de ligne et les pixels des bords doivent être également un multiple de 4 octets.
+</nierror>
+<nierror code="-1074396062">
+Le paramètre 'tolerance' doit être supérieur ou égal à 0.
+</nierror>
+<nierror code="-1074396061">
+La taille de chaque dimension de la fenêtre doit être supérieure à 2 et inférieure ou égale à la taille de l'image dans la même dimension.
+</nierror>
+<nierror code="-1074396060">
+La compression sans perte de données (Lossless) ne peut pas être utilisée avec le mode de transformée en ondelette Floating point. Définissez le mode de transformée en ondelette à Integer ou utilisez une compression avec perte de données (Lossy).
+</nierror>
+<nierror code="-1074396059">
+Nombre maximal d'itérations non valide. Le nombre maximal d'itérations doit être supérieur à zéro.
+</nierror>
+<nierror code="-1074396058">
+Mode de rotation non valide.
+</nierror>
+<nierror code="-1074396057">
+Longueur de vecteur de recherche non valide. La longueur doit être un nombre impair supérieur à zéro.
+</nierror>
+<nierror code="-1074396056">
+Mode de miroir de matrice non valide.
+</nierror>
+<nierror code="-1074396055">
+Proportions non valides. Les proportions valides doivent être supérieures ou égales à zéro.
+</nierror>
+<nierror code="-1074396054">
+Type de remplissage de cellule non valide
+</nierror>
+<nierror code="-1074396053">
+Intégrité de bordure non valide. La gamme de valeurs valides va de 0 à 100.
+</nierror>
+<nierror code="-1074396052">
+Mode de démodulation non valide.
+</nierror>
+<nierror code="-1074396051">
+Mode de filtre de cellule non valide.
+</nierror>
+<nierror code="-1074396050">
+Type d'ECC non valide.
+</nierror>
+<nierror code="-1074396049">
+Polarité de matrice non valide.
+</nierror>
+<nierror code="-1074396048">
+Taille d'échantillon de cellule non valide.
+</nierror>
+<nierror code="-1074396047">
+Mode de moyennage linéaire non valide.
+</nierror>
+<nierror code="-1074396046">
+Lors de l'utilisation d'une région d'intérêt non rectangle, vous devez spécifier le mode de contraste des codes-barres à la valeur noir sur blanc ou blanc sur noir.
+</nierror>
+<nierror code="-1074396045">
+Sous-type de matrice de données de code-barres 2-D non valide.
+</nierror>
+<nierror code="-1074396044">
+Forme de symbole de code-barres 2-D non valide.
+</nierror>
+<nierror code="-1074396043">
+Forme de cellule de code-barres 2-D non valide.
+</nierror>
+<nierror code="-1074396042">
+Contraste de code-barres 2-D non valide.
+</nierror>
+<nierror code="-1074396041">
+Type de code-barres 2-D non valide.
+</nierror>
+<nierror code="-1074396040">
+Impossible d'accéder au driver NI-IMAQ.
+</nierror>
+<nierror code="-1074396039">
+Erreur d'E/S.
+</nierror>
+<nierror code="-1074396038">
+Pour rechercher un système de coordonnées, le nombre de lignes à ajuster doit être 1.
+</nierror>
+<nierror code="-1074396037">
+Déclenchement hors délai.
+</nierror>
+<nierror code="-1074396036">
+Le mode Skeleton spécifié n'est pas valide.
+</nierror>
+<nierror code="-1074396035">
+L'image modèle ne contient pas assez d'informations pour l'apprentissage de la stratégie de recherche aggressive.
+</nierror>
+<nierror code="-1074396034">
+L'image modèle ne contient pas assez d'informations de contour pour la ou les tailles d'échantillon requises.
+</nierror>
+<nierror code="-1074396033">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074396032">
+Le descripteur modèle ne contient pas les données requises pour la stratégie de recherche en reconnaissance invariante par rotation.
+</nierror>
+<nierror code="-1074396031">
+Le quadrilatère en entrée doit avoir 4 points. Les points sont spécifiés dans le sens des aiguilles d'une montre en commençant par le point en haut à gauche.
+</nierror>
+<nierror code="-1074396030">
+Il y a trop de sessions de classification ouvertes.  Vous devez fermer une session avant de pouvoir en ouvrir une autre.
+</nierror>
+<nierror code="-1074396028">
+NI Vision ne supporte plus l'exécution limitée en temps.
+</nierror>
+<nierror code="-1074396027">
+Résolution de couleur non valide pour le classificateur de couleur
+</nierror>
+<nierror code="-1074396026">
+Taille de processus non valide pour la détection de contour.
+</nierror>
+<nierror code="-1074396025">
+La valeur de gamme d'angle doit être égale ou supérieure à zéro.
+</nierror>
+<nierror code="-1074396024">
+La valeur de couverture minimale doit être supérieure à zéro.
+</nierror>
+<nierror code="-1074396023">
+La tolérance d'angle doit être égale ou supérieure à 0,001.
+</nierror>
+<nierror code="-1074396022">
+Mode de recherche non valide pour détecter des bords droits.
+</nierror>
+<nierror code="-1074396021">
+Taille de noyau non valide pour la détection de contour. La taille de noyau minimale est 3, la taille de noyau maximale est 1 073 741 823 et la taille du noyau doit être impaire.
+</nierror>
+<nierror code="-1074396020">
+Mode d'évaluation non valide.
+</nierror>
+<nierror code="-1074396019">
+Pourcentage de seuil non valide. La gamme de valeurs valides va de 0 à 100.
+</nierror>
+<nierror code="-1074396018">
+Mode de recherche de polarité de bord non valide.
+</nierror>
+<nierror code="-1074396017">
+Les données d'évaluation AIM attachées à l'image que vous essayez d'ouvrir ont été créées avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074396016">
+Aucun driver vidéo n'est installé.
+</nierror>
+<nierror code="-1074396015">
+Impossible d'établir une connexion réseau avec le système distant.
+</nierror>
+<nierror code="-1074396014">
+RT Video Out ne peut pas afficher le type d'image fourni à la profondeur de couleurs sélectionnée.
+</nierror>
+<nierror code="-1074396013">
+Mode vidéo non valide.
+</nierror>
+<nierror code="-1074396012">
+Impossible d'afficher une image à distance sur une connexion réseau.
+</nierror>
+<nierror code="-1074396011">
+Impossible d'établir une connexion réseau.
+</nierror>
+<nierror code="-1074396010">
+Numéro de trame non valide.
+</nierror>
+<nierror code="-1074396009">
+Une erreur DirectX interne s'est produite.  Essayez de mettre à jour votre version de DirectX.
+</nierror>
+<nierror code="-1074396008">
+Le filtre DirectX approprié pour traiter ce fichier est introuvable.  Veuillez installer le filtre qui a été utilisé pour créer ce fichier AVI. Passer à la dernière version d'IMAQ Vision permettra peut-être de corriger cette erreur.  NI Vision requiert DirectX 8.1 ou une version plus récente.
+</nierror>
+<nierror code="-1074396007">
+Filtre de compression incompatible.
+</nierror>
+<nierror code="-1074396006">
+Codec inconnu.
+</nierror>
+<nierror code="-1074396005">
+Session AVI non valide.
+</nierror>
+<nierror code="-1074396004">
+Une clé logicielle restreint l'utilisation de ce filtre de compression.
+</nierror>
+<nierror code="-1074396003">
+Les données pour cette trame excèdent la taille de buffer de données spécifiée lors de la création du fichier AVI.
+</nierror>
+<nierror code="-1074396002">
+Méthode de jauge de ligne non valide.
+</nierror>
+<nierror code="-1074396001">
+Il y a trop de sessions AVI ouvertes.  Vous devez fermer une session avant de pouvoir en ouvrir une autre.
+</nierror>
+<nierror code="-1074396000">
+En-tête de fichier non valide.
+</nierror>
+<nierror code="-1074395999">
+Type de fichier incorrect.
+</nierror>
+<nierror code="-1074395998">
+Table des couleurs non valide.
+</nierror>
+<nierror code="-1074395997">
+Paramètre non valide.
+</nierror>
+<nierror code="-1074395996">
+Le fichier est déjà ouvert en écriture.
+</nierror>
+<nierror code="-1074395995">
+Fichier introuvable.
+</nierror>
+<nierror code="-1074395994">
+Trop de fichiers ouverts.
+</nierror>
+<nierror code="-1074395993">
+Erreur d'E/S sur fichier.
+</nierror>
+<nierror code="-1074395992">
+L'accès au fichier est refusé.
+</nierror>
+<nierror code="-1074395991">
+NI Vision ne supporte pas le type de fichier que vous avez spécifié.
+</nierror>
+<nierror code="-1074395990">
+Impossible de lire les informations Vision à partir du fichier.
+</nierror>
+<nierror code="-1074395989">
+Impossible de lire les données.
+</nierror>
+<nierror code="-1074395988">
+Impossible d'écrire les données.
+</nierror>
+<nierror code="-1074395987">
+Fin prématurée du fichier.
+</nierror>
+<nierror code="-1074395986">
+Format de fichier non valide.
+</nierror>
+<nierror code="-1074395985">
+Opération sur fichier non valide.
+</nierror>
+<nierror code="-1074395984">
+NI Vision ne supporte pas le type de données de fichier que vous avez spécifié.
+</nierror>
+<nierror code="-1074395983">
+Disque plein.
+</nierror>
+<nierror code="-1074395982">
+Le nombre de trames par seconde dans l'AVI doit être supérieur à zéro et inférieur à 100000.
+</nierror>
+<nierror code="-1074395981">
+Le buffer transmis n'est pas d'une taille suffisante pour contenir toutes les données.
+</nierror>
+<nierror code="-1074395980">
+Erreur d'initialisation COM.
+</nierror>
+<nierror code="-1074395979">
+L'image contient des informations non valides sur les éléments.  Appelez imaqCountParticles sur l'image pour créer des informations relatives aux éléments.
+</nierror>
+<nierror code="-1074395978">
+Nombre d'éléments non valide.
+</nierror>
+<nierror code="-1074395977">
+Le fichier AVI a été créé dans une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier AVI.
+</nierror>
+<nierror code="-1074395976">
+La palette de couleurs doit avoir 0 ou 256 entrées exactement.
+</nierror>
+<nierror code="-1074395975">
+DirectX a atteint le temps limite lors de la lecture ou de l'écriture du fichier AVI.  Lors de la fermeture d'un fichier AVI, essayez d'ajouter un temps d'attente supplémentaire.  Lors de la lecture d'un fichier AVI, essayez de diminuer la charge du processeur et du disque dur.
+</nierror>
+<nierror code="-1074395974">
+NI Vision ne supporte pas la lecture des fichiers JPEG2000 avec cette méthode Colorspace.
+</nierror>
+<nierror code="-1074395973">
+NI Vision ne supporte pas la lecture des fichiers JPEG2000 à plusieurs calques.
+</nierror>
+<nierror code="-1074395972">
+DirectX est incapable d'énumérer les filtres de compression. Ceci est dû à un filtre de compression de tierce partie qui est mal installé ou qui empêche sa propre énumération. Retirez les filtres de compression que vous avez installés récemment et réessayez.
+</nierror>
+<nierror code="-1074395971">
+La taille de l'offset que vous avez spécifié doit être 2.
+</nierror>
+<nierror code="-1074395970">
+Erreur à l'ouverture de fichier AVI. Aucun codec approprié pour traiter ce fichier n'a été détecté. Veuillez installer le codec qui a été utilisé pour créer cet AVI.
+</nierror>
+<nierror code="-1074395969">
+Erreur de création de fichier AVI.
+</nierror>
+<nierror code="-1074395968">
+Erreur d'écriture de la trame AVI
+</nierror>
+<nierror code="-1074395967">
+Erreur lors de la lecture de trame AVI
+</nierror>
+<nierror code="-1074395966">
+L'image ne peut pas être convertie en un type compatible avec le codec utilisé.
+Vous avez fourni une image monochrome 16 bits ou une image en couleurs 64 bits sans définir la profondeur de bit, ou une image en couleurs a été utilisée alors que le codec ne supporte que les images en niveaux de gris.
+</nierror>
+<nierror code="-1074395965">
+Le fichier AVI a atteint sa taille maximale de 2 Go.
+</nierror>
+<nierror code="-1074395964">
+Source de codec non valide.
+</nierror>
+<nierror code="-1074395963">
+Le nom de fichier doit posséder l'extension .avi.
+</nierror>
+<nierror code="-1074395962">
+Le nom de codec passé est vide. Spécifiez un nom de codec.
+</nierror>
+<nierror code="-1074395960">
+Erreur d'initialisation.
+</nierror>
+<nierror code="-1074395959">
+Impossible de créer une fenêtre.
+</nierror>
+<nierror code="-1074395958">
+ID de fenêtre non valide.
+</nierror>
+<nierror code="-1074395957">
+Les tailles des tableaux ne sont pas compatibles
+</nierror>
+<nierror code="-1074395956">
+La qualité indiquée n'est pas valide. La gamme de valeurs de qualité valides va de -1 à 1000.
+</nierror>
+<nierror code="-1074395955">
+Niveau maximal de transformée en ondelette non valide.  La gamme de valeurs valides va de 0 à 255.
+</nierror>
+<nierror code="-1074395954">
+La taille d'incrément de quantification, "quantization step size", doit être supérieure ou égale à 0.
+</nierror>
+<nierror code="-1074395953">
+Mode de transformée en ondelette non valide.
+</nierror>
+<nierror code="-1074395952">
+La ROI ne peut avoir qu'un seul contour Point.
+</nierror>
+<nierror code="-1074395951">
+La ROI ne peut avoir que des contours Point.
+</nierror>
+<nierror code="-1074395950">
+La ROI ne peut avoir qu'un seul contour Ligne.
+</nierror>
+<nierror code="-1074395949">
+La ROI ne peut avoir qu'un seul contour Anneau.
+</nierror>
+<nierror code="-1074395948">
+Mode d'étalonnage des particules de mesure non valide.
+</nierror>
+<nierror code="-1074395947">
+Type de seuil de classificateur de particule non valide.
+</nierror>
+<nierror code="-1074395946">
+La distance de segmentation de couleurs n'est pas valide.
+</nierror>
+<nierror code="-1074395945">
+La zone de particules de segmentation de couleurs n'est pas valide.
+</nierror>
+<nierror code="-1074395944">
+Le nom de classe requis est introuvable dans les noms de classe ou les étiquettes entraînés.
+</nierror>
+<nierror code="-1074395943">
+Le nombre d'étiquettes a dépassé la limite du type d'étiquette Image.
+</nierror>
+<nierror code="-1074395942">
+Niveau de distance non valide pour Color Segmentation
+</nierror>
+<nierror code="-1074395941">
+Type de noyau SVM non valide
+</nierror>
+<nierror code="-1074395940">
+Type de noyau SVM non valide
+</nierror>
+<nierror code="-1074395939">
+Vecteur de support introuvable à l'apprentissage SVM
+</nierror>
+<nierror code="-1074395938">
+Le nom d'étiquette est introuvable dans les échantillons ajoutés
+</nierror>
+<nierror code="-1074395937">
+L'apprentissage SVM a dépassé la limite maximale d'itérations
+</nierror>
+<nierror code="-1074395936">
+Paramètre SVM non valide.
+</nierror>
+<nierror code="-1074395935">
+Score d'identification non valide. Doit se trouver entre 0 et 1000.
+</nierror>
+<nierror code="-1074395934">
+Requête d'une fonctionnalité de texture non valide.
+</nierror>
+<nierror code="-1074395933">
+La valeur de coOccurrence Level doit se trouver entre 1 et la valeur de pixel maximale d'une image (255 pour une image U8).
+</nierror>
+<nierror code="-1074395932">
+Requête pour une sous-bande d'ondelette non valide.
+</nierror>
+<nierror code="-1074395931">
+La taille d'incrément finale doit être inférieure à celle de départ.
+</nierror>
+<nierror code="-1074395930">
+La valeur de Minimum Energy doit se trouver entre 0 et 100.
+</nierror>
+<nierror code="-1074395929">
+L'étiquette de classification doit être texture ou defect pour le classeur texture defect.
+</nierror>
+<nierror code="-1074395928">
+Le type d'ondelette n'est pas valide.
+</nierror>
+<nierror code="-1074395927">
+La même bande d'ondelette a été sélectionnée plusieurs fois.
+</nierror>
+<nierror code="-1074395926">
+Les deux images en entrée n'ont pas la même taille.
+</nierror>
+<nierror code="-1074395925">
+Le fichier en entrée n'est pas un fichier de suivi d'objet valide.
+</nierror>
+<nierror code="-1074395924">
+Le niveau de pyramide n'est pas valide pour une correspondance de modèle de pyramide
+</nierror>
+<nierror code="-1074395923">
+Valeur de gamme d'angle non valide pour la correspondance de modèle de pyramide
+</nierror>
+<nierror code="-1074395922">
+Gamme d'angle d'apprentissage non valide pour la correspondance de modèle de pyramide
+</nierror>
+<nierror code="-1074395921">
+Le fichier de suivi d'objet que vous avez essayé d'ouvrir a été créé avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395920">
+Nombres de classes non valide.
+</nierror>
+<nierror code="-1074395919">
+Type de seuil fourni non valide.
+</nierror>
+<nierror code="-1074395918">
+Le texte multiligne n'est pas supporté si la propriété Text Location n'est pas activée.
+</nierror>
+<nierror code="-1074395917">
+Le séparateur de ligne spécifié n'est pas supporté.
+</nierror>
+<nierror code="-1074395916">
+Position d'objet fournie invalide. L'objet devrait se situer dans la trame de l'image.
+</nierror>
+<nierror code="-1074395915">
+Taille d'image différente passée pour le suivi d'objet. Les tailles d'images doivent être identiques pour tous les objets ajoutés.
+</nierror>
+<nierror code="-1074395914">
+Angle initial spécifié non valide. Gamme valide : [0, 180].
+</nierror>
+<nierror code="-1074395913">
+Shape Adapted MeanShift n'est pas initialisé. Initialisez Shape Adapted MeanShift.
+</nierror>
+<nierror code="-1074395912">
+MeanShift n'a pas été initialisé. Initialisez MeanShift avant d'obtenir la description associée.
+</nierror>
+<nierror code="-1074395911">
+Note minimale passée non valide. Elle devrait être dans la gamme [0, 1000].
+</nierror>
+<nierror code="-1074395910">
+Boîte limite passée non valide.
+</nierror>
+<nierror code="-1074395909">
+Matrice de covariance passée non valide.
+</nierror>
+<nierror code="-1074395908">
+Mauvais noyau gaussien généré. Réinitialisez l'objet.
+</nierror>
+<nierror code="-1074395907">
+Objet à suivre a été perdu. Réinitialisez l'objet.
+</nierror>
+<nierror code="-1074395906">
+Taille d'histogramme non valide. Spécfiez le même nombre d'intervalles d'histogrammes pour le même type d'image.
+</nierror>
+<nierror code="-1074395905">
+Type d'histogramme non valide. Lisez de nouveau l'image actuelle dans le même format que la précédente.
+</nierror>
+<nierror code="-1074395904">
+L'objet est en dehors de la trame. Réinitialisez l'objet.
+</nierror>
+<nierror code="-1074395903">
+Nombre d'intervalles d'histogramme non valide pour le traitement de couleurs. Gamme valide : [2; 40]
+</nierror>
+<nierror code="-1074395902">
+Object Histogram ne peut pas décrire cet objet. Réinitialisez l'objet.
+</nierror>
+<nierror code="-1074395901">
+Le refnum Object Tracking passé n'est pas valide. Initialisez un refnum valide.
+</nierror>
+<nierror code="-1074395900">
+Instance Shape Adapted MeanShift introuvable. Initialisez au moins une instance.
+</nierror>
+<nierror code="-1074395899">
+Instance MeanShift introuvable. Initialisez au moins une instance.
+</nierror>
+<nierror code="-1074395898">
+Instance d'objet passée non valide. L'instance d'objet doit être spécifiée pour un objet à suivre.
+</nierror>
+<nierror code="-1074395897">
+Méthode de suivi sélectionnée non valide. Elle devrait être MeanShift ou ShapeAdapted MeanShift.
+</nierror>
+<nierror code="-1074395896">
+Infos de Blob Tracking passées non valides. Commencer par initialiser des objets à suivre.
+</nierror>
+<nierror code="-1074395895">
+Le refnum Object Tracking ne contient pas d'objets à suivre. Ajoutez des instances d'objets à suivre.
+</nierror>
+<nierror code="-1074395894">
+Le nombre d'instances à supprimer est supérieure au nombre d'instances présentes.
+</nierror>
+<nierror code="-1074395893">
+Le paramètre Max Shape Change est hors gamme. Gamme valide : [0,0; 100,0].
+</nierror>
+<nierror code="-1074395892">
+Le paramètre Max Rotation Change est hors gamme. Il devrait se trouver dans la gamme [0,0; 180,0].
+</nierror>
+<nierror code="-1074395891">
+Le paramètre Max Scale Change est hors gamme. Gamme valide : [0,0; 100,0].
+</nierror>
+<nierror code="-1074395890">
+Nombre d'intervalles d'histogramme non valide. Le nombre d'intervalles d'histogramme doit être dans la gamme [2; 256].
+</nierror>
+<nierror code="-1074395889">
+Un paramètre de mélange est hors gamme. Gamme valide : [0,0; 100,0].
+</nierror>
+<nierror code="-1074395888">
+Les deux dimensions de la taille de fenêtre doivent être impaires, supérieures à 2 et inférieures à 16.
+</nierror>
+<nierror code="-1074395887">
+Le type de matrice fourni à la fonction n'est pas supporté.
+</nierror>
+<nierror code="-1074395886">
+Un critère de terminaison non valide a été spécifié pour le calcul de flux optique.
+</nierror>
+<nierror code="-1074395885">
+Les niveaux de pyramide n'ont pas été alloués correctement.
+</nierror>
+<nierror code="-1074395884">
+Le niveau de pyramide spécifié ne peut pas être négatif.
+</nierror>
+<nierror code="-1074395883">
+Le noyau doit être symétrique avec des coefficients différents de zéro et une taille impaire.
+</nierror>
+<nierror code="-1074395882">
+Paramètre de lissage non valide dans l'opération Horn Schunck.
+</nierror>
+<nierror code="-1074395881">
+Type de critère d'arrêt non valide pour le flux optique Horn Schunck.
+</nierror>
+<nierror code="-1074395880">
+Elément non valide.
+</nierror>
+<nierror code="-1074395879">
+Nombre de mesures non valide.
+</nierror>
+<nierror code="-1074395878">
+La commande Image Dispaly ne peut pas écrire dans ce nœud de propriété.
+</nierror>
+<nierror code="-1074395877">
+Le mode couleur spécifié nécessite l'utilisation de imaqChangeColorSpace2.
+</nierror>
+<nierror code="-1074395876">
+Cette fonction ne supporte pas actuellement le mode couleur que vous avez spécifié.
+</nierror>
+<nierror code="-1074395875">
+Le code-barres n'est pas un symbole Pharmacode valide.
+</nierror>
+<nierror code="-1074395874">
+Le type de données demandé pour le tableau External Data Value Reference n'est pas supporté.
+</nierror>
+<nierror code="-1074395873">
+Le type de données demandé pour le tableau External Data Value Reference n'est pas compatible avec les autres paramètres.
+La largeur d'Optional Rectangle en octets doit être un multiple de la taille du type de données EDVR en octets.
+Si l'entrée Include Border Pixels est activée, la taille du cadre de l'image source en octets doit être un multiple de la taille du type de données EDVR en octets.
+Si le tableau EDVR est un tableau 1D, la taille du cadre de l'image source en octets doit être un multiple de la taille du type de données EDVR en octets, et la taille en octet du remplissage de lignes de l'image source doit être un multiple de la taille du type de données EDVR en octets.
+Si le tableau EDVR est un tableau 3D, la taille en pixels de l'image source en octets doit être un multiple supérieur à 1 de la taille du type de données EDVR en octets.
+Si le tableau EDVR est 1D ou 2D et que l'entrée X Step Size est supérieure à 1, la taille en pixels de l'image source en octets doit être égale à celle du type de données EDVR en octets.
+</nierror>
+<nierror code="-1074395872">
+La largeur spécifiée par l'entrée Optional Rectangle doit être supérieure à 0.
+Si le tableau EDVR a une dimension, la largeur spécifiée par l'entrée Optional Rectangle doit être égale à la résolution X de l'image source.
+</nierror>
+<nierror code="-1074395871">
+La hauteur spécifiée par l'entrée Optional Rectangle doit être supérieure à 0.
+</nierror>
+<nierror code="-1074395870">
+X Step Size doit être supérieur à 0.
+La largeur spécifiée par l'entrée Optional Rectangle doit être un multiple de X Step Size.
+Si l'entrée Include Border Pixels est activée, la taille du bord de l'image source doit être un multiple de X Step Size.
+Si le tableau EDVR est un tableau 1D, la taille du bord de l'image source doit être un multiple de X Step Size, et la taille de remplissage de lignes de l'image source doit être un multiple de X Step Size.
+</nierror>
+<nierror code="-1074395869">
+Y Step Size doit être supérieur à 0.
+La hauteur spécifiée par l'entrée Optional Rectangle doit être un multiple de Y Step Size.
+Si l'entrée Include Border Pixels est activée, la taille du bord de l'image source doit être un multiple de Y Step Size.
+Si le tableau EDVR est un tableau 1D, Y Step Size doit être égal à 1.
+</nierror>
+<nierror code="-1074395868">
+Le nombre de codes barres requis spécifié doit être "1" si l'option Skip Location Search est activée.
+</nierror>
+<nierror code="-1074395867">
+La taille d'image résultante est 0.  Si la commande Image Size spécifie une hauteur et une largeur de 0, l'image en entrée doit contenir une image de taille autre que 0.  Sinon, la commande Image Size doit spécifier une hauteur et une largeur différentes de 0.
+</nierror>
+<nierror code="-1074395866">
+Plusieurs commandes de la face-avant FPGA répondent au type demandé.  Spécifiez le nom de la commande pour sélectionner l'instance désirée.
+</nierror>
+<nierror code="-1074395865">
+Plusieurs FIFO DMA répondent au type demandé.  Spécifiez le nom de la FIFO DMA pour sélectionner celle désirée.
+</nierror>
+<nierror code="-1074395864">
+La profondeur en images de la FIFO DMA ne peut pas être 0.
+</nierror>
+<nierror code="-1074395863">
+Aucune commande de la face-avant FPGA ne correspond au type demandé.  Définissez Control Name à "Skip" pour sauter cette étape et ignorer cette erreur.
+</nierror>
+<nierror code="-1074395862">
+Aucune FIFO DMA ne correspond au type demandé.
+</nierror>
+<nierror code="-1074395861">
+La valeur donnée pour Maximum Pixels per Write ou Maximum Pixels per Read n'est pas valide.
+</nierror>
+<nierror code="-1074395860">
+Le nombre de dimensions du tableau spécifié par Référence de valeur de données externes doit être égal à 1.
+</nierror>
+<nierror code="-1074395859">
+L'offset X de l'image est supérieur ou égal à la largeur de l'image, ou l'offset Y de l'image est supérieur ou égal à la hauteur de l'image.
+</nierror>
+<nierror code="-1074395858">
+La taille en pixels de l'image ne correspond pas à la taille de l'élément Référence de valeur de données externes.
+</nierror>
+<nierror code="-1074395857">
+Le refnum Point Cloud passé n'est pas valide. Initialisez un refnum valide
+</nierror>
+<nierror code="-1074395841">
+Impossible de contacter le daemon ou le serveur, ou mauvaise commande
+</nierror>
+<nierror code="-1074395840">
+Indice de table de handle non valide.
+</nierror>
+<nierror code="-1074395837">
+Le rapport de compression doit être supérieur ou égal à 1.
+</nierror>
+<nierror code="-1074395801">
+La région d'intérêt contient trop de contours.
+</nierror>
+<nierror code="-1074395800">
+Erreur de protection.
+</nierror>
+<nierror code="-1074395799">
+Erreur interne.
+</nierror>
+<nierror code="-1074395798">
+La taille du vecteur Feature dans Custom Sample doit correspondre à la taille des vecteurs que vous avez déjà ajoutés.
+</nierror>
+<nierror code="-1074395797">
+Session de classification non valide.
+</nierror>
+<nierror code="-1074395796">
+Vous avez spécifié une méthode de classication "Nearest Neighbor" non valide.
+</nierror>
+<nierror code="-1074395795">
+Le paramètre k doit être supérieur à 2.
+</nierror>
+<nierror code="-1074395794">
+Le paramètre k doit être inférieur ou égal au nombre d'échantillons dans chaque classe.
+</nierror>
+<nierror code="-1074395793">
+Cette session de classification est compacte. Seules les fonctions Classify et Dispose peuvent être appelées dans une session de classification compacte.
+</nierror>
+<nierror code="-1074395792">
+La session de classification n'est pas entraînée. Vous ne pouvez appeler cette fonction que sur une session de classification entraînée.
+</nierror>
+<nierror code="-1074395791">
+Cette fonction de classification ne peut pas être appelée dans ce type de session Classifier.
+</nierror>
+<nierror code="-1074395790">
+You avez spécifié un paramètre "Distance Metric" non valide.
+</nierror>
+<nierror code="-1074395789">
+La session de classification que vous avez essayé d'ouvrir a été créée avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395788">
+Cette opération ne peut pas être réalisée car vous n'avez pas ajouté d'échantillons.
+</nierror>
+<nierror code="-1074395787">
+Vous avez requis un type de classifier non valide.
+</nierror>
+<nierror code="-1074395786">
+La somme de "Scale Dependence" et "Symmetry Dependence doit être inférieure à 1000.
+</nierror>
+<nierror code="-1074395785">
+L'analyse de l'image n'a détecté aucune particule.
+</nierror>
+<nierror code="-1074395784">
+Les limites indiquées ne sont pas valides.
+</nierror>
+<nierror code="-1074395783">
+L'indice d"échantillon est hors de la gamme des échantillons.
+</nierror>
+<nierror code="-1074395782">
+La description doit être inférieure ou égale à 255 caractères.
+</nierror>
+<nierror code="-1074395781">
+Le moteur de cette session Classifier ne supporte pas cette opération.
+</nierror>
+<nierror code="-1074395780">
+Vous avez requis un type de particule non valide.
+</nierror>
+<nierror code="-1074395779">
+Vous ne pouvez enregistrer une session sous forme compacte que si elle a été entraînée.
+</nierror>
+<nierror code="-1074395778">
+La taille du noyau doit être inférieure à la taille de l'image.
+</nierror>
+<nierror code="-1074395777">
+La session que vous lisez à partir d'un fichier doit être du même type que la session que vous avez passée.
+</nierror>
+<nierror code="-1074395776">
+Vous ne pouvez pas utiliser un fichier de classification compacte avec des options de lecture autres que "Read All".
+</nierror>
+<nierror code="-1074395775">
+La région d'intérêt passée ne doit contenir que des contours fermés.
+</nierror>
+<nierror code="-1074395774">
+Vous devez passer une étiquette.
+</nierror>
+<nierror code="-1074395773">
+Vous devez fournir une image de destination.
+</nierror>
+<nierror code="-1074395772">
+Vous avez indiqué une méthode d'enregistrement non valide.
+</nierror>
+<nierror code="-1074395771">
+Le motif de référence que vous avez essayé d'ouvrir a été créé avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395770">
+Motif de référence non valide.
+</nierror>
+<nierror code="-1074395769">
+"Edge Thickness to Ignore" doit être supérieur ou égal à 0.
+</nierror>
+<nierror code="-1074395768">
+L'échelle doit être supérieure à zéro.
+</nierror>
+<nierror code="-1074395767">
+L'échelle indiquée n'est pas valide pour votre modèle.
+</nierror>
+<nierror code="-1074395766">
+Cette fonction rétrocompatible ne peut pas être utilisée dans cette session. Utilisez des fonctions plus récentes qui sont supportées.
+</nierror>
+<nierror code="-1074395763">
+Vous devez fournir une méthode de normalisation valide.
+</nierror>
+<nierror code="-1074395762">
+Le facteur de déviation du seuil local Niblack doit être compris entre 0 et 1.
+</nierror>
+<nierror code="-1074395761">
+La gamme déviation du seuil de Sauvola local doit être supérieure à 0.
+</nierror>
+<nierror code="-1074395760">
+Carte non trouvée.
+</nierror>
+<nierror code="-1074395759">
+Erreur d'E/S.
+</nierror>
+<nierror code="-1074395758">
+Carte non ouverte.
+</nierror>
+<nierror code="-1074395757">
+DLL non trouvée.
+</nierror>
+<nierror code="-1074395756">
+Fonction de DLL non trouvée.
+</nierror>
+<nierror code="-1074395755">
+Erreur interne.
+</nierror>
+<nierror code="-1074395754">
+Déclenchement hors délai.
+</nierror>
+<nierror code="-1074395746">
+Le nombre spécifié pour le maximum de raffinements de contours n'est pas valide.
+</nierror>
+<nierror code="-1074395745">
+Il y a trop de courbes extraites de l'image. Augmentez le seuil de bord ou diminuez la ROI.
+</nierror>
+<nierror code="-1074395744">
+Noyau non valide pour le lissage de contour. Zéro indique qu'il n'a pas de lissage ; les autres valeurs doivent être impaires.
+</nierror>
+<nierror code="-1074395743">
+L'ajustement de la ligne de contour n'est pas valide. Les points initial et final du segment de ligne doit être différents.
+</nierror>
+<nierror code="-1074395742">
+L'image modèle doit avoir suivi un apprentissage avec IMAQ Learn Contour Pattern ou avoir la même taille que l'image cible.
+</nierror>
+<nierror code="-1074395741">
+La correspondance n'a pas aligné les contours du modèle et de la cible.
+</nierror>
+<nierror code="-1074395740">
+Le contour que vous avez essayé d'ouvrir a été créé avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395739">
+Une seule gamme est autorisée pour le type de contrainte de connexion de contour.
+</nierror>
+<nierror code="-1074395738">
+Type de contrainte de connexion de contour non valide.
+</nierror>
+<nierror code="-1074395737">
+Pour utiliser la correspondance de contours, vous devez fournir une image modèle qui a suivi un apprentissage avec IMAQ Learn Contour Pattern.
+</nierror>
+<nierror code="-1074395736">
+Largeur de noyau non valide pour le calcul de courbure. La valeur doit être impaire et supérieure à 1.
+</nierror>
+<nierror code="-1074395735">
+Méthode Contour Selection non valide pour l'extraction de contour.
+</nierror>
+<nierror code="-1074395734">
+Search Direction non valide pour l'extraction de contour.
+</nierror>
+<nierror code="-1074395733">
+ROI non valide pour l'extraction de contour. La région d'intérêt (ROI) doit contenir un anneau, un rectangle ou un rectangle pivoté.
+</nierror>
+<nierror code="-1074395732">
+Courbes introuvables dans l'image.
+</nierror>
+<nierror code="-1074395731">
+La largeur Smoothing Kernel n'est pas valide pour la comparaison de contours. La valeur doit être 0 ou un entier positif.
+</nierror>
+<nierror code="-1074395730">
+Si aucune image modèle n'est fournie, l'image cible doit contenir un contour avec des points extraits et une équation ajustée.
+</nierror>
+<nierror code="-1074395729">
+Image de contour non valide.
+</nierror>
+<nierror code="-1074395728">
+NI Vision n'accepte pas le mode de recherche spécifié.
+</nierror>
+<nierror code="-1074395727">
+NI Vision ne supporte pas le mode de recherche que vous avez spécifié pour le type de code-barres 2D que vous recherchez.
+</nierror>
+<nierror code="-1074395726">
+matchFactor a été rendu obsolète. A la place, définissez initialMatchListLength et matchListReductionFactor dans la structure MatchPatternAdvancedOptions.
+</nierror>
+<nierror code="-1074395725">
+Les données ont été enregistrées avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ces données.
+</nierror>
+<nierror code="-1074395724">
+La taille spécifiée est hors gamme.
+</nierror>
+<nierror code="-1074395723">
+La clé que vous avez spécifiée est introuvable dans l'image.
+</nierror>
+<nierror code="-1074395722">
+Les sessions de classification personnalisée ne classifient que les vecteurs de caractéristiques. Elles ne supportent pas la classification d'images.
+</nierror>
+<nierror code="-1074395721">
+NI Vision ne suppporte pas la profondeur de bits que vous avez indiquée pour l'image fournie.
+</nierror>
+<nierror code="-1074395720">
+Région d'intérêt (ROI) non valide.
+</nierror>
+<nierror code="-1074395719">
+Rectangle global ROI non valide.
+</nierror>
+<nierror code="-1074395718">
+Votre version de LabVIEW ou BridgeVIEW ne supporte pas cette opération.
+</nierror>
+<nierror code="-1074395717">
+La gamme que vous avez fournie n'est pas valide.
+</nierror>
+<nierror code="-1074395716">
+NI Vision ne supporte pas la méthode de mise à l'échelle que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395715">
+NI Vision ne supporte pas l'unité d'étalonnage que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395714">
+NI Vision ne supporte pas l'orientation d'axe que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395713">
+Valeur ne faisant pas partie du type énuméré.
+</nierror>
+<nierror code="-1074395712">
+Vous avez sélectionné une région qui n'est pas du bon type.
+</nierror>
+<nierror code="-1074395711">
+Vous avez spécifié un afficheur qui ne contient pas assez de régions.
+</nierror>
+<nierror code="-1074395710">
+L'image possède trop de particules pour ce processus.
+</nierror>
+<nierror code="-1074395709">
+La session AVI n'a pas été ouverte.
+</nierror>
+<nierror code="-1074395708">
+La session AVI est une session d'écriture mais cette opération exige une session de lecture.
+</nierror>
+<nierror code="-1074395707">
+La session AVI est une session de lecture mais cette opération exige une session d'écriture.
+</nierror>
+<nierror code="-1074395706">
+Cette session AVI est déjà ouverte. Vous devez la fermer avant d'appeler une commande Créer ou Ouvrir.
+</nierror>
+<nierror code="-1074395705">
+Les données sont corrompues et illisibles.
+</nierror>
+<nierror code="-1074395704">
+Type de compression non valide.
+</nierror>
+<nierror code="-1074395703">
+Type d'aplatissement (flatten) non valide.
+</nierror>
+<nierror code="-1074395702">
+La longueur de la ligne de détection de contour doit être supérieure à 0.
+</nierror>
+<nierror code="-1074395701">
+La taille maximale de code-barres Data Matrix doit être égale ou supérieure à la taille minimale de code-barres Data Matrix.
+</nierror>
+<nierror code="-1074395700">
+Pour cette fonction, le système d'exploitation doit être Microsoft Windows 2000 ou une version ultérieure.
+</nierror>
+<nierror code="-1074395662">
+La méthode d'étalonnage demandée n'est pas valide.
+</nierror>
+<nierror code="-1074395661">
+Cet étalonnage est compact. Le réapprentissage de l'étalonnage et la récupération des miniatures ne sont pas possibles avec cet étalonnage.
+</nierror>
+<nierror code="-1074395660">
+Nombre de valeurs K non valide
+</nierror>
+<nierror code="-1074395659">
+Type de modèle de distorsion non valide
+</nierror>
+<nierror code="-1074395658">
+Aucun apprentissage pour 'Camera Model'.
+</nierror>
+<nierror code="-1074395657">
+L'indice de miniature spécifié n'est pas valide.
+</nierror>
+<nierror code="-1074395656">
+Vous devez spécifier la même valeur pour l'option de correspondance avancée "smooth contours" pour tous les motifs à faire correspondre.
+</nierror>
+<nierror code="-1074395655">
+Vous devez spécifier la même valeur pour l'option de correspondance avancée "enable calibration support" pour tous les motifs à faire correspondre.
+</nierror>
+<nierror code="-1074395654">
+L'image source ne contient pas d'informations d'évaluation. Vous devez préparer l'image source pour l'évaluation à la lecture des données Data Matrix et vous ne pouvez pas modifier le contenu de l'image source lors de la lecture et de l'évaluation des données Data Matrix.
+</nierror>
+<nierror code="-1074395653">
+Le motif de correspondance à formes géométriques multiples que vous avez essayé d'ouvrir a été créé avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395652">
+Le motif de correspondance géométrique que vous avez essayé d'ouvrir a été créé avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395651">
+Vous devez spécifier la même taille de filtre de bord (edge filter size) pour tous les motifs à faire correspondre.
+</nierror>
+<nierror code="-1074395650">
+Vous devez spécifier le même mode d'extraction de courbe pour tous les motifs à faire correspondre.
+</nierror>
+<nierror code="-1074395649">
+Le type de caractéristique géométrique spécifié n'est pas valide.
+</nierror>
+<nierror code="-1074395648">
+Vous avez fourni un motif qui n'a pas été appris.
+</nierror>
+<nierror code="-1074395647">
+Motif à formes géométriques multiples non valide.
+</nierror>
+<nierror code="-1074395646">
+Il faut au moins un motif pour apprendre.
+</nierror>
+<nierror code="-1074395645">
+Vous avez spécifié un nombre d'étiquettes qui n'est pas valide.
+</nierror>
+<nierror code="-1074395644">
+Les étiquette ne peuvent pas avoir plus de 255 caractères.
+</nierror>
+<nierror code="-1074395643">
+Vous avez spécifié un nombre d'options de correspondance qui n'est pas valide.
+</nierror>
+<nierror code="-1074395642">
+Impossible de trouver une étiquette qui correspond à l'étiquette spécifiée.
+</nierror>
+<nierror code="-1074395641">
+Les étiquettes dupliquées ne sont pas permises.
+</nierror>
+<nierror code="-1074395640">
+Le nombre de zones trouvées dépasse la capacité de l'algorithme.
+</nierror>
+<nierror code="-1074395639">
+Le style de hachure de l'arrière-plan de la fenêtre n'est pas valide.
+</nierror>
+<nierror code="-1074395638">
+Le style de remplissage de l'arrière-plan de la fenêtre n'est pas valide.
+</nierror>
+<nierror code="-1074395637">
+Votre matériel n'est pas supporté par DirectX et ne peut pas être mis en mode NonTearing.
+</nierror>
+<nierror code="-1074395636">
+DirectX est requis pour cette fonctionnalité.  Veuillez installer la dernière version.
+</nierror>
+<nierror code="-1074395635">
+Le descripteur de forme passé n'est pas valide.
+</nierror>
+<nierror code="-1074395634">
+La superposition maximale pour la correspondance n'est pas valide.  Les valeurs doivent être comprises entre -1 et 100.
+</nierror>
+<nierror code="-1074395633">
+L'échelle minimale de déviation pour la correspondance n'est pas valide.  Les valeurs doivent être supérieures ou égales à -1.
+</nierror>
+<nierror code="-1074395632">
+L'angle minimal de déviation pour la correspondance n'est pas valide.  Les valeurs doivent être comprises entre -1 et 360.
+</nierror>
+<nierror code="-1074395631">
+La distance minimale de déviation pour la correspondance n'est pas valide.  Les valeurs doivent être supérieures ou égales à -1.
+</nierror>
+<nierror code="-1074395630">
+Nombre de caractéristiques maximum pour l'apprentissage (learn) non valide. Les valeurs doivent être des entiers supérieurs à zéro.
+</nierror>
+<nierror code="-1074395629">
+La distance maximum en pixels de la ligne n'est pas valide. Les valeurs doivent être de type réel positif.
+</nierror>
+<nierror code="-1074395628">
+Image du modèle de correspondance géométrique non valide.
+</nierror>
+<nierror code="-1074395627">
+Le modèle ne contient pas assez de caractéristiques pour la correspondance géométrique.
+</nierror>
+<nierror code="-1074395626">
+Le modèle ne contient pas assez de caractéristiques pour la correspondance géométrique.
+</nierror>
+<nierror code="-1074395625">
+La valeur spécifiée n'est pas une valeur de contrainte de correspondance valide pour les paramètres de la gamme.
+</nierror>
+<nierror code="-1074395624">
+Gamme d'occlusion non valide. Les valeurs de limites valides sont comprises entre 0 et 100, et la limite supérieure doit être supérieure ou égale à la limite inférieure.
+</nierror>
+<nierror code="-1074395623">
+Gamme d'échelles non valide. La valeur de la limite inférieure doit être un nombre réel positif, et la limite supérieure doit être supérieure ou égale à la limite inférieure.
+</nierror>
+<nierror code="-1074395622">
+Les données de configuration du motif géométrique pour la correspondance ne sont pas valides.
+</nierror>
+<nierror code="-1074395621">
+Les données de configuration du motif géométrique pour l'apprentissage (learn) ne sont pas valides.
+</nierror>
+<nierror code="-1074395620">
+Mode d'extraction de courbe non valide.
+</nierror>
+<nierror code="-1074395619">
+Vous ne pouvez spécifier qu'une seule gamme d'occlusion.
+</nierror>
+<nierror code="-1074395618">
+Vous ne pouvez spécifier qu'une seule gamme d'échelle.
+</nierror>
+<nierror code="-1074395617">
+Le nombre minimum de caractéristiques doit être inférieur ou égal au nombre maximum de caractéristiques.
+</nierror>
+<nierror code="-1074395616">
+Paramètre "edge filter size" non valide.
+</nierror>
+<nierror code="-1074395615">
+Force minimum non valide pour les fonctionnalités. Les valeurs doivent être de type réel positif.
+</nierror>
+<nierror code="-1074395614">
+Rapport hauteur/largeur non valide pour les fonctionnalités rectangulaires. Les valeurs doivent être de type réel positif, dans la gamme [0,01 - 1,0].
+</nierror>
+<nierror code="-1074395613">
+Longueur minimum non valide pour les catactéristiques linéaires. Les valeurs doivent être de type entier, supérieur à 0.
+</nierror>
+<nierror code="-1074395612">
+Rayon minimum non valide pour les catactéristiques circulaires. Les valeurs doivent être de type entier, supérieur à 0.
+</nierror>
+<nierror code="-1074395611">
+Dimension de rectangle minimum non valides. Les valeurs doivent être de type entier, supérieur à 0.
+</nierror>
+<nierror code="-1074395610">
+Longueur de liste de correspondance initiale non valide. Les valeurs doivent être des entiers supérieurs à 5.
+</nierror>
+<nierror code="-1074395609">
+Tolérance de sous-pixel non valide. Les valeurs doivent être de type réel positif.
+</nierror>
+<nierror code="-1074395608">
+Nombre d'itérations sous-pixel non valide. Les valeurs doivent être de type entier, supérieur à 10.
+</nierror>
+<nierror code="-1074395607">
+Le nombre minimum de caractéristiques utilisées pour la correspondance n'est pas valide. Les valeurs doivent être de type entier supérieur ou égal à zéro.
+</nierror>
+<nierror code="-1074395606">
+Le nombre minimum de caractéristiques utilisées pour la correspondance n'est pas valide. Les valeurs doivent être des entiers supérieurs à zéro.
+</nierror>
+<nierror code="-1074395605">
+Distance maximum entre deux points à rejoindre non valide La gamme de valeurs valides va de 0 à 32767.
+</nierror>
+<nierror code="-1074395604">
+"Column step" (nombre de pixels à ignorer quand l'image est parcurue en horizontal) non valide. La gamme de valeurs valides va de 1 à 255.
+</nierror>
+<nierror code="-1074395603">
+"Row step" (nombre de pixels à ignorer quand l'image est parcurue en vertical) non valide. La gamme de valeurs valides va de 1 à 255.
+</nierror>
+<nierror code="-1074395602">
+Longueur minimale non valide. Les valeurs valides doivent être supérieures ou égales à zéro.
+</nierror>
+<nierror code="-1074395601">
+Paramètre de seuil de front "edge threshold" non valide. La gamme de valeurs valides va de 1 à 65535.
+</nierror>
+<nierror code="-1074395600">
+Vous devez fournir des informations sur la sous-image dans la planche contact.
+</nierror>
+<nierror code="-1074395598">
+Le niveau d'acceptance est hors de la gamme valide de 0 à 1000.
+</nierror>
+<nierror code="-1074395597">
+Session OCR non valide.
+</nierror>
+<nierror code="-1074395596">
+La taille de caractère est non valide. Cette taille doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-1074395595">
+Valeur de mode de seuil non valide.
+</nierror>
+<nierror code="-1074395594">
+Caractère de substitution non valide. Les caractères de substitution valides ont une valeur ASCII comprise entre 1 et 254.
+</nierror>
+<nierror code="-1074395593">
+Nombre de blocs non valide. Le nombre de blocs doit être supérieur ou égal à 4 et inférieur ou égal à 50.
+</nierror>
+<nierror code="-1074395592">
+Stratégie de lecture non valide.
+</nierror>
+<nierror code="-1074395591">
+Indice de caractère non valide.
+</nierror>
+<nierror code="-1074395590">
+Nombre de positions de caractères incorrect. La gamme de valeurs valides va de 0 à 255.
+</nierror>
+<nierror code="-1074395589">
+Valeur de seuil bas non valide. Les valeurs valides de seuil doivent être comprises entre 0 et 255.
+</nierror>
+<nierror code="-1074395588">
+Valeur de seuil haut non valide. Les valeurs valides de seuil doivent être comprises entre 0 et 255.
+</nierror>
+<nierror code="-1074395587">
+La valeur de seuil bas doit être inférieure à celle du seuil.
+</nierror>
+<nierror code="-1074395586">
+Valeur de limite de seuil bas non valide. Les limites de seuil inférieur doivent comprises entre 0 et 255.
+</nierror>
+<nierror code="-1074395585">
+Valeur de limite de seuil supérieur non valide. Les limites de seuil supérieur doivent être comprises entre 0 et 255.
+</nierror>
+<nierror code="-1074395584">
+La valeur de la limite de seuil inférieur doit être inférieure à celle de la limite de seuil supérieur.
+</nierror>
+<nierror code="-1074395583">
+Valeur minimale d'espacement entre les caractères non valide. L'espacement entre les caractères doit être supérieur ou égal à 1 pixel.
+</nierror>
+<nierror code="-1074395582">
+La valeur d'espacement horizontal maximal entre les éléments n'est pas valide. La valeur d'espacement horizontal maximal entre des éléments doit être supérieure ou égale à zéro.
+</nierror>
+<nierror code="-1074395581">
+La valeur maximale d'espacement vertical entre les éléments n'est pas valide. L'espacement vertical maximal entre les éléments doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-1074395580">
+Largeur minimale de rectangle de délimitation non valide. La largeur minimale du rectangle de délimitation doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-1074395579">
+Valeur de rapport d'apparence non valide. Le rapport d'apparence doit être nul ou supérieur ou égal à 100.
+</nierror>
+<nierror code="-1074395578">
+Fichier de jeu de caractères non valide ou corrompu.
+</nierror>
+<nierror code="-1074395577">
+La valeur de caractères ne peut pas être une chaîne vide.
+</nierror>
+<nierror code="-1074395576">
+Les valeurs des caractères doivent être inférieures ou égales à 255 caractères.
+</nierror>
+<nierror code="-1074395575">
+Nombre d'érosions non valide. Le nombre d'érosions doit être supérieur ou égal à zéro.
+</nierror>
+<nierror code="-1074395574">
+La description du jeu de caractères doit être inférieure ou égale à 255 caractères.
+</nierror>
+<nierror code="-1074395573">
+Le fichier de jeu de caractères a été créé par une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier de jeu de caractères.
+</nierror>
+<nierror code="-1074395572">
+Vous devez spécifier des caractères pour une chaîne. Une chaîne ne peut pas contenir des entiers.
+</nierror>
+<nierror code="-1074395571">
+Cet attribut est en lecture seule.
+</nierror>
+<nierror code="-1074395570">
+Cet attribut requiert une valeur booléenne.
+</nierror>
+<nierror code="-1074395569">
+Attribut non valide.
+</nierror>
+<nierror code="-1074395568">
+Cet attribut requiert des valeur entières.
+</nierror>
+<nierror code="-1074395567">
+Les valeurs de chaîne ne sont pas valides pour cet attribut. Entrez une valeur booléenne.
+</nierror>
+<nierror code="-1074395566">
+Les valeurs booléennes ne sont pas valides pour cet attribut. Entrez une valeur entière.
+</nierror>
+<nierror code="-1074395565">
+Requiert une chaîne contenant un seul caractère.
+</nierror>
+<nierror code="-1074395564">
+Valeur de caractère prédéfinie non valide.
+</nierror>
+<nierror code="-1074395563">
+Vous n'avez pas de licence pour cette copie de NI OCR.
+</nierror>
+<nierror code="-1074395562">
+Les valeurs chaîne ne sont pas valides pour cet attribut. Entrez une valeur booléenne.
+</nierror>
+<nierror code="-1074395561">
+Le nombre de caractères dans 'character value' doit correspondre au nombre d'objets dans l'image.
+</nierror>
+<nierror code="-1074395560">
+Indice d'objet non valide.
+</nierror>
+<nierror code="-1074395559">
+Option de lecture non valide.
+</nierror>
+<nierror code="-1074395558">
+La taille minimale de caractère doit être inférieure à la taille maximale de caractère.
+</nierror>
+<nierror code="-1074395557">
+La largeur minimale du rectangle de délimitation doit être inférieure à la largeur maximale du rectangle de délimitation.
+</nierror>
+<nierror code="-1074395556">
+La hauteur minimale du rectangle de délimitation doit être inférieure à la hauteur maximale du rectangle de délimitation.
+</nierror>
+<nierror code="-1074395555">
+La valeur maximale d'espacement horizontal entre éléments ne doit pas dépasser la valeur minimale d'espacement entre caractères.
+</nierror>
+<nierror code="-1074395554">
+Résolution de lecture non valide.
+</nierror>
+<nierror code="-1074395553">
+Hauteur minimale de rectangle de délimitation non valide. La hauteur minimale du rectangle de délimitation doit être supérieure ou égale à 1.
+</nierror>
+<nierror code="-1074395552">
+Jeu de caractères non valide.
+</nierror>
+<nierror code="-1074395551">
+Un caractère ROC conditionné ne peut pas être renommé lorsqu'il est un caractère de référence.
+</nierror>
+<nierror code="-1074395550">
+Un caractère ne peut pas avoir la valeur ASCII 255.
+</nierror>
+<nierror code="-1074395549">
+Le nombre d'objets trouvés ne correspond pas au nombre attendu de caractères ou de motifs à vérifier.
+</nierror>
+<nierror code="-1074395548">
+Number of Images doit être supérieur à 1.
+</nierror>
+<nierror code="-1074395547">
+Number of Images doit être supérieur à 2.
+</nierror>
+<nierror code="-1074395546">
+Les infos de vision de correction Flat Field ne sont pas disponibles.
+</nierror>
+<nierror code="-1074395545">
+Les images de champ plat et de champ d'obscurité n'ont pas été fournies. Vous devez en fournir au moins une pour effectuer la correction Flat Field.
+</nierror>
+<nierror code="-1074395544">
+Une option de correspondance prédéfinie non supportée est fournie.
+</nierror>
+<nierror code="-1074395543">
+Une option de fonction non supportée est fournie.
+</nierror>
+<nierror code="-1074395542">
+L'algorithme sélectionné n'est pas supporté.
+</nierror>
+<nierror code="-1074395541">
+Cette fonction n'est pas supportée dans la plate-forme actuelle. Consultez l'aide pour obtenir la liste des plates-formes supportées.
+</nierror>
+<nierror code="-1074395540">
+Impossible de charger la bibliothèque d'apprentissage profond.
+</nierror>
+<nierror code="-1074395539">
+Impossible de charger le fichier de modèle.
+</nierror>
+<nierror code="-1074395538">
+Session de modèle non valide.
+</nierror>
+<nierror code="-1074395537">
+Le type de données de l'entrée n'est pas supporté. Veuillez vérifier les types de données supportés.
+</nierror>
+<nierror code="-1074395536">
+Nom de nœud spécifié introuvable dans le graphe du modèle chargé.
+</nierror>
+<nierror code="-1074395535">
+Une erreur s'est produite lors de l'exécution du modèle (graphe).
+</nierror>
+<nierror code="-1074395534">
+Les dimensions du tenseur ne correspondent pas aux dimensions de données attendues.
+</nierror>
+<nierror code="-1074395533">
+Une table de correspondance vide ne peut pas être utilisée pour convertir une image à l'aide de la méthode de table de recherche.
+</nierror>
+<nierror code="-1074395532">
+L'option de méthode fournie n'est pas supportée.
+</nierror>
+<nierror code="-1074395531">
+L'entrée n'a pas été définie pour le modèle.
+</nierror>
+<nierror code="-1074395530">
+Erreur lors du chargement du plug-in CPU à partir du chemin spécifié. Installation corrompue ou variable d'environnement PATH non mise à jour.
+</nierror>
+<nierror code="-1074395453">
+L'algorithme doit être Grayscale Value Pyramid/Low Discrapancy Sampling lorsque Screenshot Preset est sélectionné.
+</nierror>
+<nierror code="-1074395452">
+La profondeur de bits dans l'image 16 bits/SGL donnée est nulle. Cette fonction nécessite une profondeur de bit différente de zéro.
+</nierror>
+<nierror code="-1074395451">
+La profondeur de bits dans l'image 16 bits donnée est nulle. Cette fonction nécessite une profondeur de bit différente de zéro.
+</nierror>
+<nierror code="-1074395450">
+Le modèle et l'image de correspondance n'ont pas la même profondeur de bits.
+</nierror>
+<nierror code="-1074395449">
+Requiert une chaîne contenant un seul caractère ASCII.
+</nierror>
+<nierror code="-1074395448">
+La valeur Inf ou NaN a été fournie pour un paramètre
+</nierror>
+<nierror code="-1074395447">
+Les points de couleur spécifiés ne suffisent pas pour créer la palette.
+</nierror>
+<nierror code="-1074395446">
+Le pixel de point de couleur n'est pas valide. La gamme de pixels va de 0 à 65535 pour les palettes 16 bits et de 0 à 255 pour les 8 bits.
+</nierror>
+<nierror code="-1074395445">
+Trop peu de correspondances pour effectuer l'opération
+</nierror>
+<nierror code="-1074395444">
+L'X et le Y de taille de grille doivent être supérieurs à 1.
+</nierror>
+<nierror code="-1074395443">
+L'X et le Y de taille de grille ne peuvent pas dépasser la largeur et la largeur ROI ou de l'image.
+</nierror>
+<nierror code="-1074395442">
+Les points et descripteurs des éléments d'une image doivent avoir la même taille.
+</nierror>
+<nierror code="-1074395441">
+La distance maximale acceptable doit être supérieure à 0.
+</nierror>
+<nierror code="-1074395440">
+Les descripteurs ne peuvent pas être NULL pour l'opération de correspondance
+</nierror>
+<nierror code="-1074395439">
+NULL points passés pour l'élément.
+</nierror>
+<nierror code="-1074395438">
+Le niveau de pyramide doit être supérieur à 1 pour cette opération.
+</nierror>
+<nierror code="-1074395437">
+Le maximum de caractères par ligne, 255, a été atteint.
+</nierror>
+<nierror code="-1074395436">
+Taille d'image incompatible passée pour le suivi d'objet. Toutes les images doivent avoir la même taille.
+</nierror>
+<nierror code="-1074395435">
+La valeur spécifiée pour la profondeur minimale ou maximale (ou les deux) n'est pas supportée.
+</nierror>
+<nierror code="-1074395434">
+La valeur d'ordre polynomial spécifiée n'est pas supportée.
+</nierror>
+<nierror code="-1074395433">
+La valeur de fréquence d'échantillonnage spécifiée n'est pas supportée.
+</nierror>
+<nierror code="-1074395432">
+La valeur de profondeur minimale spécifiée doit être supérieure à 0.
+</nierror>
+<nierror code="-1074395431">
+La valeur de pixels spécifiée pour les disparités non valides n'est pas correcte.
+</nierror>
+<nierror code="-1074395430">
+La translation entre les caméras stéréo est 0.
+</nierror>
+<nierror code="-1074395429">
+La position de caméra spécifiée n'est pas valide.
+</nierror>
+<nierror code="-1074395428">
+La valeur spécifiée pour la gamme du speckle dans la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395427">
+La taille de la fenêtre du speckle n'est pas valide.
+</nierror>
+<nierror code="-1074395426">
+La valeur de seuil de texture spécifiée pour la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395425">
+La valeur spécifiée pour l'unicité de la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395424">
+La valeur de profondeur minimale n'est pas correcte.
+</nierror>
+<nierror code="-1074395423">
+La taille de la matrice Q n'est pas correcte.
+</nierror>
+<nierror code="-1074395422">
+La valeur spécifiée pour le paramètre de mise à l'échelle lors de l'apprentissage de l'étalonnage stéréo n'est pas valide.
+</nierror>
+<nierror code="-1074395421">
+La valeur de filter cap spécifiée pour la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395420">
+La valeur de prefilter size spécifiée pour la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395419">
+La valeur de prefilter type spécifiée pour la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395418">
+La valeur spécifiée pour le nombre de disparités ou le nombre minimal de disparités n'est pas valide.
+</nierror>
+<nierror code="-1074395417">
+La taille de fenêtre spécifiée pour la correspondance de blocs n'est pas valide.
+</nierror>
+<nierror code="-1074395416">
+La fonction Vision 3D ne peut pas être appelée sur ce type de session Vision 3D.
+</nierror>
+<nierror code="-1074395415">
+Il y a trop de sessions Vision 3D ouvertes.  Vous devez fermer une session avant de pouvoir en ouvrir une autre.
+</nierror>
+<nierror code="-1074395414">
+La session de vision 3D que vous avez essayé d'ouvrir a été créée avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395413">
+Vous avez spécifié un type de filtre non valide pour la correspondance de blocs.
+</nierror>
+<nierror code="-1074395412">
+Vous avez demandé des résultats avec une position de caméra non valide dans la configuration stéréo.
+</nierror>
+<nierror code="-1074395411">
+Ceci n'est pas une session 3D Vision valide.
+</nierror>
+<nierror code="-1074395410">
+NI Vision n'accepte pas moins d'une icône par ligne.
+</nierror>
+<nierror code="-1074395409">
+Divisions de sous-pixels non valides.
+</nierror>
+<nierror code="-1074395408">
+Mode de détection non valide.
+</nierror>
+<nierror code="-1074395407">
+Valeur de contraste non valide. Les valeurs de contraste doivent être comprises entre 0 et 255.
+</nierror>
+<nierror code="-1074395406">
+Le système de coordonnées n'a pas pu être déterminé sur cette image.
+</nierror>
+<nierror code="-1074395405">
+NI Vision ne supporte pas la valeur d'orientation de texte que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395404">
+La fonction UnwrapImage ne supporte pas la méthode d'interpolation fournie.  Les valeurs possibles pour la méthode d'interpolation sont d'ordre zéro et bilinéaire.
+</nierror>
+<nierror code="-1074395403">
+L'image a été créée dans une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour utiliser cette image.
+</nierror>
+<nierror code="-1074395402">
+La fonction ne supporte pas le nombre maximum de points spécifié.
+</nierror>
+<nierror code="-1074395401">
+Le "matchFactor" spécifié n'est pas supporté par la fonction.
+</nierror>
+<nierror code="-1074395400">
+L'opération spécifiée pour Multicore Options n'est pas valide. Reportez-vous aux valeurs d'énumération valides pour Multicore Operation.
+</nierror>
+<nierror code="-1074395399">
+Vous avez spécifié un argument non valide pour Multicore Options.
+</nierror>
+<nierror code="-1074395397">
+Une image complexe est requise.
+</nierror>
+<nierror code="-1074395395">
+L'image en entrée doit être une image couleur.
+</nierror>
+<nierror code="-1074395394">
+Le masque de couleurs supprime trop d'informations de couleurs.
+</nierror>
+<nierror code="-1074395393">
+Le motif couleur est trop petit.
+</nierror>
+<nierror code="-1074395392">
+Le motif couleur est trop grand.
+</nierror>
+<nierror code="-1074395391">
+Le contraste dans le plan de teinte de l'image est trop faible pour apprendre les caractéristiques de la forme.
+</nierror>
+<nierror code="-1074395390">
+Le contraste dans le plan de luminance de l'image est trop faible pour apprendre les caractéristiques de la forme.
+</nierror>
+<nierror code="-1074395389">
+Données de configuration non valides pour l'apprentissage de couleurs.
+</nierror>
+<nierror code="-1074395388">
+Données de configuration non valides pour l'apprentissage de couleurs.
+</nierror>
+<nierror code="-1074395387">
+Données de configuration non valides pour la correspondance de couleurs.
+</nierror>
+<nierror code="-1074395386">
+Données de configuration non valides pour la correspondance de couleurs.
+</nierror>
+<nierror code="-1074395385">
+La reconnaissance de motif couleur invariante par rotation requiert un mode feature incluant la forme.
+</nierror>
+<nierror code="-1074395384">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395383">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395382">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395381">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395380">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395379">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395378">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395377">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395376">
+Le motif couleur ne contient pas les données nécessaires pour une reconnaissance de motif couleur invariant par décalage.
+</nierror>
+<nierror code="-1074395375">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395374">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395373">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395372">
+Le motif couleur ne contient pas les données nécessaires pour une reconnaissance de motif couleur invariant par rotation.
+</nierror>
+<nierror code="-1074395371">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395370">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395369">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395368">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395367">
+Motif couleur (color template image) non valide.
+</nierror>
+<nierror code="-1074395366">
+Le motif couleur ne contient pas les données nécessaires pour une reconnaissance de motif couleur en mode shape feature.
+</nierror>
+<nierror code="-1074395365">
+Le motif couleur ne contient pas les données nécessaires pour une reconnaissance de couleur en mode color feature.
+</nierror>
+<nierror code="-1074395364">
+Le tableau 'ignore color spectrum' n'est pas valide.
+</nierror>
+<nierror code="-1074395363">
+Rapport de sous-échantillonnage non valide.
+</nierror>
+<nierror code="-1074395362">
+Largeur de pixel non valide.
+</nierror>
+<nierror code="-1074395361">
+Pente non valide.
+</nierror>
+<nierror code="-1074395360">
+Plan complexe non valide.
+</nierror>
+<nierror code="-1074395357">
+Mode de couleur ignorée non valide.
+</nierror>
+<nierror code="-1074395356">
+Le score de reconnaissance (match) minimum n'est pas valide. La gamme des valeurs acceptables est comprise entre 0 et 1000.
+</nierror>
+<nierror code="-1074395355">
+Nombre de correspondances demandées non valide. Vous devez demander une correspondance au minimum.
+</nierror>
+<nierror code="-1074395354">
+Pondération des couleurs incorrecte. La gamme des valeurs acceptables est comprise entre 0 et 1000.
+</nierror>
+<nierror code="-1074395353">
+Stratégie de recherche non valide.
+</nierror>
+<nierror code="-1074395352">
+Mode feature non valide.
+</nierror>
+<nierror code="-1074395351">
+NI Vision ne supporte pas les rectanges à largeur ou hauteur négative.
+</nierror>
+<nierror code="-1074395350">
+NI Vision ne supporte pas le type d'informations vision que vous avez spécifié.
+</nierror>
+<nierror code="-1074395349">
+NI Vision ne supporte pas la valeur de SkeletonMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395348">
+NI Vision ne supporte pas la valeur de 3DPlane que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395347">
+NI Vision ne supporte pas la valeur de 3DDirection que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395346">
+IMAQRotate ne supporte pas la valeur InterpolationMethod fournie.
+</nierror>
+<nierror code="-1074395345">
+NI Vision ne supporte pas l'axe de symétrie que vous avez spécifié.
+</nierror>
+<nierror code="-1074395343">
+Vous devez transmettre un nom de fichier valide. Ne transmettez pas NULL.
+</nierror>
+<nierror code="-1074395340">
+NI Vision ne supporte pas la valeur de SizeType que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395336">
+Vous avez spécifié l'état de dispatch d'un algorithme inconnu.
+</nierror>
+<nierror code="-1074395335">
+Vous essayez de définir le même algorithme pour le dispatch et l'absence de dispatch. Supprimez un des paramètres en conflit.
+</nierror>
+<nierror code="-1074395334">
+NI Vision ne supporte pas la valeur de méthode de conversion que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395333">
+NI Vision ne supporte pas la valeur de VerticalTextAlignment que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395332">
+NI Vision ne supporte pas la valeur de CompareFunction que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395331">
+NI Vision ne supporte pas la valeur de BorderMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395330">
+Taille de bordure non valide. La gamme des valeurs acceptables va de 0 à 50.
+</nierror>
+<nierror code="-1074395329">
+NI Vision ne supporte pas la valeur de OutlineMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395328">
+NI Vision ne supporte pas la valeur de InterpolationMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395327">
+NI Vision ne supporte pas la valeur de ScalingMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395326">
+IMAQDrawLineOnImage ne supporte pas la valeur de DrawMode fournie.
+</nierror>
+<nierror code="-1074395325">
+NI Vision ne supporte pas la valeur de DrawMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395324">
+NI Vision ne supporte pas la valeur de ShapeMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395323">
+NI Vision ne supporte pas la valeur de FontColor que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395322">
+NI Vision ne supporte pas la valeur de TextAlignment que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395321">
+NI Vision ne supporte pas la valeur de MorphologyMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395320">
+L'image modèle est vide.
+</nierror>
+<nierror code="-1074395319">
+NI Vision ne supporte pas le type d'interpolation que vous avez spécifié.
+</nierror>
+<nierror code="-1074395318">
+Vous n'avez pas fourni assez de points pour effectuer cette opération.
+</nierror>
+<nierror code="-1074395317">
+Vous avez spécifié un point se trouvant au-delà de l'image.
+</nierror>
+<nierror code="-1074395316">
+Code du kernel non valide.
+</nierror>
+<nierror code="-1074395315">
+Vous avez spécifié un ensemble de points insuffisant pour le score minimal.
+</nierror>
+<nierror code="-1074395313">
+Ce périphérique ne supporte pas l'écriture dans les fichiers.
+</nierror>
+<nierror code="-1074395312">
+L'image en entrée ne semble pas être une image d'étalonnage LED ou LCD valide.
+</nierror>
+<nierror code="-1074395311">
+Le tableau de spectres de couleurs que vous avez fourni contient un nombre non valide d'éléments ou contient un élément qui est défini à NaN (pas un nombre).
+</nierror>
+<nierror code="-1074395310">
+NI Vision ne supporte pas la valeur de PaletteType que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395309">
+NI Vision ne supporte pas la valeur de WindowThreadPolicy que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395308">
+NI Vision ne supporte pas la valeur de ColorSensitivity que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395307">
+Le paramètre de précision doit être supérieur à 0.
+</nierror>
+<nierror code="-1074395306">
+NI Vision ne supporte pas la valeur de Tool que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395305">
+NI Vision ne supporte pas la valeur de ReferenceMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395304">
+NI Vision ne supporte pas la valeur de MathTransformMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395303">
+Nombres de classes incorrect pour le seuillage automatique. La gamme des valeurs acceptables va de 2 à 256.
+</nierror>
+<nierror code="-1074395302">
+NI Vision ne supporte pas la valeur de méthode de seuil que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395301">
+La région d'intérêt (ROI) transmise à imaqGetMeterArc doit être constituée de deux lignes.
+</nierror>
+<nierror code="-1074395300">
+NI Vision ne supporte pas la valeur de MeterArcMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395299">
+NI Vision ne supporte pas la valeur de ComplexPlane que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395298">
+Cette opération ne peut s'effectuer que sur un plan complexe imaginaire ou réel.
+</nierror>
+<nierror code="-1074395297">
+NI Vision ne supporte pas la valeur de ParticleInfoMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395296">
+NI Vision ne supporte pas la valeur de BarcodeType que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395295">
+IMAQInterpolatePoints ne supporte pas la valeur InterpolationMethod fournie.
+</nierror>
+<nierror code="-1074395294">
+L'indice de contour spécifié est supérieur au nombre de contours de la région d'intérêt (ROI).
+</nierror>
+<nierror code="-1074395293">
+Le ContourID fourni ne correspond pas à un contour à l'intérieur de la région d'intérêt (ROI).
+</nierror>
+<nierror code="-1074395292">
+Veuillez ne pas fournir de points collinéaires pour cette opération.
+</nierror>
+<nierror code="-1074395291">
+Shape Match requiert une image dont les pixels ont pour valeur 0 ou 1.
+</nierror>
+<nierror code="-1074395290">
+Le modèle que vous avez fourni pour la ShapeMatch ne contient pas d'information de forme.
+</nierror>
+<nierror code="-1074395289">
+L'opération aurait dépassé la capacité d'un conteneur interne, qui est de 4294967296 éléments uniques.
+</nierror>
+<nierror code="-1074395288">
+L'opération aurait dépassé la capacité d'un conteneur interne, qui est de 2147483648  éléments uniques.
+</nierror>
+<nierror code="-1074395287">
+La ligne que vous avez fournie contient deux points identiques ou l'un des emplacements de coordonnées de la ligne n'est pas un nombre (NaN).
+</nierror>
+<nierror code="-1074395286">
+Direction de Concentric Rake non valide.
+</nierror>
+<nierror code="-1074395285">
+Direction de Spoke non valide.
+</nierror>
+<nierror code="-1074395284">
+Processus de contour non valide.
+</nierror>
+<nierror code="-1074395283">
+Direction de Rake non valide.
+</nierror>
+<nierror code="-1074395282">
+Impossible d'afficher l'image dans l'afficheur. Vous devez avoir la dernière version du contrôle.
+</nierror>
+<nierror code="-1074395281">
+La taille de l'image doit être supérieure à la taille du bord pour cette opération.
+</nierror>
+<nierror code="-1074395280">
+ROI ne peut avoir qu'un seul contour Rectangle.
+</nierror>
+<nierror code="-1074395279">
+La région d'intérêt (ROI) n'est pas un polygone.
+</nierror>
+<nierror code="-1074395278">
+L'image LCD n'est pas un nombre.
+</nierror>
+<nierror code="-1074395277">
+L'information décodée de code-barres n'a pas passé le test de checksum.
+</nierror>
+<nierror code="-1074395276">
+Vous avez spécifié des lignes parallèles pour la région d'intérêt de mesure.
+</nierror>
+<nierror code="-1074395275">
+Image de navigateur non valide.
+</nierror>
+<nierror code="-1074395270">
+Impossible de diviser par zéro.
+</nierror>
+<nierror code="-1074395269">
+Pointeur Null.
+</nierror>
+<nierror code="-1074395268">
+Les équations linéaires ne sont pas indépendantes.
+</nierror>
+<nierror code="-1074395267">
+Les racines de l'équation sont complexes.
+</nierror>
+<nierror code="-1074395265">
+Le code-barres ne correspond pas au type spécifié.
+</nierror>
+<nierror code="-1074395263">
+Aucun segment n'est allumé.
+</nierror>
+<nierror code="-1074395262">
+Le LCD ne forme pas un chiffre connu.
+</nierror>
+<nierror code="-1074395261">
+Une erreur interne s'est produite lors de la tentative d'accès à une coordonnée non valide sur l'image.
+</nierror>
+<nierror code="-1074395260">
+Une erreur de mémoire interne s'est produite.
+</nierror>
+<nierror code="-1074395259">
+Votre version de LabVIEW ou BridgeVIEW ne supporte pas cette opération.
+</nierror>
+<nierror code="-1074395258">
+La largeur du filtre doit être impaire pour l'opérateur Canny.
+</nierror>
+<nierror code="-1074395257">
+Vous avez fourni une direction de contour non valide dans l'opérateur Canny.
+</nierror>
+<nierror code="-1074395256">
+La taille de la fenêtre doit être impaire pour l'opérateur Canny.
+</nierror>
+<nierror code="-1074395253">
+Mode d'apprentissage non valide.
+</nierror>
+<nierror code="-1074395252">
+Données de configuration pour l'apprentissage non valides.
+</nierror>
+<nierror code="-1074395251">
+Mode de reconnaissance non valide.
+</nierror>
+<nierror code="-1074395250">
+Données de configuration pour la reconnaissance non valides.
+</nierror>
+<nierror code="-1074395249">
+Au moins une des gammes d'angle de rotation dépasse 360 degrées.
+</nierror>
+<nierror code="-1074395248">
+Le tableau de gammes d'angles de rotation contient trop de gammes.
+</nierror>
+<nierror code="-1074395247">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395246">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395245">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395244">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395243">
+Le descripteur de motif a été créé dans une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour utiliser ce motif.
+</nierror>
+<nierror code="-1074395242">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395241">
+Le descripteur de modèle ne contient pas les données requises pour la reconnaissance invariante par rotation.
+</nierror>
+<nierror code="-1074395240">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395239">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395238">
+Le descripteur de modèle ne contient pas les données requises pour la reconnaissance invariante par décalage (shift invariant matching).
+</nierror>
+<nierror code="-1074395237">
+Descripteur de motif incorrect.
+</nierror>
+<nierror code="-1074395236">
+Le descripteur de modèle ne contient pas les données requises pour la correspondance sans variation par échelle.
+</nierror>
+<nierror code="-1074395235">
+Le contraste de l'image modèle est trop faible.
+</nierror>
+<nierror code="-1074395234">
+L'image modèle est trop petite.
+</nierror>
+<nierror code="-1074395233">
+L'image modèle est trop grande.
+</nierror>
+<nierror code="-1074395219">
+Le type de la carte de pondération est Invalid Image. Le type supporté es Float (Grayscale SGL)
+</nierror>
+<nierror code="-1074395218">
+Pas de correspondance trouvée dans Pattern Matching pour Calculate Defect Map
+</nierror>
+<nierror code="-1074395217">
+Le nombre d'images de défaut en entrée fourni pour remplir la Defect Map est trop petit.
+</nierror>
+<nierror code="-1074395216">
+L'image ne contient pas d'informations Defect Map.
+</nierror>
+<nierror code="-1074395215">
+Les données Defect Map attachées à l'image que vous essayez d'ouvrir ont été créées avec une version plus récente de NI Vision. Mettez NI Vision à niveau de la dernière version pour lire ce fichier.
+</nierror>
+<nierror code="-1074395214">
+Il y a trop de sessions OCR ouvertes.  Vous devez fermer une session avant de pouvoir en ouvrir une autre.
+</nierror>
+<nierror code="-1074395212">
+La taille de la chaîne modèle doit correspondre à la taille de la chaîne que vous essayez de corriger.
+</nierror>
+<nierror code="-1074395211">
+Le texte modèle fourni contient des caractères non standard qui ne peuvent être générés par OCR.
+</nierror>
+<nierror code="-1074395210">
+Au moins un caractère dans le modèle de texte faisait partie d'une classe lexicale qui ne peut être mise en correspondance avec les rapports de reconnaissance de caractères.
+</nierror>
+<nierror code="-1074395208">
+Le type de code ECC Data Matrix n'est pas supporté par la norme de vérification Data Matrix.
+</nierror>
+<nierror code="-1074395207">
+IMAQ Vision ne supporte pas la valeur que vous avez spécifiée pour Grading Reflectance.
+</nierror>
+<nierror code="-1074395203">
+La bibliothèque OCR n'a pas pu être initialisée correctement.
+</nierror>
+<nierror code="-1074395201">
+Échec de chargement d'un des moteurs OCR internes ou d'une bibliothèque LabVIEW.
+</nierror>
+<nierror code="-1074395200">
+Un des paramètres fournis à la fonction OCR qui a généré cette erreur n'est pas valide.
+</nierror>
+<nierror code="-1074395199">
+L'image de marqueur et les points ne sont pas fournis.
+</nierror>
+<nierror code="-1074395198">
+Source Image et Marker Image doivent avoir la même taille.
+</nierror>
+<nierror code="-1074395197">
+Des valeurs sont fournies pour Marker Image et Points.
+</nierror>
+<nierror code="-1074395196">
+Opération morphologique non valide.
+</nierror>
+<nierror code="-1074395195">
+L'image flottante contient des valeurs NaN.
+</nierror>
+<nierror code="-1074395194">
+Les informations de calque que vous avez essayé d'ouvrir ont été créées avec une version plus récente de NI Vision. Passez à la dernière version de NI Vision pour lire ce fichier.
+</nierror>
+<nierror code="-1074395193">
+Aucun 'clamp' valide n'a été trouvé avec la configuration actuelle.
+</nierror>
+<nierror code="-1074395192">
+La gamme d'angle fournie pour clamp ne suffit pas.
+</nierror>
+<nierror code="-1074395188">
+L'option avancée "use all curves" spécifiée pendant l'apprentissage n'est pas supportée.
+</nierror>
+<nierror code="-1074395187">
+La valeur sigma spécifiée pour le filtre gaussien est trop petite.
+</nierror>
+<nierror code="-1074395186">
+Le type de filtre gaussien spécifié n'est pas supporté.
+</nierror>
+<nierror code="-1074395185">
+Le mode d'inversion de contraste spécifié lors de la correspondance n'est pas valide.
+</nierror>
+<nierror code="-1074395184">
+Gamme d'angle de rotation non valide. La limite supérieure doit être supérieure ou égale à la valeur inférieure.
+</nierror>
+<nierror code="-1074395183">
+La valeur de l'angle de rotation minimum spécifiée pendant l'apprentissage du modèle n'est pas supportée.
+</nierror>
+<nierror code="-1074395182">
+La valeur de l'angle de rotation maximum spécifiée pendant l'apprentissage du modèle n'est pas supportée.
+</nierror>
+<nierror code="-1074395181">
+Le facteur d'échelle maximum spécifié pendant l'apprentissage du modèle n'est pas supporté.
+</nierror>
+<nierror code="-1074395180">
+Le facteur d'échelle minimum spécifié pendant l'apprentissage du modèle n'est pas supporté.
+</nierror>
+<nierror code="-1074395179">
+Le moteur OCR a échoué pendant la phase de prétraitement.
+</nierror>
+<nierror code="-1074395178">
+Le moteur OCR a échoué pendant la phase de reconnaissance.
+</nierror>
+<nierror code="-1074395175">
+Le nom de fichier fourni n'est pas un nom de fichier valide pour un dictionnaire utilisateur.
+</nierror>
+<nierror code="-1074395174">
+NI Vision ne supporte pas la valeur de AutoOrientMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395173">
+NI Vision ne supporte pas la valeur de Language que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395172">
+NI Vision ne supporte pas la valeur de CharacterSet que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395171">
+Le système n'a pas pu trouver le fichier d'initialisation nécessaire à l'initialisation de l'OCR.
+</nierror>
+<nierror code="-1074395170">
+NI Vision ne supporte pas la valeur de CharacterType que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395169">
+NI Vision ne supporte pas la valeur de RecognitionMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395168">
+NI Vision ne supporte pas la valeur de AutoCorrectionMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395167">
+NI Vision ne supporte pas la valeur de OutputDelimiter que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395166">
+Le système n'a pas pu trouver le répertoire binaire OCR nécessaire à l'initialisation de l'OCR.
+</nierror>
+<nierror code="-1074395165">
+Le système n'a pas pu trouver le répertoire de poids OCR nécessaire à l'initialisation de l'OCR.
+</nierror>
+<nierror code="-1074395164">
+Le mot indiqué n'a pas pu être ajouté au dictionnaire utilisateur.
+</nierror>
+<nierror code="-1074395163">
+NI Vision ne supporte pas la valeur de CharacterPreference que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395162">
+NI Vision ne supporte pas la valeur de CorrectionMethod que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395161">
+NI Vision ne supporte pas la valeur de CorrectionLevel que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395160">
+NI Vision ne supporte pas la taille maximale de point que vous avez spécifiée.  La gamme de valeurs valides va de 4 à 72.
+</nierror>
+<nierror code="-1074395159">
+NI Vision ne supporte pas la valeur de ContrastMode que vous avez spécifiée.  Les valeurs valides sont supérieures ou égales à 0.
+</nierror>
+<nierror code="-1074395158">
+NI Vision ne supporte pas la valeur de ContrastMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395156">
+L'OCR n'a pas réussi à détecté l'inclinaison du texte.
+</nierror>
+<nierror code="-1074395155">
+L'OCR n'a pas réussi à détecter l'orientation du texte.
+</nierror>
+<nierror code="-1074395153">
+Format de fichier de police non valide.
+</nierror>
+<nierror code="-1074395152">
+Fichier de police introuvable.
+</nierror>
+<nierror code="-1074395151">
+Le moteur OCR a échoué lors de l'étape de correction.
+</nierror>
+<nierror code="-1074395150">
+NI Vision ne supporte pas la valeur de RoundingMode que vous avez spécifiée.
+</nierror>
+<nierror code="-1074395149">
+Détection d'un type de transformation dupliqué dans le tableau de propriétés. Chaque tableau de propriétés ne peut contenir qu'un comportement pour chaque type de transformation.
+</nierror>
+<nierror code="-1074395148">
+Le groupe de superposition est introuvable.
+</nierror>
+<nierror code="-1074395147">
+Le code-barres n'est pas un symbole RSS Limited valide.
+</nierror>
+<nierror code="-1074395146">
+Impossible de déterminer la version correcte du code QR.
+</nierror>
+<nierror code="-1074395145">
+Lecture non valide du code QR.
+</nierror>
+<nierror code="-1074395144">
+Le code-barres qui a été lu contient des paramètres non valides.
+</nierror>
+<nierror code="-1074395143">
+Le flux de données qui a été démodulé n'a pas pu être lu car le mode n'a pas été détecté.
+</nierror>
+<nierror code="-1074395142">
+Impossible de déterminer le modèle correct du code QR.
+</nierror>
+<nierror code="-1074395141">
+Le moteur OCR n'a pas pu trouver de texte dans la région indiquée.
+</nierror>
+<nierror code="-1074395140">
+Un des rapports de reconnaissance de caractères n'est plus utilisable par le système.
+</nierror>
+<nierror code="-1074395139">
+Dimensions non valides.
+</nierror>
+<nierror code="-1074395138">
+La région d'OCR qui a été fournie était trop petite pour contenir le moindre caractère.
+</nierror>
+<nierror code="-1074395135">
+L'algorithme de décodage Bayer fourni n'est pas supporté.
+</nierror>
+<nierror code="-1074395134">
+Le pattern de Bayer fourni n'est pas supporté.
+</nierror>
+<nierror code="-1074395133">
+Le valeur de gain de la voie du rouge pour le décodage Bayer est hors gamme.
+</nierror>
+<nierror code="-1074395132">
+Le valeur de gain de la voie du vert pour le décodage Bayer est hors gamme.
+</nierror>
+<nierror code="-1074395131">
+Le valeur de gain de la voie du bleu pour le décodage Bayer est hors gamme.
+</nierror>
+<nierror code="-1074395130">
+Cette IP n'est pas supportée sur la cible actuelle.
+</nierror>
+<nierror code="-1074395129">
+Ce variant n'est pas supporté sur la cible actuelle. Veuillez utiliser un autre variant de l'IP
+</nierror>
+<nierror code="-1074395128">
+Les données sources sont insuffisantes pour effectuer l'opération.
+</nierror>
+<nierror code="-1074395127">
+Les données sources fournies sont inférieures à une image complète avec les dimensions et le type spécifiés.
+</nierror>
+<nierror code="-1074395126">
+L'offset d'octets de l'image est supérieur ou égal à la taille de charge utile de l'image en octets.
+</nierror>
+<nierror code="-1074395125">
+Un offset d'octets d'image autre que zéro n'est pas pris en charge.
+</nierror>
+<nierror code="-1074395124">
+Le format MIPI CSI-2 fourni n'est pas pris en charge.
+</nierror>
+<nierror code="-1074395123">
+La résolution Y de l'image est impaire mais le format des pixels nécessite un nombre pair de lignes.
+</nierror>
+</nidocument>

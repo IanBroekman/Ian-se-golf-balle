@@ -1,0 +1,416 @@
+class: "ImageControl"
+    attribute: "Image Area Size"
+        "Image Area:Size:All Elements"           
+        cluster {2,Width=uL,Height=uL} readwrite global 1
+        "Size of the image display area in terms of width and height in pixels. Writing to this property node requires LabVIEW 7.1 or later." 0 0
+
+    attribute: "Image Area Width"
+        "Image Area:Size:Width"
+        uL readwrite global 2
+        "Width of the image display area specified in pixels. Writing to this property node requires LabVIEW 7.1 or later." 0 0
+
+    attribute: "Image Area Height"
+        "Image Area:Size:Height"
+        uL readwrite global 3
+        "Height of the image display area specified in pixels. Writing to this property node requires LabVIEW 7.1 or later." 0 0
+
+    attribute: "ZoomInteger"
+        "ZoomInteger:All Elements"
+        cluster {2,X=iL,Y=iL} readwrite global 4
+        "Zoom factors of the image display control. The zoom factor indicates an increase or decrease in the magnification of an image. A positive number indicates a magnification by the amount specified. For example, a zoom factor of 3 indicates that the image is displayed at three times its actual size (3:1). A negative number indicates that the image is decreased in magnification by the specified amount. For example, a zoom factor of -5 indicates that the image is displayed at one-fifth its actual size (1:5).  For finer zoom resolution (ex: zoom of 2.5), consider using ZoomSingle." 0 0
+
+    attribute: "X Zoom"
+        "ZoomInteger:X Zoom"
+        iL readwrite global 5
+        "Zoom factor for the x direction that can have the following values: 1 to 512 and –1 to –512." 0 0
+
+    attribute: "Y Zoom"
+        "ZoomInteger:Y Zoom"
+        iL readwrite global 6
+        "Zoom factor for the y direction that can have the following values: 1 to 512 and –1 to –512." 0 0
+
+    attribute: "ZoomSingle"
+        "ZoomSingle:All Elements"
+        cluster {2,X=fS,Y=fS} readwrite global 43
+        "Zoom factors of the image display control. The zoom factor indicates an increase or decrease in the magnification of an image. For example, a zoom factor of 3 indicates that the image is displayed at three times its actual size (3:1). A zoom factor of 1/5 indicates that the image is displayed at one-fifth its actual size (1:5)." 0 0
+
+    attribute: "X Zoom"
+        "ZoomSingle:X Zoom"
+        fS readwrite global 44
+        "Zoom factor for the x direction that can have the following values: 1/512 to 512." 0 0
+
+    attribute: "Y Zoom"
+        "ZoomSingle:Y Zoom"
+        fS readwrite global 45
+        "Zoom factor for the y direction that can have the following values: 1/512 to 512." 0 0
+
+    attribute: "Image Center Position"
+        "Image Center Position:All Elements"
+        cluster {2,X=uL,Y=uL} readwrite global 7
+        "Coordinates used to center the image in the image frame." 0 0
+
+    attribute: "Image Center X Position"
+        "Image Center Position:X Position"
+        uL readwrite global 8
+        "X coordinate used to center the image in the image frame." 0 0
+
+    attribute: "Image Center Y Position"
+        "Image Center Position:Y Position"
+        uL readwrite global 9
+        "Y coordinate used to center the image in the image frame." 0 0
+
+    attribute: "Scrollbars Visible"
+        "Scrollbars Visible"
+        bool readwrite global A
+        "Shows the image scrollbars." 0 0
+
+    attribute: "16-bit Display Mapping"
+        "16-bit Display Mapping:All Elements"
+        cluster {4,"Conversion Method"=uL,"Minimum Value"=iL,"Maximum Value"=iL,"Number Of Shifts"=iL} readwrite global B
+        "Pixel mapping policy for displaying 16-bit images." 0 0
+
+    attribute: "16-bit Display Conversion Method"
+        "16-bit Display Mapping:Conversion Method"
+        uL enum {Default=10,"Most Significant Bits"=11,"Full Dynamic"=12,Downshift=13,"Given Range"=14,"90% Dynamic"=15,"Given Percent Range"=16} readwrite global C
+        "Method used to map pixel values." 0 0
+
+    attribute: "16-bit Display Minimum Value"
+        "16-bit Display Mapping:Minimum Value"
+        iL readwrite global D
+        "Minimum value used for Given Range and Given Percent Range conversion methods." 0 0
+
+    attribute: "16-bit Display Maximum Value"
+        "16-bit Display Mapping:Maximum Value"
+        iL readwrite global E
+        "Maximum value used for Given Range and Given Percent Range conversion methods." 0 0
+
+    attribute: "16-bit Display Number of Shifts"
+        "16-bit Display Mapping:Number of Shifts"
+        iL readwrite global F
+        "Number of bits to right-shift the pixel values for the Downshift conversion method." 0 0
+
+    attribute: "Palette Type"
+        "Palette:Palette Type"
+        uL enumNoOtherValue {Grayscale=0,Binary=1,Gradient=2,Rainbow=3,Temperature=4,"User Defined"=5, "Binary 16 Bit"=6, "Gradient 16 Bit"=7, "Rainbow 16 Bit"=8, "Temperature 16 Bit"=9, "User Defined 16 Bit"=10} readwrite global 10
+        "Palette applied by the image display control to displayed images." 0 0
+
+    attribute: "User Palette"
+        "Palette:User Palette"
+        array {1,cluster {3,Red=uB,Green=uB,Blue=uB}} readwrite global 11
+        "Palette applied by the image display control to displayed images when Palette Type is User Defined." 0 0
+    
+	attribute: "User Palette 16 Bit"
+        "Palette:User Palette 16 Bit"
+        array {1,cluster {3,Red=uB,Green=uB,Blue=uB}} readwrite global 47
+        "Palette applied by the image display control to displayed images when Palette Type is User Defined." 0 0
+		
+    attribute: "ROI"
+        "ROI"
+        cluster {2,"Global Rectangle"=array {1,iL},Contours=array {1,cluster {3,"Contour Type"=uL,"ROI Type"=uL,Points=array {1,iL}}}} readwrite global 12
+        "ROI associated with an image display control." 0 0
+
+    attribute: "ROI Color"
+        "ROI Color"
+        cluster {3,Red=uB,Green=uB,Blue=uB} readwrite global 13
+        "Color the image display control uses to depict ROI contours." 0 0
+
+    attribute: "ROI Grid Size"
+        "ROI Grid Size:All Elements"
+        cluster {2,X=uL,Y=uL} readwrite global 14
+        "Size of the horizontal and vertical steps for the ROI grid." 0 0
+
+    attribute: "ROI Grid X Size"
+        "ROI Grid Size:X Size"
+        uL readwrite global 15
+        "Size of the horizontal steps for the ROI grid."
+
+    attribute: "ROI Grid Y Size"
+        "ROI Grid Size:Y Size"
+        uL readwrite global 16
+        "Size of the vertical steps for the ROI grid." 0 0
+
+    attribute: "Maximum Drawn Contour Count"
+        "Maximum Drawn Contour Count"
+        uL readwrite global 17
+        "Maximum number of ROI counters the user can draw on the image display control." 0 0
+
+    attribute: "ROI Tools Visible"
+        "ROI Tools Visible"
+        uL enumNoOtherValue {"Visible"=0,Hidden=1,"Hidden, Use WindTools Palette"=2} readwrite global 18
+        "Shows the ROI Tools, and determines if the image display control uses the WindTools palette when not showing the ROI Tools." 0 0
+
+    attribute: "Image Information Visible"
+        "Image Information Visible"
+        bool readwrite global 19
+        "Shows the image information." 0 0
+
+    attribute: "Snapshot Mode"
+        "Snapshot Mode"
+        bool readwrite global 1A
+        "The image display control maintains a copy of the image wired to the control. This mode is not available for a control inside an array. LabVIEW RT does not support setting this property." 0 0
+
+    attribute: "ROI Tool Buttons Visible"
+        "ROI Tool Buttons Visible:All Elements"
+        cluster {13,"Zoom Tool"=bool,"Selection Tool"=bool,"Pan Tool"=bool,"Point Tool"=bool,"Line Tool"=bool,"Rectangle Tool"=bool,"Rotated Rectangle Tool"=bool,"Polyline Tool"=bool,"Polygon Tool"=bool,"Freehand Tool"=bool,"Closed Freehand Tool"=bool,"Ellipse Tool"=bool,"Annulus Tool"=bool} readwrite global 1B
+        "Shows the ROI tool buttons." 0 0
+
+    attribute: "Zoom Tool Button Visible"
+        "ROI Tool Buttons Visible:Zoom Tool Button Visible"
+        bool readwrite global 1C
+        "Shows the zoom tool button." 0 0
+
+    attribute: "Selection Tool Button Visible"
+        "ROI Tool Buttons Visible:Selection Tool Button Visible"
+        bool readwrite global 1D
+        "Shows the selection tool button." 0 0
+
+    attribute: "Pan Tool Button Visible"
+        "ROI Tool Buttons Visible:Pan Tool Button Visible"
+        bool readwrite global 1E
+        "Shows the pan tool button." 0 0
+
+    attribute: "Point Tool Button Visible"
+        "ROI Tool Buttons Visible:Point Tool Button Visible"
+        bool readwrite global 1F
+        "Shows the point tool button." 0 0
+
+    attribute: "Line Tool Button Visible"
+        "ROI Tool Buttons Visible:Line Tool Button Visible"
+        bool readwrite global 20
+        "Shows the line tool button." 0 0
+
+    attribute: "Rectangle Tool Button Visible"
+        "ROI Tool Buttons Visible:Rectangle Tool Button Visible"
+        bool readwrite global 21
+        "Shows the rectangle tool button." 0 0
+
+    attribute: "Rotated Rectangle Tool Button Visible"
+        "ROI Tool Buttons Visible:Rotated Rectangle Tool Button Visible"
+        bool readwrite global 22
+        "Shows the rotated rectangle tool button." 0 0
+
+    attribute: "Polyline Tool Button Visible"
+        "ROI Tool Buttons Visible:Polyline Tool Button Visible"
+        bool readwrite global 23
+        "Shows the polyline tool button." 0 0
+
+    attribute: "Polygon Tool Button Visible"
+        "ROI Tool Buttons Visible:Polygon Tool Button Visible"
+        bool readwrite global 24
+        "Shows the polygon tool button." 0 0
+
+    attribute: "Freehand Tool Button Visible"
+        "ROI Tool Buttons Visible:Freehand  Tool Button Visible"
+        bool readwrite global 25
+        "Shows the freehand tool button." 0 0
+
+    attribute: "Closed Freehand Tool Button Visible"
+        "ROI Tool Buttons Visible:Closed Freehand Tool Button Visible"
+        bool readwrite global 26
+        "Shows the closed freehand tool button." 0 0
+
+    attribute: "Ellipse Tool Button Visible"
+        "ROI Tool Buttons Visible:Ellipse Tool Button Visible"
+        bool readwrite global 27
+        "Shows the ellipse tool button." 0 0
+
+    attribute: "Annulus Tool Button Visible"
+        "ROI Tool Buttons Visible:Annulus Tool Button Visible"
+        bool readwrite global 28
+        "Shows the annulus tool button." 0 0
+
+    attribute: "Current ROI Tool"
+        "Current ROI Tool"
+        uL enumNoOtherValue {"Zoom Tool"=8,"Selection Tool"=0,"Pan Tool"=9,"Point Tool"=1,"Line Tool"=2,"Rectangle Tool"=3,"Rotated Rectangle Tool"=12,"Polyline Tool"=10,"Polygon Tool"=5,"Freehand Tool"=11,"Closed Freehand Tool"=6,"Ellipse Tool"=4,"Annulus Tool"=7} readwrite global 29
+        "The current ROI tool." 0 0
+
+    attribute: "Autosize Tools Palette"
+        "Autosize Tools Palette"
+        bool readwrite global 2A
+        "The tools palette automatically resizes and tool buttons automatically move to accommodate the showing or hiding of tool buttons." 0 0
+
+    attribute: "Image Size Shown"
+        "Image Information Shown:Image Size Shown"
+        bool readwrite global 2B
+        "Shows the image size in the image information." 0 0
+
+    attribute: "Image Type Shown"
+        "Image Information Shown:Image Type Shown"
+        bool readwrite global 2C
+        "Shows the image type in the image information." 0 0
+
+    attribute: "Pixel Value Shown"
+        "Image Information Shown:Pixel Value Shown"
+        bool readwrite global 2D
+        "Shows the value of the pixel at the cursor location in the image information." 0 0
+
+    attribute: "ROI Information Shown"
+        "Image Information Shown:ROI Information Shown"
+        bool readwrite global 2E
+        "Shows the ROI Information, or the pixel location of the cursor if there is no active ROI, in the image information." 0 0
+
+    attribute: "Zoom Factor Shown"
+        "Image Information Shown:Zoom Factor Shown"
+        bool readwrite global 2F
+        "Shows the zoom factor in the image information." 0 0
+
+    attribute: "Image Information Shown"
+        "Image Information Shown:All Elements"
+        cluster {5,"Image Size"=bool,"Image Type"=bool,"Pixel Value"=bool,"ROI Information"=bool,"Zoom Factor"=bool} readwrite global 30
+        "Controls the type of image information shown." 0 0
+
+    attribute: "Image Information String"
+        "Image Information String"
+        string readonly global 31
+        "The image information string." 0 0
+
+    attribute: "Last Mouse Position"
+        "Last Mouse Position:All Elements"
+        cluster {2,X=iL,Y=iL} readonly global 32
+        "The most recent position of the mouse on the image, in image coordinates." 0 0
+
+    attribute: "Last Mouse X Position"
+        "Last Mouse Position:X Position"
+        iL readonly global 33
+        "The most recent X position of the mouse on the image, in image coordinates." 0 0
+
+    attribute: "Last Mouse Y Position"
+        "Last Mouse Position:Y Position"
+        iL readonly global 34
+        "The most recent Y position of the mouse on the image, in image coordinates." 0 0
+
+    attribute: "Displayed Image Position"
+        "Displayed Image:Position:All Elements"           
+        cluster {2,Left=iL,Top=iL} readonly global 35
+        "Position of the top left corner of the displayed image in terms of left and top coordinates. This position will differ from the position of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Displayed Image Left"
+        "Displayed Image:Position:Left"
+        iL readonly global 36
+        "Position of the left corner of the displayed image. This position will differ from the position of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Displayed Image Top"
+        "Displayed Image:Position:Top"
+        iL readonly global 37
+        "Position of the top corner of the displayed image. This position will differ from the position of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Displayed Image Size"
+        "Displayed Image:Size:All Elements"           
+        cluster {2,Width=uL,Height=uL} readonly global 38
+        "Size of the displayed image in terms of width and height in pixels. This size will differ from the size of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Displayed Image Width"
+        "Displayed Image:Size:Width"
+        uL readonly global 39
+        "Width of the displayed image specified in pixels. This width will differ from the position of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Displayed Image Height"
+        "Displayed Image:Size:Height"
+        uL readonly global 3A
+        "Height of the displayed image specified in pixels. This height will differ from the position of the image display area if the displayed image is smaller than the image display area." 0 0
+
+    attribute: "Image Area Position"
+        "Image Area:Position:All Elements"           
+        cluster {2,Left=iL,Top=iL} readonly global 3B
+        "Position of the top left corner of the image display area in terms of left and top coordinates." 0 0
+
+    attribute: "Image Area Left"
+        "Image Area:Position:Left"
+        iL readonly global 3C
+        "Position of the left corner of the image display area." 0 0
+
+    attribute: "Image Area Top"
+        "Image Area:Position:Top"
+        iL readonly global 3D
+        "Position of the top corner of the image display area." 0 0
+
+    attribute: "Image Area Background"
+        "Image Area:Background:All Elements"
+        cluster {4,"Fill Style"=uL,"Hatch Style"=uL,"Fill Color"=cluster {3,Red=uB,Green=uB,Blue=uB},"Background Color"=cluster {3,Red=uB,Green=uB,Blue=uB}} readwrite global 3E
+        "Background options of the image control." 0 0
+
+    attribute: "Image Area Fill Style"
+        "Image Area:Background:Fill Style"
+        uL enumNoOtherValue {Default=3,Solid=0,Hatch=2} readwrite global 3F
+        "The fill style used for the image background." 0 0
+
+    attribute: "Image Area Hatch Style"
+        "Image Area:Background:Hatch Style"
+        uL enumNoOtherValue {Horizontal=0,Vertical=1,"Forward Diagonal"=2,"Backward Diagonal"=3,Cross=4,"Cross Hatch"=5} readwrite global 40
+        "The hatch style used for the image background." 0 0
+
+    attribute: "Image Area Fill Color"
+        "Image Area:Background:Fill Color"
+        cluster {3,Red=uB,Green=uB,Blue=uB} readwrite global 41
+        "The fill color used for the image background." 0 0
+
+    attribute: "Image Area Background Color"
+        "Image Area:Background:Background Color"
+        cluster {3,Red=uB,Green=uB,Blue=uB} readwrite global 42
+        "The background color used for the image background." 0 0
+
+    attribute: "Zoom to Fit Mode"
+        "Zoom to Fit Mode"
+        bool readwrite global 46
+        "The image display control zooms to fit the image." 0 0
+
+   method: "Clear ROI"      0   1   0   1
+    "Clear ROI" uW  void // This is a hackish way of showing the method name but having no in or out parameters
+    "Clears the ROI from the image display control. LabVIEW RT does not support this method."  unused  unused
+
+   method: "Get Last Event"     0   0   5   6
+    "Get Last Event"    uW  void // This is a hackish way of showing the method name but having no in or out parameters
+    "Which Events"      iL1D  enumNoOtherValue {"No Event"=0,"Click Event"=1,"Draw Event"=2,"Size Event"=4,"Scroll Event"=5,"Double Click Event"=8}  in
+    Type            iL  enumNoOtherValue {"No Event"=0,"Click Event"=1,"Draw Event"=2,"Size Event"=4,"Scroll Event"=5,"Double Click Event"=8} out
+    Tool            iL  enumNoOtherValue {"None"=0,"Selection Tool"=1,"Point Tool"=2,"Line Tool"=3,"Rectangle Tool"=4,"Oval Tool"=5,"Polygon Tool"=6,"ClosedFreehandTool"=7,"Annulus Tool"=8,"Rotated Rectangle Tool"=9,"Zoom Tool"=10,"Pan Tool"=11,"Polyline Tool"=12,"Freehand Tool"=13} out
+    Coordinates     iL1D    out
+    "Other Parameters"  fS1D    out
+    "Returns information about the most recent event on the image display control, and removes the event from the event queue.
+ 
+Which Events - specifies which events to obtain. Leaving Which Events unwired returns events of any type generated through the control as well as the data associated with the events. Otherwise, Get Last Event only returns the event types specified in the array wired to Which Events.
+The following table lists the values to place in the Which Events array to specify Get Last Event should return events of that type.
+1   Click event - A user has clicked in the image display control.
+2   Draw event - A user has drawn in the image display control.
+4   Size event - A user has resized the image display control.
+5   Scroll event - A user has moved the scrollbars the image display control.
+8   Double Click Event - A user has double clicked in the image display control.
+ 
+Type returns the type of event. See Which Events for possible values of Type.
+ 
+Tool returns the tool used to generate the event.
+ 
+Coordinates indicates the relative position of the event.
+ 
+Other Parameters supplies information associated with an event, such as positioning and region distances.
+ 
+The following list describes the values for Coordinates and Other Parameters based on Type and Tool.
+ 
+Click Event or Double Click Event, Selection Tool
+Coordinates: [0, 1] coordinates of click
+Other Parameters: [0, 1, 2] pixel value
+ 
+Click Event or Double Click Event, Zoom Tool
+Coordinates: [0, 1] coordinates of click, [2, 3] coordinates of image center
+Other Parameters: [0] zoom factor
+ 
+Draw Event, Line Tool
+Coordinates: [0, 1] coordinates of starting point, [2, 3] coordinates of ending point
+Other Parameters: [0, 1] width and height, [2] vertical segment angle, [3] segment length
+ 
+Draw Event, Polygon Tool, Freehand Region Tool, Broken Line Tool, Freehand Line Tool
+Coordinates: [0...3] bounding rectangle, [4...(n x 2) + 3] the location of n vertices in x-coordinate, y-coordinate pairs
+Other Parameters: [0, 1] width and height
+
+Draw Event, All other tools
+Coordinates: [0...3] bounding rectangle
+Other Parameters: [0, 1] width and height
+ 
+Size Event
+Coordinates: [0, 1] width and height of image rect
+ 
+Scroll Event
+Coordinates: [0, 1] center position of image" unused	unused
+
+   method: "Refresh Image"  0   3   0   1
+    "Refresh Image"     uW  void // This is a hackish way of showing the method name but having no in or out parameters
+    "Forces the image display control to redraw the image it is displaying based on the current state of the image. LabVIEW RT does not support this method."    unused  unused

@@ -1,0 +1,57 @@
+RCversion: 3
+include: "IMAQImage.rch"
+
+///// IMAQImage Class Definition /////
+class: IMAQImage
+genericType: IMAQImage
+control: "<vilib>:\Vision\Image Controls.llb\IMAQ Image.ctl"
+refnum: GenericTagByRefFlatten
+sorted: no
+adapt: yes
+matchExact: none
+menuSelect: no
+cleanup: doNotCleanup
+calling: C
+passAttributeError: stringLast
+hasActiveProp: no
+setFunction: LV_SetImageAttr
+getFunction: LV_GetImageAttr
+library: nivissvc.dll
+openFunction: LV_ImageDTOpen
+closeFunction: LV_ImageDTClose
+sessionLibrary: nivissvc.dll
+flatten: LV_ImageDTFlatten
+flatten2: LV_ImageDTFlatten2
+unflatten: LV_ImageDTUnFlatten
+duplicateFunction: LV_ImageDTDuplicate
+classInfoFunction: LV_ImageDTClassInfo
+sourcePalette: "IMAQ Dispose"
+termName: IMAQImage
+className: IMAQImage
+flags: 4
+
+attribute: MagicNumber
+	"Magic Number"
+	uL	readonly	0	1
+	"The magic number"
+
+attribute: BorderSize
+	"Border Size"
+	uL	readwrite	1	2
+	"The border size"
+
+attribute: ImageSize
+	"Image Size"
+	cluster {2, "x" = iL, "y" = iL}	readwrite	1	3
+	"The image size"
+
+attribute: ImageName
+	"Image Name"
+	string	readonly	1	4
+	"The image name"
+
+attribute: ImageType
+	"Image Type"
+	iL	enum	{"8 bits"=0, "16 bits"=1, Float=2, Complex=3, RGB=4, HSL=5}	readonly	1	5
+	"The image type"
+

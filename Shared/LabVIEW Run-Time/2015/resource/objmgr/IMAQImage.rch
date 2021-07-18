@@ -1,0 +1,27 @@
+///// IMAQImage Type Definition /////
+genericType: IMAQImage
+genericTypeName: IMAQImage
+control: "<vilib>:\Vision\Image Controls.llb\IMAQ Image.ctl"
+refnum: GenericTagByRefFlatten
+sorted: yes
+adapt: yes
+matchExact: strict
+menuSelect: no
+setFunction: LV_SetImageAttr
+getFunction: LV_GetImageAttr
+library: nivissvc.*
+openFunction: LV_ImageDTOpen
+closeFunction: LV_ImageDTClose
+flatten2: LV_ImageDTFlatten2
+flatten3: LV_ImageDTFlatten3
+unflatten: LV_ImageDTUnFlatten
+duplicateFunction: LV_ImageDTDuplicate
+classInfoFunction: LV_ImageDTClassInfo
+termName: IMAQImage
+defaultClass: IMAQImage
+cleanup: doNotCleanup
+calling: C
+passAttributeError: none
+passMethodError: none
+hasActiveProp: no
+

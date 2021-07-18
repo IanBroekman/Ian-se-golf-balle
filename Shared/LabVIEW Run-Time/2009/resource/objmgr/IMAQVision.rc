@@ -1,0 +1,15 @@
+RCversion: 3
+include: "IMAQVision.rch"
+
+///// IMAQGMMultipleTemplate Class Definition /////
+class: IMAQGMMultipleTemplate
+genericType: IMAQVision
+control: "IMAQ GM Multiple Template.ctl"
+refnum: Generic
+calling: C
+closeFunction: LV_GMMultipleTemplateClose
+library: nivision.dll
+passAttributeError: none
+className: "IMAQ GM Multiple Template"
+flags: 0
+

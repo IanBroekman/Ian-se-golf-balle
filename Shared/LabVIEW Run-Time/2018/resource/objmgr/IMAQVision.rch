@@ -1,0 +1,18 @@
+///// IMAQVision Type Definition /////
+genericType: IMAQVision
+genericTypeName: IMAQVision
+control: "IMAQVision.ctl"
+refnum: Generic
+library: nivision.*
+sorted: no
+adapt: yes
+matchExact: strict
+menuSelect: yes
+termName: reference
+defaultClass: IMAQGMMultipleTemplate
+cleanup: idle
+calling: C
+passAttributeError: none
+passMethodError: none
+hasActiveProp: no
+

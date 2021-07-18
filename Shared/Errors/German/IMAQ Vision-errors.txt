@@ -1,0 +1,2462 @@
+<?xml version="1.0"?>
+<nidocument>
+<nicomment>
+<nifamily displayname="Vision" familyname="Vision">
+</nifamily>
+</nicomment>
+<nierror code="-1074396200">
+Kein Fehler
+</nierror>
+<nierror code="-1074396160">
+Systemfehler.
+</nierror>
+<nierror code="-1074396159">
+Für diesen Vorgang ist nicht genügend Arbeitsspeicher vorhanden.
+</nierror>
+<nierror code="-1074396158">
+Speicherfehler.
+</nierror>
+<nierror code="-1074396157">
+Nicht lizenzierte Version des NI Vision Development Modules oder der NI Vision Runtime.
+</nierror>
+<nierror code="-1074396156">
+Für diese Funktion ist die NI Vision 5.0 Advanced-Lizenz erforderlich.
+</nierror>
+<nierror code="-1074396155">
+NI Version wurde nicht ordnungsgemäß initialisiert.
+</nierror>
+<nierror code="-1074396154">
+Bild ist für Operation nicht groß genug.
+</nierror>
+<nierror code="-1074396153">
+Der Barcode ist kein gültiger Codabar-Barcode.
+</nierror>
+<nierror code="-1074396152">
+Der Barcode ist kein gültiger Code 3 of 9-Barcode.
+</nierror>
+<nierror code="-1074396151">
+Der Barcode ist kein gültiger Code93-Barcode.
+</nierror>
+<nierror code="-1074396150">
+Der Barcode ist kein gültiger Code128-Barcode.
+</nierror>
+<nierror code="-1074396149">
+Der Barcode ist kein gültiger EAN8-Barcode.
+</nierror>
+<nierror code="-1074396148">
+Der Barcode ist kein gültiger EAN13-Barcode.
+</nierror>
+<nierror code="-1074396147">
+Der Barcode ist kein gültiger  Interleaved 2 of 5-Barcode.
+</nierror>
+<nierror code="-1074396146">
+Der Barcode ist kein gültiger MSI-Barcode.
+</nierror>
+<nierror code="-1074396145">
+Der Barcode ist kein gültiger UPCA-Barcode.
+</nierror>
+<nierror code="-1074396144">
+Der Code93-Barcode enthält ein ungültiges Shift-Encoding.
+</nierror>
+<nierror code="-1074396143">
+Barcode-Typ ist ungültig.
+</nierror>
+<nierror code="-1074396142">
+Bild ist kein gültiger linearer Barcode.
+</nierror>
+<nierror code="-1074396141">
+Der FNC-Wert im Code128-Barcode ist nicht vor dem ersten Datenwert positioniert.
+</nierror>
+<nierror code="-1074396140">
+Der in Code128-Barcode eingestellte Startcode ist nicht zulässig.
+</nierror>
+<nierror code="-1074396139">
+In der zeitgesteuerten Umgebung ist für die angeforderte Operation nicht genügend reservierter Speicher vorhanden.
+</nierror>
+<nierror code="-1074396138">
+Die Funktion wird nicht unterstützt, wenn eine Zeitbegrenzung aktiv ist.
+</nierror>
+<nierror code="-1074396137">
+Die Datei "Quartz.dll" wurde nicht gefunden.  Installieren Sie DirectX 8.1 oder eine aktuellere Version.
+</nierror>
+<nierror code="-1074396136">
+Die ausgewählte Filterqualität ist ungültig. Gültige Qualitätswerte liegen im Bereich von -1 bis 1000.
+</nierror>
+<nierror code="-1074396135">
+Ungültiger Schaltflächentitel.
+</nierror>
+<nierror code="-1074396134">
+Die Funktion konnte nicht in dem separaten Thread ausgeführt werden, da der Thread seine Initialisierung noch nicht beendet hat.
+</nierror>
+<nierror code="-1074396133">
+Die Funktion konnte nicht in einem separaten Thread ausgeführt werden, da der Thread nicht initialisiert werden konnte.
+</nierror>
+<nierror code="-1074396132">
+Die Maske muss mit der Größe der Vorlage übereinstimmen.
+</nierror>
+<nierror code="-1074396130">
+Die ROI darf nur eine einzelne Rechteckkontur oder eine einzelne rotierte Rechteckkontur enthalten.
+</nierror>
+<nierror code="-1074396129">
+Während einer zeitgesteuerten Ausführung müssen Sie die vorreservierte Version dieser Operation verwenden.
+</nierror>
+<nierror code="-1074396128">
+Ein Bild, das durch einen Prozess modifiziert wurde, kann nicht von einem anderen Prozess angefordert werden, solange eine Zeitbegrenzung aktiv ist.
+</nierror>
+<nierror code="-1074396127">
+Ein Bild mit Mustererkennungs-, Kalibrierungs- oder Überlagerungs-Informationen kann nicht manipuliert werden, solange eine Zeitbegrenzung aktiv ist.
+</nierror>
+<nierror code="-1074396126">
+Ein Bild, das erzeugt wurde, bevor eine Zeitbegrenzung gestartet wurde, kann in der Größe nicht verändert werden, solange eine Zeitbegrenzung aktiv ist.
+</nierror>
+<nierror code="-1074396125">
+Ungültiger Kontrastschwellwert. Der Schwellwert muss größer als 0 sein.
+</nierror>
+<nierror code="-1074396124">
+Angegebene Kalibrier-ROI wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074396123">
+Angegebener Kalibriermodus wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074396122">
+Setzen Sie die Vorder- und Hintergrundfarben des Textes auf Grauwertdarstellung, um auf ein U8-Bild zu schreiben.
+</nierror>
+<nierror code="-1074396121">
+Der Wert des Sättigungsschwellwerts muss zwischen 0 und 255 liegen.
+</nierror>
+<nierror code="-1074396120">
+Kein Bild.
+</nierror>
+<nierror code="-1074396119">
+Der angegebene benutzerdefinierte Datenschlüssel ist ungültig. Die gültigen Zeichenwerte sind die Dezimalwerte 32-126 und 161-255. Des Weiteren dürfen keine mehrfachen führenden oder abschließenden Leerzeichen existieren.
+</nierror>
+<nierror code="-1074396118">
+Die Schrittgröße muss größer als 0 und kleiner als die Bildgröße sein.
+</nierror>
+<nierror code="-1074396117">
+Unzulässige Matrixgröße im Strukturelement.
+</nierror>
+<nierror code="-1074396116">
+Ungenügende Anzahl von Kalibrierpunkten
+</nierror>
+<nierror code="-1074396115">
+Die Operation ist für ein korrigiertes Bild nicht gültig.
+</nierror>
+<nierror code="-1074396114">
+Die ROI enthält einen ungültigen Konturtyp oder ist nicht in der für die Kalibrierung erlernten ROI enthalten.
+</nierror>
+<nierror code="-1074396113">
+Quellen-/Eingangsbild wurde nicht kalibriert
+</nierror>
+<nierror code="-1074396112">
+Die Anzahl der Pixel und der Real-World-Koordinaten muss gleich sein.
+</nierror>
+<nierror code="-1074396111">
+Gitter konnte nicht automatisch erkannt werden, da das Bild zu sehr verzerrt ist.
+</nierror>
+<nierror code="-1074396110">
+Ungültige Version für Kalibrierinformation.
+</nierror>
+<nierror code="-1074396109">
+Ungültiger Skalierungsfaktor für Kalibrierung.
+</nierror>
+<nierror code="-1074396108">
+Die Fehlertabelle für die Kalibrierung kann nicht berechnet werden.
+</nierror>
+<nierror code="-1074396107">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396106">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396105">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396104">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396103">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396102">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396101">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396100">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396099">
+Die Bildvorlage für die Kalibrierung ist ungültig.
+</nierror>
+<nierror code="-1074396098">
+Sie müssen NULL für den reservierten Parameter übergeben.
+</nierror>
+<nierror code="-1074396097">
+Sie haben eine ungültige Auswahl im Teilchen-Parameter eingegeben.
+</nierror>
+<nierror code="-1074396096">
+Kein Objekt.
+</nierror>
+<nierror code="-1074396095">
+Die übergebenen Bezugspunkte sind inkonsistent.  Wenigstens zwei ähnliche Pixel-Koordinaten gehören zu unterschiedlichen Realwelt-Koordinaten.
+</nierror>
+<nierror code="-1074396094">
+In der zeitgesteuerten Umgebung trat ein Ressourcenkonflikt auf. Zwei Prozesse können nicht die gleiche Ressource verwalten und zugleich zeitgebunden sein.
+</nierror>
+<nierror code="-1074396093">
+In der zeitgesteuerten Umgebung trat ein Ressourcenkonflikt auf. Zwei Prozesse können nicht auf die gleiche Ressource zugreifen und zugleich zeitgebunden sein.
+</nierror>
+<nierror code="-1074396092">
+Mehrfache zeitgesteuerte Umgebungen werden nicht unterstützt.
+</nierror>
+<nierror code="-1074396091">
+Eine Zeitbegrenzung kann nicht gestartet werden, bis die zeitgesteuerte Umgebung initialisiert ist.
+</nierror>
+<nierror code="-1074396090">
+Mehrfache zeitgesteuerte Umgebungen werden nicht unterstützt.
+</nierror>
+<nierror code="-1074396089">
+Die zeitgesteuerte Umgebung wurde bereits initialisiert.
+</nierror>
+<nierror code="-1074396088">
+Die Resultate der Operation überschreiten die Größenbegrenzung der Ausgangs-Arrays.
+</nierror>
+<nierror code="-1074396087">
+Es ist keine Zeitbegrenzung verfügbar, die gestoppt werden könnte.
+</nierror>
+<nierror code="-1074396086">
+Es konnte keine Zeitbegrenzung gesetzt werden.
+</nierror>
+<nierror code="-1074396085">
+Die zeitgesteuerte Umgebung konnte nicht initialisiert werden.
+</nierror>
+<nierror code="-1074396084">
+Es ist keine initialisierte zeitgesteuerte Umgebung zum Schließen vorhanden.
+</nierror>
+<nierror code="-1074396083">
+Die Zeitbegrenzung ist abgelaufen.
+</nierror>
+<nierror code="-1074396082">
+Die Verwendung von Paletten wird nur von 8-Bit-Bildern unterstützt.  Verwenden Sie entweder keine Palette oder konvertieren Sie das Bild zu einem 8-Bit-Bild, bevor Sie eine Palette verwenden.
+</nierror>
+<nierror code="-1074396081">
+Falsches Passwort.
+</nierror>
+<nierror code="-1074396080">
+Falscher Bildtyp.
+</nierror>
+<nierror code="-1074396079">
+Ungültiges Metadatei-Handle.
+</nierror>
+<nierror code="-1074396078">
+Falscher Bildtyp.
+</nierror>
+<nierror code="-1074396077">
+Inkompatibler Typ.
+</nierror>
+<nierror code="-1074396076">
+Linie konnte nicht für Primärachse angepasst werden.
+</nierror>
+<nierror code="-1074396075">
+Linie konnte nicht für Sekundärachse angepasst werden.
+</nierror>
+<nierror code="-1074396074">
+Inkompatible Größe.
+</nierror>
+<nierror code="-1074396073">
+Die Maske wurde durch den Offset komplett aus dem Bild verschoben.
+</nierror>
+<nierror code="-1074396072">
+Schlechter Rand.
+</nierror>
+<nierror code="-1074396071">
+Ungültige Abtastrichtung.
+</nierror>
+<nierror code="-1074396070">
+Die Funktionalität wird noch nicht unterstützt.
+</nierror>
+<nierror code="-1074396069">
+Angegebener Farbmodus wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074396068">
+Die Funktionalität wird noch nicht unterstützt.
+</nierror>
+<nierror code="-1074396067">
+Verbundene Bilder müssen unterschiedlich sein.
+</nierror>
+<nierror code="-1074396066">
+Ungültiges Punkt-Symbol.
+</nierror>
+<nierror code="-1074396065">
+Ein in einem Puffer befindliches Bild kann nicht vergrößert oder verkleinert werden.
+</nierror>
+<nierror code="-1074396064">
+Diese Operation wird für Bilder, die sich in einem Puffer befinden, nicht unterstützt.
+</nierror>
+<nierror code="-1074396063">
+Der externe Puffer muss an einen 4-Byte-Bereich angepasst werden. Die Linienbreite und Randpixel müssen ebenfalls auf 4-Byte angepasst werden.
+</nierror>
+<nierror code="-1074396062">
+Der Toleranzparameter muss zwischen 0 und 1 liegen.
+</nierror>
+<nierror code="-1074396061">
+Die Größe jeder Dimension des Fensters muss größer als 2 und kleiner oder gleich der Größe des Bildes in der entsprechenden Dimension sein.
+</nierror>
+<nierror code="-1074396060">
+Verlustfreie Komprimierung kann nicht mit dem Fließkomma-Wellentransformations-Modus verwendet werden. Wählen Sie entweder "Integer" für den Wellentransformations-Modus oder verwenden Sie Komprimierung mit Verlust.
+</nierror>
+<nierror code="-1074396059">
+Ungültige maximale Anzahl von Iterationen. Die maximale Anzahl der Iterationen muss größer als 0 sein.
+</nierror>
+<nierror code="-1074396058">
+Ungültiger Rotationsmodus.
+</nierror>
+<nierror code="-1074396057">
+Ungültige Suchvektorbreite. Die Breite muss ein ungerader Wert größer 0 sein.
+</nierror>
+<nierror code="-1074396056">
+Ungültiger Matrix-Spiegelungs-Modus.
+</nierror>
+<nierror code="-1074396055">
+Ungültiges Seitenverhältnis. Gültige Seitenverhältnisse sind größer oder gleich Null.
+</nierror>
+<nierror code="-1074396054">
+Ungültiger Zellenfülltyp.
+</nierror>
+<nierror code="-1074396053">
+Ungültige Rahmenintegrität. Gültige Werte liegen im Bereich von 0 bis 100.
+</nierror>
+<nierror code="-1074396052">
+Ungültiger Demodulationsmodus.
+</nierror>
+<nierror code="-1074396051">
+Ungültiger Zellenfiltermodus.
+</nierror>
+<nierror code="-1074396050">
+Ungültiger ECC-Typ.
+</nierror>
+<nierror code="-1074396049">
+Ungültige Matrix-Polarität.
+</nierror>
+<nierror code="-1074396048">
+Ungültige Zellen-Sample-Größe.
+</nierror>
+<nierror code="-1074396047">
+Ungültiger linearer Durchschnittsmodus.
+</nierror>
+<nierror code="-1074396046">
+Wenn eine ROI ausgewählt wird, die nicht rechteckig ist, muss der Kontrastmodus entweder auf Schwarz-auf-Weiß oder auf Weiß-auf-Schwarz eingestellt sein.
+</nierror>
+<nierror code="-1074396045">
+Untertyp der Datenmatrix des 2D-Barcodes ist ungültig.
+</nierror>
+<nierror code="-1074396044">
+Ungültige Form des 2D-Barcodes.
+</nierror>
+<nierror code="-1074396043">
+Ungültige Zellenform des 2D-Barcodes.
+</nierror>
+<nierror code="-1074396042">
+Ungültiger Kontrast des 2D-Barcodes.
+</nierror>
+<nierror code="-1074396041">
+Ungültiger Typ des 2D-Barcodes.
+</nierror>
+<nierror code="-1074396040">
+Kann Treiber nicht öffnen.
+</nierror>
+<nierror code="-1074396039">
+I/O Fehler.
+</nierror>
+<nierror code="-1074396038">
+Bei der Suche nach einem Koordinatensystem muss die Anzahl der anzupassenden Linien 1 sein.
+</nierror>
+<nierror code="-1074396037">
+Trigger-Timeout.
+</nierror>
+<nierror code="-1074396036">
+Der ausgewählte Skelettierungsmodus ist ungültig.
+</nierror>
+<nierror code="-1074396035">
+Das Bild der Vorlage enthält nicht genügend Informationen zum Erlernen der aggressiven Suchstrategie.
+</nierror>
+<nierror code="-1074396034">
+Das Bild der Vorlage enthält nicht genügend Kanten-Informationen für die angegebene(n) Sample-Größe(n).
+</nierror>
+<nierror code="-1074396033">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074396032">
+Der Deskriptor der Vorlage enthält nicht die Daten, die für die in der rotationsunabhängigen Vergleichsoperation angegebenen Suchstrategie benötigt werden.
+</nierror>
+<nierror code="-1074396031">
+Das Eingangsviereck muss vier Punkte haben. Die Punkte werden im Uhrzeigersinn beginnend mit dem oberen linken Punkt angegeben.
+</nierror>
+<nierror code="-1074396030">
+Es sind zu viele Klassifizierungs-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.
+</nierror>
+<nierror code="-1074396028">
+NI Vision unterstützt die zeitgebundene Ausführung nicht mehr.
+</nierror>
+<nierror code="-1074396027">
+Ungültige Farbauflösung für Farbklassifikation
+</nierror>
+<nierror code="-1074396026">
+Ungültiger Prozesstyp bei der Kantenerkennung.
+</nierror>
+<nierror code="-1074396025">
+Der Winkelbereich sollte größer oder gleich 0 sein.
+</nierror>
+<nierror code="-1074396024">
+Der zu erfassende Mindestbereich sollte größer als 0 sein.
+</nierror>
+<nierror code="-1074396023">
+Die Toleranz für den Winkel sollte größer oder gleich 0,001 sein.
+</nierror>
+<nierror code="-1074396022">
+Ungültiger Suchmodus für die Erkennung gerader Flanken.
+</nierror>
+<nierror code="-1074396021">
+Ungültige Kernel-Größe für Kantenerkennung. Die Kernel-Größe muss mindestens 3 betragen und ungerade sein. Die maximale Kernel-Größe beträgt 1.073.741.823.
+</nierror>
+<nierror code="-1074396020">
+Ungültiger Grading-Modus.
+</nierror>
+<nierror code="-1074396019">
+Ungültige Schwellwertangabe. Gültige Werte liegen im Bereich von 0 bis 100.
+</nierror>
+<nierror code="-1074396018">
+Ungültiger Kantenpolaritäts-Suchmodus.
+</nierror>
+<nierror code="-1074396017">
+Die AIM-Grading-Daten des Bildes, das Sie öffnen wollten, wurden mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074396016">
+Kein Videotreiber installiert.
+</nierror>
+<nierror code="-1074396015">
+Es ist nicht möglich eine Verbindung zu dem Netzwerksystem herzustellen.
+</nierror>
+<nierror code="-1074396014">
+Ungültige Bild-Funktion des Videoausgangs.
+</nierror>
+<nierror code="-1074396013">
+Ungültiger Videomodus.
+</nierror>
+<nierror code="-1074396012">
+Kann keine Netzwerk-Grafikdatei aus dem Netzwerk anzeigen.
+</nierror>
+<nierror code="-1074396011">
+Netzwerkverbindung kann nicht aufgebaut werden.
+</nierror>
+<nierror code="-1074396010">
+Frame-Nummer ist ungültig.
+</nierror>
+<nierror code="-1074396009">
+Es ist ein interner DirectX-Fehler aufgetreten.  Versuchen Sie eine Aktualisierung auf die aktuelle DirectX-Version.
+</nierror>
+<nierror code="-1074396008">
+Es konnte kein passender DirectX-Filter zur Verarbeitung dieser Datei gefunden werden.  Installieren Sie den Filter, der zur Erzeugung dieses AVI verwendet wurde. Eine Aktualisierung auf die aktuelle DirectX-Version kann diesen Fehler eventuell beheben.  NI Vision erfordert mindestens DirectX 8.1.
+</nierror>
+<nierror code="-1074396007">
+Inkompatibler Kompressionsfilter.
+</nierror>
+<nierror code="-1074396006">
+Unbekannter Codec.
+</nierror>
+<nierror code="-1074396005">
+Ungültige AVI-Session.
+</nierror>
+<nierror code="-1074396004">
+Ein Softwareschlüssel verbietet die Verwendung dieses Kompressionsfilters.
+</nierror>
+<nierror code="-1074396003">
+Die Daten für diesen Frame überschreiten die Datenpuffergröße, die angegeben wird, wenn die AVI-Datei erzeugt wird.
+</nierror>
+<nierror code="-1074396002">
+Ungültiges Linienmaß.
+</nierror>
+<nierror code="-1074396001">
+Es sind zu viele AVI-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.
+</nierror>
+<nierror code="-1074396000">
+Falscher Datei-Header.
+</nierror>
+<nierror code="-1074395999">
+Ungültiger Dateityp.
+</nierror>
+<nierror code="-1074395998">
+Falsche Farbtabelle.
+</nierror>
+<nierror code="-1074395997">
+Ungültiger Parameter.
+</nierror>
+<nierror code="-1074395996">
+Datei bereits im Schreibzugriff geöffnet.
+</nierror>
+<nierror code="-1074395995">
+Datei nicht gefunden.
+</nierror>
+<nierror code="-1074395994">
+Zu viele Dateien geöffnet.
+</nierror>
+<nierror code="-1074395993">
+Datei-I/O-Fehler.
+</nierror>
+<nierror code="-1074395992">
+Dateizugriff wurde verweigert.
+</nierror>
+<nierror code="-1074395991">
+Angegebener Dateityp wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395990">
+Kann Vision-Informationen nicht aus Datei lesen.
+</nierror>
+<nierror code="-1074395989">
+Kann keine Daten lesen.
+</nierror>
+<nierror code="-1074395988">
+Kann keine Daten schreiben.
+</nierror>
+<nierror code="-1074395987">
+Dateiende vorzeitig erreicht.
+</nierror>
+<nierror code="-1074395986">
+Falsches Dateiformat.
+</nierror>
+<nierror code="-1074395985">
+Falsche Dateioperation.
+</nierror>
+<nierror code="-1074395984">
+Angegebener Dateidatentyp wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395983">
+Speichermedium voll.
+</nierror>
+<nierror code="-1074395982">
+Die Frames pro Sekunde in einer AVI-Datei müssen größer als 0 und kleiner als 100.000 sein.
+</nierror>
+<nierror code="-1074395981">
+Der empfangene Puffer ist für die Datenmenge nicht groß genug.
+</nierror>
+<nierror code="-1074395980">
+Fehler bei der COM-Initialisierung.
+</nierror>
+<nierror code="-1074395979">
+Einige Elementangaben zu diesem Bild sind ungültig.  Um neue Angaben zu erstellen, verwenden Sie imaqCountParticles.
+</nierror>
+<nierror code="-1074395978">
+Ungültige Elementenummer.
+</nierror>
+<nierror code="-1074395977">
+Die AVI-Datei wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese AVI-Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395976">
+Die Farbpalette kann nur entweder 0 oder 256 Einträge haben.
+</nierror>
+<nierror code="-1074395975">
+Das Timeout wurde erreicht, während DirectX versuchte die AVI-Datei zu lesen oder schreibend auf diese zuzugreifen.  Wenn Sie eine AVI-Datei schließen, sollten Sie eine zusätzliche Verzögerung hinzufügen.  Beim Lesen einer AVI-Datei sollten Sie die Belastung von CPU und Laufwerk vermindern.
+</nierror>
+<nierror code="-1074395974">
+NI Vision unterstützt nicht das Lesen von JPEG2000-Dateien mit dieser Colorspace-Methode.
+</nierror>
+<nierror code="-1074395973">
+NI Vision unterstützt nicht das Lesen von JPEG2000-Dateien mit mehreren Schichten.
+</nierror>
+<nierror code="-1074395972">
+DirectX kann keine Kompressionsfilter auflisten. Ursache hierfür ist ein Kompressionsfilter von einem Drittanbieter, der inkorrekt installiert wurde oder nicht aufgelistet werden kann. Entfernen Sie alle kürzlich installierten Kompressionsfilter und versuchen Sie es erneut.
+</nierror>
+<nierror code="-1074395971">
+Der angegebene Offset muss die Größe 2 haben.
+</nierror>
+<nierror code="-1074395970">
+Fehler beim Öffnen der AVI-Datei. Möglicherweise wurde kein passender Codec für die Datei gefunden. Installieren Sie den Codec, mit dem die AVI-Datei erzeugt wurde.
+</nierror>
+<nierror code="-1074395969">
+Fehler beim Erstellen einer AVI-Datei.
+</nierror>
+<nierror code="-1074395968">
+Fehler beim Schreiben eines AVI-Frames
+</nierror>
+<nierror code="-1074395967">
+Fehler beim Lesen eines AVI-Frames
+</nierror>
+<nierror code="-1074395966">
+Das Bild kann in keinen Typ umgewandelt werden, der mit dem verwendeten Codec kompatibel ist.
+Entweder arbeiten Sie mit einer monochromen 16-Bit-Grafik oder einer 64-Bit-Farbgrafik und die Bittiefe ist nicht eingestellt oder der Codec unterstützt nur Graustufengrafiken und es wurde eine Farbgrafik angegeben.
+</nierror>
+<nierror code="-1074395965">
+Die AVI-Datei hat die maximale Dateigröße von 2 GB erreicht.
+</nierror>
+<nierror code="-1074395964">
+Ungültige Codec-Quelle.
+</nierror>
+<nierror code="-1074395963">
+Der Dateiname muss die Erweiterung .avi haben.
+</nierror>
+<nierror code="-1074395962">
+Es wurde ein leerer Codec-Name empfangen. Geben Sie einen Codec-Namen an.
+</nierror>
+<nierror code="-1074395960">
+Fehler bei der Initialisierung.
+</nierror>
+<nierror code="-1074395959">
+Kann Fenster nicht erstellen.
+</nierror>
+<nierror code="-1074395958">
+Falsche Fenster-ID.
+</nierror>
+<nierror code="-1074395957">
+Die Array-Größen sind nicht kompatibel.
+</nierror>
+<nierror code="-1074395956">
+Die angegebene Qualität ist ungültig. Gültige Qualitätswerte liegen im Bereich von -1 bis 1000.
+</nierror>
+<nierror code="-1074395955">
+Ungültiges Maximum für das Wellentransformations-Level.  Gültige Werte liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395954">
+Die Quantisierungsschrittgröße muss größer oder gleich 0 sein.
+</nierror>
+<nierror code="-1074395953">
+Ungültiger Wellentransformations-Modus.
+</nierror>
+<nierror code="-1074395952">
+Der ROI darf nur eine Punktkontur haben.
+</nierror>
+<nierror code="-1074395951">
+Der ROI darf nur Punktkonturen haben.
+</nierror>
+<nierror code="-1074395950">
+Die ROI darf nur eine Kontur mit einer Linie enthalten.
+</nierror>
+<nierror code="-1074395949">
+Die ROI darf nur eine einzelne Ringkontur enthalten.
+</nierror>
+<nierror code="-1074395948">
+Ungültiger Kalibriermodus
+</nierror>
+<nierror code="-1074395947">
+Ungültiger Schwellwerttyp für Teilchenklassifizierung.
+</nierror>
+<nierror code="-1074395946">
+Ungültiger Farbsegmentierungsabstand.
+</nierror>
+<nierror code="-1074395945">
+Ungültiger Partikelbereich für die Farbsegmentierung.
+</nierror>
+<nierror code="-1074395944">
+Der Name der "Required Class" wurde nicht in "Trained Labels/Class Names" gefunden.
+</nierror>
+<nierror code="-1074395943">
+Beschriftungsanzahl hat die maximale Anzahl von Beschriftungsbildtypen überschritten.
+</nierror>
+<nierror code="-1074395942">
+Ungültiger Distance-Level für die Farbsegmentierung.
+</nierror>
+<nierror code="-1074395941">
+Ungültiger SVM-Modelltyp.
+</nierror>
+<nierror code="-1074395940">
+Ungültiger SVM-Kernel-Typ.
+</nierror>
+<nierror code="-1074395939">
+Kein Support Vector an SVM Training gefunden.
+</nierror>
+<nierror code="-1074395938">
+Beschriftungsname wurde nicht in den hinzugefügten Samples gefunden.
+</nierror>
+<nierror code="-1074395937">
+"SVM Training" hat die maximale Iterationsanzahl überschritten.
+</nierror>
+<nierror code="-1074395936">
+Ungültiger SVM-Parameter
+</nierror>
+<nierror code="-1074395935">
+Ungültige ID-Angabe. Zulässige Werte sind 0-1000.
+</nierror>
+<nierror code="-1074395934">
+Anfrage nach ungültiger Texturfunktion
+</nierror>
+<nierror code="-1074395933">
+Das "coOccurrence Level" muss zwischen 1 und dem größten Pixelwert eines Bilds (255 für U8-Bilder) liegen.
+</nierror>
+<nierror code="-1074395932">
+Es wurde ein ungültiges Wavelet-Unterband angefordert.
+</nierror>
+<nierror code="-1074395931">
+Die Endschrittweite muss kleiner sein als die Anfangsschrittweite.
+</nierror>
+<nierror code="-1074395930">
+"Minimum Energy" muss zwischen 0 und 100 betragen.
+</nierror>
+<nierror code="-1074395929">
+Die Beschriftung muss "texture" oder "defect" lauten
+</nierror>
+<nierror code="-1074395928">
+Der Wavelet-Typ ist ungültig.
+</nierror>
+<nierror code="-1074395927">
+Dasselbe Wellenband wurde mehrfach ausgewählt.
+</nierror>
+<nierror code="-1074395926">
+Die beiden Eingangsbildgrößen unterscheiden sich.
+</nierror>
+<nierror code="-1074395925">
+Die Eingabedatei ist keine gültige Objektverfolgungsdatei.
+</nierror>
+<nierror code="-1074395924">
+Ungültiges Pyramidenlevel für Pyramiden-Mustererkennung.
+</nierror>
+<nierror code="-1074395923">
+Ungültiger Winkelbereichwert für Pyramiden-Mustererkennung.
+</nierror>
+<nierror code="-1074395922">
+Ungültiger Lernwinkelbereich für Pyramiden-Mustererkennung.
+</nierror>
+<nierror code="-1074395921">
+Die Objektverfolgungsdatei, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395920">
+Falsche Anzahl von Klassen.
+</nierror>
+<nierror code="-1074395919">
+Angegebener Schwellwerttyp ist ungültig.
+</nierror>
+<nierror code="-1074395918">
+Mehrzeiliger Text wird nicht unterstützt ohne die Aktivierung der Eigenschaft "Text Location".
+</nierror>
+<nierror code="-1074395917">
+Verwendetes Zeilentrennzeichen wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395916">
+Ungültige Objektposition angegeben. Das Objekt sollte sich im Bildrahmen befinden.
+</nierror>
+<nierror code="-1074395915">
+Unterschiedliche Bildgröße zum Hinzufügen von Objekten weitergegeben. Alle hinzugefügten Objekte sollten die gleiche Bildgröße haben.
+</nierror>
+<nierror code="-1074395914">
+Ungültiger Anfangswinkel angegeben. Er sollte sich im Bereich [0, 180] befinden.
+</nierror>
+<nierror code="-1074395913">
+Shape Adapted MeanShift ist nicht initialisiert. Initialisieren Sie Shape Adapted MeanShift.
+</nierror>
+<nierror code="-1074395912">
+MeanShift wurde nicht initialisiert. Initialisieren Sie MeanShift vor dem Abfragen der dazugehörigen Beschreibung.
+</nierror>
+<nierror code="-1074395911">
+Es wurde eine ungültige minimale erzielte Punktzahl übergeben. Sie sollte sich im Bereich [0, 1000] befinden.
+</nierror>
+<nierror code="-1074395910">
+Es wurde ein ungültige Begrenzungsbox übergeben.
+</nierror>
+<nierror code="-1074395909">
+Es wurde eine ungültige Kovarianzmatrix übergeben.
+</nierror>
+<nierror code="-1074395908">
+Es wurde ein ungültiger gaußscher Kernel erzeugt. Initialisieren Sie dieses Objekt erneut.
+</nierror>
+<nierror code="-1074395907">
+Das Objekt, das nachverfolgt werden soll, ging verloren. Initialisieren Sie das Objekt erneut.
+</nierror>
+<nierror code="-1074395906">
+Ungültige Histogramm-Größe. Geben Sie die gleiche Anzahl an Histogrammintervallen für den gleichen Bildtyp an.
+</nierror>
+<nierror code="-1074395905">
+Ungültiger Histogramm-Typ. Fragen Sie das aktuelle Bild im gleichen Format wie das vorherige ab.
+</nierror>
+<nierror code="-1074395904">
+Das Objekt befindet sich außerhalb des Rahmens. Initialisieren Sie dieses Objekt erneut.
+</nierror>
+<nierror code="-1074395903">
+Ungültige Anzahl an Histogrammintervallen für die Farbverarbeitung. Sie sollte sich im Bereich [2, 40] befinden.
+</nierror>
+<nierror code="-1074395902">
+Das Objekt kann nicht durch das Objekt-Histogramm beschrieben werden. Initialisieren Sie dieses Objekt erneut.
+</nierror>
+<nierror code="-1074395901">
+Es wurde eine ungültige Objekt-Tracking-Referenz übergeben. Initialisieren Sie die richtige Referenz.
+</nierror>
+<nierror code="-1074395900">
+Es wurde keine "Shape Adapted MeanShift"-Instanz gefunden. Initialisieren Sie mindestens eine Instanz.
+</nierror>
+<nierror code="-1074395899">
+Es wurde keine "MeanShift"-Instanz gefunden. Initialisieren Sie mindestens eine Instanz.
+</nierror>
+<nierror code="-1074395898">
+Es wurde eine ungültige Objektinstanz weitergeleitet. Die Objektinstanz sollte für ein Objekt angegebenen werden, damit das Objekt nachverfolgt werden kann.
+</nierror>
+<nierror code="-1074395897">
+Es wurde eine ungültige Methode zur Nachverfolgung ausgewählt. Es sollte entweder "MeanShift" oder "ShapeAdapted MeanShift" ausgewählt werden.
+</nierror>
+<nierror code="-1074395896">
+Es wurde eine ungültige Angabe zur Nachverfolgung des BLOB weitergeleitet. Initiieren Sie zuerst Objekte, die nachverfolgt werden sollen.
+</nierror>
+<nierror code="-1074395895">
+Die Referenz für das Nachverfolgen von Objekten enthält keine Objekte zum Nachverfolgen. Fügen Sie Objektinstanzen hinzu, die nachverfolgt werden sollen.
+</nierror>
+<nierror code="-1074395894">
+Es sollen mehr Instanzen gelöscht werden als vorhanden sind.
+</nierror>
+<nierror code="-1074395893">
+Der Parameter "Max Shape Change" befindet sich außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.
+</nierror>
+<nierror code="-1074395892">
+Der Parameter "Max Rotation Change" liegt außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 180,0] befinden.
+</nierror>
+<nierror code="-1074395891">
+Der Parameter "Max Scale Change" befindet sich außerhalb des gültigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.
+</nierror>
+<nierror code="-1074395890">
+Ungültige Anzahl an Histogrammintervallen. Die Anzahl der Histogrammintervalle sollte sich im Bereich [2, 256] befinden.
+</nierror>
+<nierror code="-1074395889">
+Der Parameter "Blending" liegt außerhalb des zulässigen Bereichs. Er sollte sich im Bereich [0,0, 100,0] befinden.
+</nierror>
+<nierror code="-1074395888">
+Beide Dimensionen der Fenstergröße müssen ungerade, größer als 2 und kleiner als 16 sein.
+</nierror>
+<nierror code="-1074395887">
+Der für die Funktion angegebene Matrixtyp wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395886">
+Es wurde ein ungültiges Abbruchkriterium für die Bestimmung des optischen Flusses angegeben.
+</nierror>
+<nierror code="-1074395885">
+Die Pyramidenlevel konnten nicht ordnungsgemäß zugewiesen werden.
+</nierror>
+<nierror code="-1074395884">
+Das angegebene Pyramidenlevel darf nicht negativ sein.
+</nierror>
+<nierror code="-1074395883">
+Der Kernel muss symmetrisch mit von 0 verschiedenen Koeffizienten und ungerader Größe sein.
+</nierror>
+<nierror code="-1074395882">
+Ungültiger Glättungsparameter in Horn-Schunck-Operation.
+</nierror>
+<nierror code="-1074395881">
+Ungültiges Stoppkriterium für den optischen Fluss nach Horn und Schunck.
+</nierror>
+<nierror code="-1074395880">
+Falscher Partikel.
+</nierror>
+<nierror code="-1074395879">
+Falsche Messnummer.
+</nierror>
+<nierror code="-1074395878">
+Das Bild-Anzeigeelement unterstützt das Schreiben dieser Eigenschaft nicht.
+</nierror>
+<nierror code="-1074395877">
+Für den angegebenen Farbmodus wird imaqChangeColorSpace2 benötigt.
+</nierror>
+<nierror code="-1074395876">
+Der angegebene Farbmodus wird gegenwärtig von IMAQ Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395875">
+Der Barcode ist kein gültiges Pharmacode-Zeichen.
+</nierror>
+<nierror code="-1074395874">
+Der gewünschte Datentyp für das Array "External Data Value Reference" wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395873">
+Der gewünschte Datentyp für das Array "External Data Value Reference" (EDVR) ist nicht kompatibel mit den anderen Einstellungen.
+Die Breite von "Optional Rectangle" in Byte muss ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn der Eingang "Include Border" aktiviert ist, muss die Randbreite des Quellbilds multipliziert mit der Pixelgröße des Quellbilds in Byte ein gerades Mehrfaches der EDVR-Datentypgröße in Byte sein.
+Wenn "Include Border Pixels" aktiviert ist, muss die Rahmengröße des Quellbilds in Byte ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn das EDVR-Array ein 3D-Array ist, muss die Pixelgröße des Quellbilds in Byte ein Vielfaches der EDVR-Datentypgröße in Byte sein.
+Wenn das EDVR-Array ein 1D-oder 2D-Array ist und "X Step Size" größer als 1 ist, muss die Pixelgröße des Quellbilds in Byte gleich der EDVR-Datentypgröße in Byte sein.
+</nierror>
+<nierror code="-1074395872">
+Die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, muss größer als 0 sein.
+Wenn das EDVR-Array eindimensional ist, muss die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, gleich der X-Auflösung des Quellbilds sein.
+</nierror>
+<nierror code="-1074395871">
+Die Höhe, die vom Eingang "Optional Rectangle" festgelegt wird, muss größer als 0 sein.
+</nierror>
+<nierror code="-1074395870">
+Die Schrittgröße X muss größer als 0 sein.
+Die Breite, die vom Eingang "Optional Rectangle" festgelegt wird, muss ein Vielfaches der Schrittgröße X sein.
+Wenn der Eingang "Include Border Pixels" aktiviert ist, muss die Randbreite des Quellbilds ein Mehrfaches der Schrittgröße X sein.
+Wenn das EDVR-Array eindimensional ist, muss die Randbreite des Quellbilds ein Mehrfaches der Schrittgröße X sein und die Füllgröße des Quellbilds muss ein Mehrfaches der Schrittgröße X sein.
+</nierror>
+<nierror code="-1074395869">
+Die Schrittgröße Y muss größer als 0 sein.
+Die Höhe, die vom Eingang "Optional Rectangle" festgelegt wird, muss ein Vielfaches der Schrittgröße Y sein.
+Wenn der Eingang "Include Border Pixels" aktiviert ist, muss die Randbreite des Quellbilds ein Vielfaches der Schrittgröße Y sein.
+Wenn das EDVR-Array eindimensional ist, muss die Schrittgröße Y gleich 1 sein.
+</nierror>
+<nierror code="-1074395868">
+Die erforderliche Anzahl der angegebenen Barcodes sollte "1" sein, wenn "Skip Location Search" aktiviert ist.
+</nierror>
+<nierror code="-1074395867">
+Die resultierende Größe des Bilds ist 0.  Wenn das Element "Image Size" als Breite und Höhe 0 angibt, muss "Image In" ein Bild enthalten, dessen Größe nicht null ist.  Anderenfalls muss das Element "Image Size" einen anderen Wert als null für Höhe und Breite angeben.
+</nierror>
+<nierror code="-1074395866">
+Mehr als ein Element auf dem FPGA-Frontpanel stimmt mit dem gewünschten Typ überein.  Geben Sie zur Auswahl der gewünschten Instanz den Elementnamen an.
+</nierror>
+<nierror code="-1074395865">
+Mehr als ein DMA FIFO stimmt mit dem gewünschten Typ überein.  Geben Sie zur Auswahl des gewünschten DMA-FIFOs den DMA-FIFO-Namen an.
+</nierror>
+<nierror code="-1074395864">
+Die DMA-FIFO-Tiefe in Bildern kann nicht 0 sein.
+</nierror>
+<nierror code="-1074395863">
+Kein Element auf dem FPGA-Frontpanel stimmt mit dem gewünschten Typ überein.  Setzen Sie das Element auf "Skip" um diesen Schritt auszulassen und diesen Fehler zu ignorieren.
+</nierror>
+<nierror code="-1074395862">
+Kein DMA FIFO stimmt mit dem gewünschten Typ überein.
+</nierror>
+<nierror code="-1074395861">
+Der gegebene Wert für "Maximum Pixels per Write" oder "Maximum Pixels per Read" ist nicht gültig.
+</nierror>
+<nierror code="-1074395860">
+Die Anzahl der Array-Dimensionen, die unter "External Data Value Reference" angegeben ist, muss gleich 1 sein.
+</nierror>
+<nierror code="-1074395859">
+Der X-Offset des Bildes ist größer oder gleich der Bildbreite, oder der Y-Offset des Bildes ist größer oder gleich der Bildhöhe.
+</nierror>
+<nierror code="-1074395858">
+Die Größe der Bildpixel stimmt nicht mit der Größe des Elements "External Data Value Reference" überein.
+</nierror>
+<nierror code="-1074395857">
+Es wurde eine ungültige Point Cloud-Referenz übergeben. Initialisieren Sie die richtige Referenz.
+</nierror>
+<nierror code="-1074395841">
+Es konnte keine Verbindung mit dem Dämon-Server hergestellt werden oder es wurde ein falscher Befehl eingegeben.
+</nierror>
+<nierror code="-1074395840">
+Ungültiger Index in der Handle-Tabelle.
+</nierror>
+<nierror code="-1074395837">
+Das Komprimierungsverhältnis muss größer oder gleich 1 sein.
+</nierror>
+<nierror code="-1074395801">
+Die ROI enthält zu viele Konturen.
+</nierror>
+<nierror code="-1074395800">
+Schutzfehler.
+</nierror>
+<nierror code="-1074395799">
+Interner Fehler.
+</nierror>
+<nierror code="-1074395798">
+Die Größe der Komponente in Custom Sample muss der Größe der bereits hinzugefügten Komponenten entsprechen.
+</nierror>
+<nierror code="-1074395797">
+Ungültige Classifier-Session.
+</nierror>
+<nierror code="-1074395796">
+Es wurde eine ungültige Nächster-Nachbar-Classifier-Methode angefordert.
+</nierror>
+<nierror code="-1074395795">
+Der k-Parameter muss größer als Zwei sein.
+</nierror>
+<nierror code="-1074395794">
+Der k-Parameter muss kleiner oder gleich der Anzahl der Samples jeder Klasse sein.
+</nierror>
+<nierror code="-1074395793">
+Diese Classifier-Session ist kompakt. Nur Classify- und Dispose-Funktionen können für eine kompakte Classifier-Session aufgerufen werden.
+</nierror>
+<nierror code="-1074395792">
+Diese Classifier-Session wurde nicht trainiert. Sie können diese Funktion nur für eine trainierte Classifier-Session aufrufen.
+</nierror>
+<nierror code="-1074395791">
+Diese Classifier-Funktion kann für diesen Typ der Classifier-Session nicht aufgerufen werden.
+</nierror>
+<nierror code="-1074395790">
+Es wurde eine ungültige Distanz-Metrik angefordert.
+</nierror>
+<nierror code="-1074395789">
+Die Classifier-Session, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395788">
+Die Operation kann nicht durchgeführt werden, da keine Samples hinzugefügt wurden.
+</nierror>
+<nierror code="-1074395787">
+Es wurde ein ungültiger Classifier-Typ angefordert.
+</nierror>
+<nierror code="-1074395786">
+Die Summe von Skalierungsabhängigkeit und Symmetrieabhängigkeit muss kleiner als 1000 sein.
+</nierror>
+<nierror code="-1074395785">
+Die Abbildung lieferte keine Partikel.
+</nierror>
+<nierror code="-1074395784">
+Die übergebenen Grenzen sind nicht gültig.
+</nierror>
+<nierror code="-1074395783">
+Der Sample-Index fiel außerhalb des Bereichs der Samples.
+</nierror>
+<nierror code="-1074395782">
+Die Anzahl der Zeichen der Beschreibung muss <= 255 Zeichen sein.
+</nierror>
+<nierror code="-1074395781">
+Die Engine für diese Classifier-Session unterstützt diese Operation nicht.
+</nierror>
+<nierror code="-1074395780">
+Es wurde ein ungültiger Partikeltyp angefordert.
+</nierror>
+<nierror code="-1074395779">
+Eine Session kann nur in Kompaktform gespeichert werden, wenn sie bereits eintrainiert wurde.
+</nierror>
+<nierror code="-1074395778">
+Die Kernel-Größe muss kleiner als die Bildgröße sein.
+</nierror>
+<nierror code="-1074395777">
+Die Session, die aus der Datei gelesen wird, muss den gleichen Typ haben, wie die übergebene Session.
+</nierror>
+<nierror code="-1074395776">
+Sie können eine kompakte Klassifizierungsdatei nur mit der Option Read_All verwenden.
+</nierror>
+<nierror code="-1074395775">
+Die übergebene ROI darf nur geschlossene Konturen enthalten.
+</nierror>
+<nierror code="-1074395774">
+Sie müssen eine Beschriftung übergeben.
+</nierror>
+<nierror code="-1074395773">
+Sie müssen ein Zielbild angeben.
+</nierror>
+<nierror code="-1074395772">
+Sie müssen eine gültige Registrierungsmethode angeben.
+</nierror>
+<nierror code="-1074395771">
+Die goldene Vorlage, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395770">
+Ungültige goldene Vorlage.
+</nierror>
+<nierror code="-1074395769">
+"Edge Thickness to Ignore" muss größer als Null sein.
+</nierror>
+<nierror code="-1074395768">
+Skalierung muss größer als 0 sein.
+</nierror>
+<nierror code="-1074395767">
+Die angegebene Skalierung ist für Vorlage ungültig.
+</nierror>
+<nierror code="-1074395766">
+Die Abwärtskompatibilitätsfunktion kann in dieser Session nicht verwendet werden. Verwenden Sie stattdessen neuere unterstützte Funktionen.
+</nierror>
+<nierror code="-1074395763">
+Sie müssen eine gültige Normalisierungsmethode angeben.
+</nierror>
+<nierror code="-1074395762">
+Der Abweichungsfaktor für den lokalen Niblack-Schwellwert muss zwischen 0 und 1 liegen.
+</nierror>
+<nierror code="-1074395761">
+Der Abweichungsbereich für den lokalen Sauvola-Schwellwert muss größer als 0 sein.
+</nierror>
+<nierror code="-1074395760">
+Die Karte wurde nicht gefunden.
+</nierror>
+<nierror code="-1074395759">
+I/O Fehler.
+</nierror>
+<nierror code="-1074395758">
+Karte nicht geöffnet.
+</nierror>
+<nierror code="-1074395757">
+DLL nicht gefunden.
+</nierror>
+<nierror code="-1074395756">
+DLL-Funktion nicht gefunden.
+</nierror>
+<nierror code="-1074395755">
+Interner Fehler.
+</nierror>
+<nierror code="-1074395754">
+Trigger-Timeout.
+</nierror>
+<nierror code="-1074395746">
+Ungültiger Wert für maximal mögliche Konturverfeinerungen.
+</nierror>
+<nierror code="-1074395745">
+Es wurden zu viele Kurven vom Bild extrahiert. Erhöhen Sie den Kantenschwellwert oder reduzieren Sie den ROI.
+</nierror>
+<nierror code="-1074395744">
+Ungültiger Kernel für Konturglättung. 0 bedeutet, es findet keine Glättung statt. Werte für die Glättung müssen ungerade sein.
+</nierror>
+<nierror code="-1074395743">
+Ungültige Konturlinienanpassung. Start und Stopp des Liniensegments müssen unterschiedlich sein.
+</nierror>
+<nierror code="-1074395742">
+Die Vorlage muss mit "IMAQ Learn Contour Pattern" bearbeitet worden sein oder dieselbe Größe wie das Zielbild haben.
+</nierror>
+<nierror code="-1074395741">
+Die Konturen der Vorlage und des Ziels konnten nicht ausgerichtet werden.
+</nierror>
+<nierror code="-1074395740">
+Die Kontur, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395739">
+Pro Art der Bedingung für die Kurvenverbindung ist nur ein Bereich zulässig.
+</nierror>
+<nierror code="-1074395738">
+Ungültige Art der Bedingung für Konturverbindung.
+</nierror>
+<nierror code="-1074395737">
+Zur Verwendung des Konturenvergleichs ist eine Vorlage nötig, die mit "IMAQ Learn Contour Pattern" bearbeitet wurde.
+</nierror>
+<nierror code="-1074395736">
+Ungültige Kernel-Breite für Bogenlaufberechnung. Der Wert muss ungerade und größer als 1 sein.
+</nierror>
+<nierror code="-1074395735">
+Ungültige Methode der Konturauswahl für Konturextraktion.
+</nierror>
+<nierror code="-1074395734">
+Ungültige Suchrichtung für Konturextraktion.
+</nierror>
+<nierror code="-1074395733">
+Ungültiger ROI für Konturextraktion. Der ROI muss einen Ring oder ein Rechteck enthalten.
+</nierror>
+<nierror code="-1074395732">
+Es wurden keine Kurven im Bild gefunden.
+</nierror>
+<nierror code="-1074395731">
+Breite von "Smoothing Kernel" für den Konturvergleich ist ungültig. Der Wert muss 0 oder eine ungerade positive Ganzzahl sein.
+</nierror>
+<nierror code="-1074395730">
+Wenn keine Vorlage vorliegt, muss das Zielbild eine Kontur mit extrahierten Punkten und eine angepasste Gleichung enthalten.
+</nierror>
+<nierror code="-1074395729">
+Ungültiges Konturbild.
+</nierror>
+<nierror code="-1074395728">
+NI Vision unterstützt den angegebenen Suchmodus nicht.
+</nierror>
+<nierror code="-1074395727">
+NI Vision unterstützt den von Ihnen angegebenen Suchmodus für den gesuchten 2D-Barcode-Typ nicht.
+</nierror>
+<nierror code="-1074395726">
+matchFactor wird nicht mehr verwendet. Stattdessen sollten Sie initialMatchListLength und matchListReductionFactor in der Struktur MatchPatternAdvancedOptions setzen.
+</nierror>
+<nierror code="-1074395725">
+Die Daten wurden mit einer neueren Version von NI Vision gespeichert. Aktualisieren Sie NI Vision, damit dieses Daten gelesen werden können.
+</nierror>
+<nierror code="-1074395724">
+Die angegebene Größe liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-1074395723">
+Der angegebene Schlüssel kann in der Abbildung nicht gefunden werden.
+</nierror>
+<nierror code="-1074395722">
+Angepasste Classifier-Sessions klassifizieren nur Funktionen-/Eigenschaftenvektoren. Sie unterstützen keine klassifizierenden Bilder.
+</nierror>
+<nierror code="-1074395721">
+Die für das verwendete Bild angegebene Bittiefe wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395720">
+Ungültiger ROI-Deskriptor.
+</nierror>
+<nierror code="-1074395719">
+Das die ROI umfassende globale Rechteck ist nicht korrekt.
+</nierror>
+<nierror code="-1074395718">
+Die installierte Version von LabVIEW beziehungsweise BridgeVIEW unterstützt diese Operation nicht.
+</nierror>
+<nierror code="-1074395717">
+Der von Ihnen angegebene Bereich ist ungültig.
+</nierror>
+<nierror code="-1074395716">
+Angegebene Skalierungsmethode wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395715">
+Angegebene Kalibriereinheit wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395714">
+Angegebene Achsenorientierung wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395713">
+Wert nicht in Aufzählung
+</nierror>
+<nierror code="-1074395712">
+Die ausgewählte Region ist nicht vom erforderlichen Typ.
+</nierror>
+<nierror code="-1074395711">
+Sie haben einen Bildanzeiger angegeben, der nicht genügend Regionen enthält.
+</nierror>
+<nierror code="-1074395710">
+Das Bild hat für diesen Vorgang zu viele Partikel.
+</nierror>
+<nierror code="-1074395709">
+Die AVI-Session wurde noch nicht gestartet.
+</nierror>
+<nierror code="-1074395708">
+Die AVI-Session ist eine Schreib-Session - diese Operation erfordert jedoch eine Lese-Session.
+</nierror>
+<nierror code="-1074395707">
+Die AVI-Session ist eine Lese-Session - diese Operation erfordert jedoch eine Schreib-Session.
+</nierror>
+<nierror code="-1074395706">
+Die AVI-Session ist bereits gestartet. Sie muss erst beendet werden, bevor Create oder Open aufgerufen wird.
+</nierror>
+<nierror code="-1074395705">
+Die Daten sind beschädigt und können nicht gelesen werden.
+</nierror>
+<nierror code="-1074395704">
+Ungültiger Komprimierungstyp.
+</nierror>
+<nierror code="-1074395703">
+Ungültiger Typ für die Konvertierung.
+</nierror>
+<nierror code="-1074395702">
+Die Länge der Kantenerkennungslinie muss größer als Null sein.
+</nierror>
+<nierror code="-1074395701">
+Die maximale Datenmatrix-Barcode-Größe muss gleich oder größer der minimalen Datenmatrix-Barcode-Größe sein.
+</nierror>
+<nierror code="-1074395700">
+Die Funktion erfordert mindestens Microsoft Windows 2000 als Betriebssystem.
+</nierror>
+<nierror code="-1074395662">
+Es wurde eine ungültige Kalibriermethode angefordert.
+</nierror>
+<nierror code="-1074395661">
+Diese Kalibrierung ist kompakt. Ein erneutes Erlernen der Kalibrierung und Abfragen von Thumbnails ist mit dieser Kalibrierung nicht möglich.
+</nierror>
+<nierror code="-1074395660">
+Ungültige Anzahl von K-Werten
+</nierror>
+<nierror code="-1074395659">
+Ungültiger Verzerrungsmodelltyp.
+</nierror>
+<nierror code="-1074395658">
+Das Kameramodell wurde nicht erlernt.
+</nierror>
+<nierror code="-1074395657">
+Der angegebene Thumbnail-Index ist ungültig.
+</nierror>
+<nierror code="-1074395656">
+Sie müssen für alle zu vergleichenden Vorlagen denselben Wert für die fortgeschrittene Vergleichsoption "smooth contours" angeben.
+</nierror>
+<nierror code="-1074395655">
+Sie müssen für alle zu vergleichenden Vorlagen denselben Wert für die fortgeschrittene Vergleichsoption "enable calibration support" angeben.
+</nierror>
+<nierror code="-1074395654">
+Das Quellbild enthält keine Einstufungsinformationen (Grading). Sie müssen das Quellbild für das Grading beim Lesen der Datenmatrix vorbereiten. Sie können Inhalte des Quellbilds nicht zwischen Lesen und Grading der Datenmatrix ändern.
+</nierror>
+<nierror code="-1074395653">
+Die Vorlage für den Vergleich verschiedener geometrischer Formen, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395652">
+Die Vorlage für den geometrischen Vergleich, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395651">
+Sie müssen für alle zu vergleichenden Vorlagen dieselbe Kantenfiltergröße angeben.
+</nierror>
+<nierror code="-1074395650">
+Sie müssen für alle zu vergleichenden Vorlagen denselben Kurvenextraktionsmodus angeben.
+</nierror>
+<nierror code="-1074395649">
+Die angegebene geometrische Eigenschaft ist ungültig.
+</nierror>
+<nierror code="-1074395648">
+Angegebene Vorlage wurde noch nicht erlernt.
+</nierror>
+<nierror code="-1074395647">
+Ungültige geometrische Vorlage.
+</nierror>
+<nierror code="-1074395646">
+Es wird mindestens eine zu erlernende Vorlage benötigt.
+</nierror>
+<nierror code="-1074395645">
+Angegebene Anzahl an Beschriftungen ist ungültig.
+</nierror>
+<nierror code="-1074395644">
+Beschriftungen müssen <= 255 Zeichen sein.
+</nierror>
+<nierror code="-1074395643">
+Angegebene Anzahl an Suchoptionen ist ungültig.
+</nierror>
+<nierror code="-1074395642">
+Für die angegebene Beschriftung kann keine Entsprechung gefunden werden.
+</nierror>
+<nierror code="-1074395641">
+Doppelte Beschriftungen sind nicht erlaubt.
+</nierror>
+<nierror code="-1074395640">
+Die Anzahl der gefundenen Zonen überschreitet die Kapazität des Algorithmus.
+</nierror>
+<nierror code="-1074395639">
+Der Hatch-Stil für den Fensterhintergrund ist ungültig.
+</nierror>
+<nierror code="-1074395638">
+Der Füllmodus für den Fensterhintergrund ist ungültig.
+</nierror>
+<nierror code="-1074395637">
+Ihre Hardware wird nicht von DirectX unterstützt und kann nicht in den NonTearing-Modus versetzt werden.
+</nierror>
+<nierror code="-1074395636">
+Für diese Eigenschaft wird DirectX benötigt.  Installieren Sie die neueste Version.
+</nierror>
+<nierror code="-1074395635">
+Der weitergeleitete Form-Deskriptor ist ungültig.
+</nierror>
+<nierror code="-1074395634">
+Ungültige Überlappung für Max.-Überlappung.  Werte müssen zwischen -1 und 100 liegen.
+</nierror>
+<nierror code="-1074395633">
+Ungültige minimale Separierungsskalierung für Übereinstimmung.  Werte müssen größer oder gleich -1 sein.
+</nierror>
+<nierror code="-1074395632">
+Ungültiger minimaler Separierungswinkel für Übereinstimmung.  Werte müssen zwischen -1 und 360 liegen.
+</nierror>
+<nierror code="-1074395631">
+Ungültige minimale Separierungsdistanz für Übereinstimmung.  Werte müssen größer oder gleich -1 sein.
+</nierror>
+<nierror code="-1074395630">
+Ungültige maximale Anzahl zu lernender Features. Die Werte müssen ganzzahlig und größer als 0 sein.
+</nierror>
+<nierror code="-1074395629">
+Ungültiger maximaler Pixelabstand zur Linie. Es muss sich um positive reelle Werte handeln.
+</nierror>
+<nierror code="-1074395628">
+Ungültige Bildvorlage für geometrischen Vergleich.
+</nierror>
+<nierror code="-1074395627">
+Die Vorlage enthält nicht genügend Features für den geometrischen Vergleich.
+</nierror>
+<nierror code="-1074395626">
+Die Vorlage enthält nicht genügend Features für den geometrischen Vergleich.
+</nierror>
+<nierror code="-1074395625">
+Sie haben in den Bereichseinstellungen ein ungültiges Vergleichskriterium angegeben.
+</nierror>
+<nierror code="-1074395624">
+Ungültiger Flächenbereich. Gültige Werte für die Begrenzungen liegen zwischen 0 und 100 und die obere Begrenzung muss größer oder gleich der unteren Begrenzung sein.
+</nierror>
+<nierror code="-1074395623">
+Ungültiger Skalierungsbereich. Die Werte für die untere Begrenzung müssen positiv reell und die obere Begrenzung muss größer oder gleich der unteren Begrenzung sein.
+</nierror>
+<nierror code="-1074395622">
+Setup-Daten für das Vergleichen geometrischer Muster sind nicht zulässig.
+</nierror>
+<nierror code="-1074395621">
+Setup-Daten für das Lernen geometrischer Muster sind nicht zulässig.
+</nierror>
+<nierror code="-1074395620">
+Ungültiger Kurven-Extraktionsmodus.
+</nierror>
+<nierror code="-1074395619">
+Es kann nur ein einzelner Okklusionsbereich angegeben werden.
+</nierror>
+<nierror code="-1074395618">
+Es kann nur ein einzelner Skalierungsbereich angegeben werden.
+</nierror>
+<nierror code="-1074395617">
+Die minimale Anzahl von Funktionen/Eigenschaften muss kleiner oder gleich der maximalen Anzahl von Funktionen/Eigenschaften sein.
+</nierror>
+<nierror code="-1074395616">
+Ungültige Größe für Kantenfilter.
+</nierror>
+<nierror code="-1074395615">
+Ungültige minimale Stärke von Funktionen/Eigenschaften. Es muss sich um positive reelle Werte handeln.
+</nierror>
+<nierror code="-1074395614">
+Ungültiges Seitenverhältnis für Rechteckfunktionen/-eigenschaften. Die Werte müssen positiv reell sein und im Bereich 0,01 bis 1,0 liegen.
+</nierror>
+<nierror code="-1074395613">
+Ungültige minimale Länge für lineare Funktionen/Eigenschaften. Die Werte müssen ganzzahlig und größer als 0 sein.
+</nierror>
+<nierror code="-1074395612">
+Ungültiger minimaler Radius für Kreisfunktionen/-eigenschaften. Die Werte müssen ganzzahlig und größer als 0 sein.
+</nierror>
+<nierror code="-1074395611">
+Ungültige minimale Rechteckdimension. Die Werte müssen ganzzahlig und größer als 0 sein.
+</nierror>
+<nierror code="-1074395610">
+Ungültige Anfangs-Suchlistenlänge. Die Werte müssen ganzzahlig und größer als 5 sein.
+</nierror>
+<nierror code="-1074395609">
+Ungültige SubPixel-Toleranz. Es muss sich um positive reelle Werte handeln.
+</nierror>
+<nierror code="-1074395608">
+Ungültige Anzahl an SubPixel-Iterationen. Die Werte müssen ganzzahlig und größer als 10 sein.
+</nierror>
+<nierror code="-1074395607">
+Ungültige maximale Anzahl von Features für Vergleich. Die Werte müssen ganzzahlig und größer oder gleich Null sein.
+</nierror>
+<nierror code="-1074395606">
+Ungültige minimale Anzahl von Features für Vergleich. Die Werte müssen ganzzahlig und größer als 0 sein.
+</nierror>
+<nierror code="-1074395605">
+Ungültige maximale Endpunktlücke. Gültige Werte liegen im Bereich von 0 bis 32767.
+</nierror>
+<nierror code="-1074395604">
+Ungültiger Spaltenschritt. Der gültige Bereich ist 1 bis 255.
+</nierror>
+<nierror code="-1074395603">
+Ungültiger Zeilenschritt. Der gültige Bereich ist 1 bis 255.
+</nierror>
+<nierror code="-1074395602">
+Ungültige Mindestlänge. Gültige Werte müssen größer oder gleich Null sein.
+</nierror>
+<nierror code="-1074395601">
+Ungültiger Kantenschwellwert. Gültige Werte liegen im Bereich von 1 bis 65535.
+</nierror>
+<nierror code="-1074395600">
+Es müssen Informationen über das Teilbild innerhalb des Browsers angegeben werden.
+</nierror>
+<nierror code="-1074395598">
+Der Akzeptanz-Level liegt außerhalb des gültigen Bereichs von 0 bis 1000.
+</nierror>
+<nierror code="-1074395597">
+Keine gültige NI-OCR-Session.
+</nierror>
+<nierror code="-1074395596">
+Ungültige Zeichengröße. Zeichengrößen müssen > = 1 sein.
+</nierror>
+<nierror code="-1074395595">
+Ungültiger Wert für Schwellwertmodus.
+</nierror>
+<nierror code="-1074395594">
+Ungültiges Ersetzungszeichen. Gültige Ersetzungszeichen sind ASCII-Werte im Bereich von 1 bis 254.
+</nierror>
+<nierror code="-1074395593">
+Ungültige Anzahl von Blöcken. Die Anzahl der Blöcke muss > = 4 und <= 50 sein.
+</nierror>
+<nierror code="-1074395592">
+Ungültige Lese-Strategie.
+</nierror>
+<nierror code="-1074395591">
+Ungültiger Zeichenindex.
+</nierror>
+<nierror code="-1074395590">
+Ungültige Anzahl von Zeichenpositionen. Gültige Werte liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395589">
+Ungültiger unterer Schwellwert. Gültige Schwellwerte liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395588">
+Ungültiger oberer Schwellwert. Gültige Schwellwerte liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395587">
+Der untere Schwellwert muss kleiner als der obere Schwellwert sein.
+</nierror>
+<nierror code="-1074395586">
+Ungültige untere Schwellwertgrenze. Gültige untere Schwellwertgrenzen liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395585">
+Ungültige obere Schwellwertgrenze. Gültige obere Schwellwertgrenzen liegen im Bereich von 0 bis 255.
+</nierror>
+<nierror code="-1074395584">
+Die untere Schwellwertgrenze muss kleiner als die obere Schwellwertgrenze sein.
+</nierror>
+<nierror code="-1074395583">
+Ungültiger minimaler Wert für Zeichenabstände. Zeichenabstände müssen > = 1 Pixel sein.
+</nierror>
+<nierror code="-1074395582">
+Ungültiger maximaler Wert für horizontale Elementabstände. Der maximale horizontale Elementabstand muss > = 0 sein.
+</nierror>
+<nierror code="-1074395581">
+Ungültiger maximaler Wert für vertikale Elementabstände. Der maximale vertikale Elementabstand muss > = 0 sein.
+</nierror>
+<nierror code="-1074395580">
+Ungültige minimale Begrenzungsbreite für Rechteck. Die minimale Begrenzungsbreite für das Rechteck muss > = 1 sein.
+</nierror>
+<nierror code="-1074395579">
+Ungültiger Wert für Seitenverhältnis. Das Seitenverhältnis muss 0 oder > = 100 sein.
+</nierror>
+<nierror code="-1074395578">
+Ungültige oder beschädigte Zeichensatz-Datei.
+</nierror>
+<nierror code="-1074395577">
+Der Zeichenwert darf kein leerer String sein.
+</nierror>
+<nierror code="-1074395576">
+Zeichenwerte müssen <= 255 Zeichen sein.
+</nierror>
+<nierror code="-1074395575">
+Ungültige Anzahl von Abträgen. Die Anzahl der Abträge muss > = 0 sein.
+</nierror>
+<nierror code="-1074395574">
+Die Zeichensatz-Beschreibung muss <= 255 Zeichen sein.
+</nierror>
+<nierror code="-1074395573">
+Die Zeichensatz-Datei wurde von einer aktuelleren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Zeichensatz-Datei verwendet werden kann.
+</nierror>
+<nierror code="-1074395572">
+Für einen String müssen Sie Zeichen angeben. Ein String kann keine Integer-Werte enthalten.
+</nierror>
+<nierror code="-1074395571">
+Dieses Attribut ist schreibgeschützt.
+</nierror>
+<nierror code="-1074395570">
+Dieses Attribut erfordert einen booleschen Wert.
+</nierror>
+<nierror code="-1074395569">
+Ungültiges Attribut.
+</nierror>
+<nierror code="-1074395568">
+Dieses Attribut erfordert Integer-Werte.
+</nierror>
+<nierror code="-1074395567">
+String-Werte sind für dieses Attribut nicht zulässig. Geben Sie einen booleschen Wert ein.
+</nierror>
+<nierror code="-1074395566">
+Boolesche Werte sind für dieses Attribut nicht zulässig. Geben Sie einen Integer-Wert ein.
+</nierror>
+<nierror code="-1074395565">
+Erfordert einen Einzelzeichen-String.
+</nierror>
+<nierror code="-1074395564">
+Ungültiger vordefinierter Zeichenwert.
+</nierror>
+<nierror code="-1074395563">
+Diese Kopie von NI OCR ist nicht lizenziert.
+</nierror>
+<nierror code="-1074395562">
+String-Werte sind für dieses Attribut nicht zulässig. Geben Sie einen booleschen Wert ein.
+</nierror>
+<nierror code="-1074395561">
+Die Anzahl der Zeichen im Zeichenwert muss mit der Anzahl der Objekte im Bild übereinstimmen.
+</nierror>
+<nierror code="-1074395560">
+Ungültiger Objektindex.
+</nierror>
+<nierror code="-1074395559">
+Ungültige Lese-Option.
+</nierror>
+<nierror code="-1074395558">
+Die minimale Zeichengröße muss kleiner sein, als die maximale Zeichengröße.
+</nierror>
+<nierror code="-1074395557">
+Der minimale Wert für die Breite des zeichenbegrenzenden Rechtecks muss kleiner als das Maximum für die Breite des zeichenbegrenzenden Rechtecks sein.
+</nierror>
+<nierror code="-1074395556">
+Der minimale Wert für die Höhe des zeichenbegrenzenden Rechtecks muss kleiner als das Maximum für die Höhe des zeichenbegrenzenden Rechtecks sein.
+</nierror>
+<nierror code="-1074395555">
+Der maximale Wert der horizontalen Elementabstände darf den minimalen Wert für den Zeichenabstand nicht übersteigen.
+</nierror>
+<nierror code="-1074395554">
+Ungültige Lese-Auflösung.
+</nierror>
+<nierror code="-1074395553">
+Ungültige minimale Begrenzungshöhe für Rechteck. Die minimale Begrenzungshöhe für das Rechteck muss > = 1 sein.
+</nierror>
+<nierror code="-1074395552">
+Kein gültiger Zeichensatz.
+</nierror>
+<nierror code="-1074395551">
+Ein erlerntes OCR-Zeichen kann nicht umbenannt werden, solange es sich dabei um ein Referenzzeichen handelt.
+</nierror>
+<nierror code="-1074395550">
+Ein Zeichen kann nicht den ASCII-Wert 255 haben.
+</nierror>
+<nierror code="-1074395549">
+Die Anzahl der gefundenen Objekte entspricht nicht der Anzahl der erwarteten Zeichen oder Muster, die zu prüfen sind.
+</nierror>
+<nierror code="-1074395548">
+Die Anzahl der Bilder muss größer als 1 sein.
+</nierror>
+<nierror code="-1074395547">
+Die Anzahl der Bilder muss größer als 2 sein.
+</nierror>
+<nierror code="-1074395546">
+Es liegen keine Vision-Informationen für die Flatfield-Korrektur vor.
+</nierror>
+<nierror code="-1074395545">
+Flatfield-Bild und Dunkelbild sind nicht vorhanden. Zum Durchführen der Flatfield-Korrektur muss mindestens eins der Bilder vorhanden sein.
+</nierror>
+<nierror code="-1074395544">
+Nicht unterstützte voreingestellte Vergleichsoption wird mitgeliefert.
+</nierror>
+<nierror code="-1074395543">
+Nicht unterstützte Funktionsoption wird mitgeliefert.
+</nierror>
+<nierror code="-1074395542">
+Der ausgewählte Algorithmus wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395541">
+Diese Funktion wird auf der aktuellen Plattform nicht unterstützt. Suchen Sie in der Hilfe nach einer Liste unterstützter Plattformen.
+</nierror>
+<nierror code="-1074395540">
+Die "Deep Learning"-Bibliothek kann nicht geladen werden.
+</nierror>
+<nierror code="-1074395539">
+Die Modelldatei kann nicht geladen werden.
+</nierror>
+<nierror code="-1074395538">
+Ungültige Modell-Session.
+</nierror>
+<nierror code="-1074395537">
+Der Datentyp-Eingang wird nicht unterstützt. Bitte überprüfen Sie die unterstützten Datentypen.
+</nierror>
+<nierror code="-1074395536">
+Der angegebene Knotenname wurde im geladenen Modellgraphen nicht gefunden.
+</nierror>
+<nierror code="-1074395535">
+Bei der Ausführung des Modells (Graph) ist ein Fehler aufgetreten.
+</nierror>
+<nierror code="-1074395534">
+Die Dimensionen des Ausgangssensors stimmen nicht mit den erwarteten Datendimensionen überein.
+</nierror>
+<nierror code="-1074395533">
+Eine leere Zuordnungstabelle kann nicht zum Konvertieren eines Bilds mithilfe der Zuordnungsmethode verwendet werden.
+</nierror>
+<nierror code="-1074395532">
+Die bereitgestellte Methode wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395531">
+Für das Modell wurde kein Eingang festgelegt.
+</nierror>
+<nierror code="-1074395530">
+Fehler beim Laden des CPU-Plugins aus dem angegebenen Pfad. Installation ist fehlerhaft oder PATH-Umgebungsvariable wurde nicht aktualisiert.
+</nierror>
+<nierror code="-1074395453">
+Bei dem Algorithmus sollte es sich um "Grayscale Value Pyramid/Low Discrepancy Sampling" handeln, wenn "Screenshot Preset" ausgewählt ist.
+</nierror>
+<nierror code="-1074395452">
+Die Bittiefe im angegebenen 16-Bit-SGL-Bild ist Null. Diese Funktion erfordert das Konfigurieren einer Bittiefe, die nicht Null ist.
+</nierror>
+<nierror code="-1074395451">
+Die Bittiefe im angegebenen 16-Bit-Bild ist Null. Diese Funktion erfordert das Konfigurieren einer Bittiefe, die nicht Null ist.
+</nierror>
+<nierror code="-1074395450">
+Die Vorlage und das Entsprechungsbild haben nicht dieselbe Bittiefe.
+</nierror>
+<nierror code="-1074395449">
+Erfordert einen Einzelzeichen-ASCII-String.
+</nierror>
+<nierror code="-1074395448">
+Der Wert "Inf" oder "NaN" wurde an den Parameter übergeben.
+</nierror>
+<nierror code="-1074395447">
+Die angegebenen Farbpunkte sind nicht ausreichend zum Erstellen einer Palette.
+</nierror>
+<nierror code="-1074395446">
+Farbpunktpixel ist ungültig. Pixel liegen im Bereich von 0-65535 für 16-Bit-Paletten und im Bereich von 0-255 für 8-Bit-Paletten.
+</nierror>
+<nierror code="-1074395445">
+Es liegen zu wenige Übereinstimmungen vor, um die Operation durchführen zu können.
+</nierror>
+<nierror code="-1074395444">
+Die Gittergröße X und die Gittergröße Y sollten größer als 1 sein.
+</nierror>
+<nierror code="-1074395443">
+Die Gittergröße X und die Gittergröße Y können nicht größer als die Breite und Höhe des Bildes oder ROI sein.
+</nierror>
+<nierror code="-1074395442">
+Die Feature-Punkte und Deskriptoren eines Bildes sollten gleich groß sein.
+</nierror>
+<nierror code="-1074395441">
+Die maximal zulässige Entfernung sollte größer als null sein.
+</nierror>
+<nierror code="-1074395440">
+Die Deskriptoren sollten nicht NULL sein, damit die Matching-Operation durchgeführt werden kann.
+</nierror>
+<nierror code="-1074395439">
+Die übergebenen Feature-Punkte sind NULL.
+</nierror>
+<nierror code="-1074395438">
+Das Pyramidenlevel sollte größer als 1 sein, damit die Operation durchgeführt werden kann.
+</nierror>
+<nierror code="-1074395437">
+Maximale Länge von 255 Zeichen pro Zeile erreicht.
+</nierror>
+<nierror code="-1074395436">
+Inkompatible Bildgröße zur Objektverfolgung weitergegeben. Alle Bilder sollten die gleiche Größe haben.
+</nierror>
+<nierror code="-1074395435">
+Das angegebene Minimum und/oder Maximum für die Tiefe wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395434">
+Die angegebene Polynomordnung wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395433">
+Die angegebene Sample-Frequenz wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395432">
+Die angegebene Mindesttiefe muss größer als 0 sein.
+</nierror>
+<nierror code="-1074395431">
+Der angegebene Pixelwert für ungültige Disparitäten ist unzulässig.
+</nierror>
+<nierror code="-1074395430">
+Die Übersetzung zwischen Stereokameras ist 0.
+</nierror>
+<nierror code="-1074395429">
+Die angegebene Kameraposition ist ungültig.
+</nierror>
+<nierror code="-1074395428">
+Der angegebene Grautonbereich für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395427">
+Die Größe des Grautonfensters ist ungültig.
+</nierror>
+<nierror code="-1074395426">
+Der angegebene Texturschwellwert für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395425">
+Die angegebene Eindeutigkeitswert für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395424">
+Der Wert für die Mindesttiefe ist falsch.
+</nierror>
+<nierror code="-1074395423">
+Ungültige Größe der Q-Matrix.
+</nierror>
+<nierror code="-1074395422">
+Der angegebene Wert für den Skalierungsparameter ist ungültig.
+</nierror>
+<nierror code="-1074395421">
+Der angegebene Wert für die Filterkappe für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395420">
+Die angegebene Vorfiltergröße für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395419">
+Der angegebene Vorfiltertyp für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395418">
+Der angegebene Wert für die Anzahl der Unterschiede oder die Mindestanzahl der Unterschiede ist ungültig.
+</nierror>
+<nierror code="-1074395417">
+Die angegebene Fenstergröße für die Blockübereinstimmung ist ungültig.
+</nierror>
+<nierror code="-1074395416">
+Diese 3D-Vision-Funktion kann für diesen Typ der 3D-Vision-Session nicht aufgerufen werden.
+</nierror>
+<nierror code="-1074395415">
+Es sind zu viele 3D-Vision-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.
+</nierror>
+<nierror code="-1074395414">
+Die 3D-Vision-Session, die Sie öffnen wollten, wurde mit einer neueren Version von NI Vision erzeugt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395413">
+Sie haben einen ungültigen Filtertyp für die Blockübereinstimmung angegeben.
+</nierror>
+<nierror code="-1074395412">
+Sie haben Ergebnisse von einer ungültigen Kameraposition im Stereo-Setup angefordert.
+</nierror>
+<nierror code="-1074395411">
+Ungültige 3D-Vision-Session.
+</nierror>
+<nierror code="-1074395410">
+Weniger als ein Symbol pro Zeile wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395409">
+Ungültige Sub-Pixel-Unterteilungen.
+</nierror>
+<nierror code="-1074395408">
+Ungültiger Erkennungsmodus.
+</nierror>
+<nierror code="-1074395407">
+Ungültiger Kontrastwert. Gültige Werte liegen im Bereich 0 bis 255.
+</nierror>
+<nierror code="-1074395406">
+Das Koordinatensystem konnte auf diesem Bild nicht gefunden werden.
+</nierror>
+<nierror code="-1074395405">
+Der angegebene Wert für die Textausrichtung wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395404">
+Die angegebene Interpolationsmethode wird von UnwrapImage nicht unterstützt.  Sie können nur ZERO_ORDER oder BILINEAR auswählen.
+</nierror>
+<nierror code="-1074395403">
+Das Bild wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision.
+</nierror>
+<nierror code="-1074395402">
+Die angegebene maximale Punktanzahl wird von der Funktion nicht unterstützt.
+</nierror>
+<nierror code="-1074395401">
+Angegebener matchFactor wird von der Funktion nicht unterstützt.
+</nierror>
+<nierror code="-1074395400">
+Die Operation für "Multicore Options" ist ungültig. Verwenden Sie einen der verfügbaren Werte für den Modus "Multicore Options".
+</nierror>
+<nierror code="-1074395399">
+Ungültiges Argument für "Multicore Options".
+</nierror>
+<nierror code="-1074395397">
+Es wird ein komplexes Bild erwartet.
+</nierror>
+<nierror code="-1074395395">
+Das Eingangsbild muss ein Farbbild sein.
+</nierror>
+<nierror code="-1074395394">
+Die Farbmaske entfernt zu viele Farbinformationen.
+</nierror>
+<nierror code="-1074395393">
+Das Bild der Farbvorlage ist zu klein.
+</nierror>
+<nierror code="-1074395392">
+Das Bild der Farbvorlage ist zu groß.
+</nierror>
+<nierror code="-1074395391">
+Der Kontrast in der Farbtonebene des Bildes ist für das Erlernen von Shape-Funktionen zu niedrig.
+</nierror>
+<nierror code="-1074395390">
+Der Kontrast in der Helligkeitsebene des Bildes ist für das Erlernen von Shape-Funktionen zu niedrig.
+</nierror>
+<nierror code="-1074395389">
+Ungültige Setup-Daten für Color_Matching.
+</nierror>
+<nierror code="-1074395388">
+Ungültige Setup-Daten für Color_Matching.
+</nierror>
+<nierror code="-1074395387">
+Ungültige Setup-Daten für Color_Matching.
+</nierror>
+<nierror code="-1074395386">
+Ungültige Setup-Daten für Color_Matching.
+</nierror>
+<nierror code="-1074395385">
+Das rotationsinvariante Color_Pattern_Matching benötigt einen Modus, der Shape-Informationen beinhaltet.
+</nierror>
+<nierror code="-1074395384">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395383">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395382">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395381">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395380">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395379">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395378">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395377">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395376">
+Das Bild der Farbvorlage enthält keine Daten für das bewegungsinvariante Color-Matching.
+</nierror>
+<nierror code="-1074395375">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395374">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395373">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395372">
+Das Bild der Farbvorlage enthält keine Daten für das rotationsinvariante Color-Matching.
+</nierror>
+<nierror code="-1074395371">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395370">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395369">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395368">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395367">
+Ungültiges Bild in Farbvorlage.
+</nierror>
+<nierror code="-1074395366">
+Die Farbvorlage des Bildes enthält nicht die für das Color-Matching notwendigen Daten (Shape_Feature-Mode).
+</nierror>
+<nierror code="-1074395365">
+Die Farbvorlage des Bildes enthält nicht die für das Color-Matching notwendigen Daten (Color_Feature-Mode).
+</nierror>
+<nierror code="-1074395364">
+Das Array zum Herausfiltern von Farbspektren ist ungültig.
+</nierror>
+<nierror code="-1074395363">
+Ungültiges Verhältnis für Unterabtastung.
+</nierror>
+<nierror code="-1074395362">
+Ungültige Pixel-Breite.
+</nierror>
+<nierror code="-1074395361">
+Ungültige Steilheit.
+</nierror>
+<nierror code="-1074395360">
+Schlechte komplexe Ebene.
+</nierror>
+<nierror code="-1074395357">
+Ungültiger Modus für Farbausgrenzung.
+</nierror>
+<nierror code="-1074395356">
+Ungültige minimale Zahl von Suchergebnissen. Akzeptable Werte liegen im Bereich von 0 bis 1000.
+</nierror>
+<nierror code="-1074395355">
+Ungültige Anzahl von Übereinstimmungen angegeben. Es darf minimal eine Übereinstimmung angegeben werden.
+</nierror>
+<nierror code="-1074395354">
+Ungültige Farbgewichtung. Akzeptable Werte liegen im Bereich von 0 bis 1000.
+</nierror>
+<nierror code="-1074395353">
+Suchstrategie nicht zulässig.
+</nierror>
+<nierror code="-1074395352">
+Ungültiger Merkmal-Modus
+</nierror>
+<nierror code="-1074395351">
+NI Vision unterstützt Rechtecke mit negativen Breiten oder Höhen nicht.
+</nierror>
+<nierror code="-1074395350">
+Angabe für "vision information type" wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395349">
+Angegebener SkeletonMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395348">
+Angegebener 3DPlane-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395347">
+Angegebener 3DDirection-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395346">
+imaqRotate unterstützt den von Ihnen angegebenen Wert für InterpolationMethod nicht.
+</nierror>
+<nierror code="-1074395345">
+NI Vision unterstützt die angegebene Achsensymmetrie nicht.
+</nierror>
+<nierror code="-1074395343">
+Sie müssen einen gültigen Dateinamen übergeben. NULL darf nicht übergeben werden.
+</nierror>
+<nierror code="-1074395340">
+Angegebener SizeType-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395336">
+Es wurde ein Dispatch-Status für einen unbekannten Algorithmus angegeben.
+</nierror>
+<nierror code="-1074395335">
+Es wird versucht, denselben Algorithmus für das Senden und Nicht-Senden zu konfigurieren. Entfernen Sie eine der beiden Einstellungen.
+</nierror>
+<nierror code="-1074395334">
+Angegebener Wert für "Conversion Method" wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395333">
+Angegebener VerticalTextAlignment-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395332">
+Angegebener CompareFunction-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395331">
+Angegebener BorderMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395330">
+Ungültige Rahmengröße. Akzeptable Werte liegen im Bereich von 0 bis 50.
+</nierror>
+<nierror code="-1074395329">
+Angegebener OutlineMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395328">
+Angegebener InterpolationMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395327">
+Angegebener ScalingMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395326">
+imaqDrawLineOnImage unterstützt den von Ihnen angegebenen Wert für DrawMode nicht.
+</nierror>
+<nierror code="-1074395325">
+Angegebener DrawMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395324">
+Angegebener ShapeMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395323">
+Angegebener FontColor-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395322">
+Angegebener TextAlignment-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395321">
+Angegebener MorphologyMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395320">
+Die Bildvorlage ist leer.
+</nierror>
+<nierror code="-1074395319">
+Angegebener Interpolationstyp wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395318">
+Es wurden nicht genügend Punkte zur Anwendung dieser Operation zur Verfügung gestellt.
+</nierror>
+<nierror code="-1074395317">
+Sie haben einen Punkt außerhalb des Bilds angegeben.
+</nierror>
+<nierror code="-1074395316">
+Ungültiger Kernel-Code.
+</nierror>
+<nierror code="-1074395315">
+Die angegebene Anzahl Punkte ist unzureichend.
+</nierror>
+<nierror code="-1074395313">
+Das Schreiben von Dateien wird auf diesem Gerät nicht unterstützt.
+</nierror>
+<nierror code="-1074395312">
+Bei dem Bild scheint es sich nicht um ein LCD- oder LED-Kalibrierbild zu handeln.
+</nierror>
+<nierror code="-1074395311">
+Das Farbspektrum-Array enthält eine ungültige Anzahl Elemente oder es enthält ein NaN-Element.
+</nierror>
+<nierror code="-1074395310">
+Angegebener PaletteType-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395309">
+Angegebener WindowThreadPolicy-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395308">
+Angegebener ColorSensitivity-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395307">
+Parameter für die Genauigkeit muss größer Null sein.
+</nierror>
+<nierror code="-1074395306">
+Angegebener Tool-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395305">
+Angegebener ReferenceMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395304">
+Angegebener MathTransformMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395303">
+Ungültige Klassenanzahl für Auto-Schwellwert. Akzeptable Werte liegen im Bereich von 2 bis 256.
+</nierror>
+<nierror code="-1074395302">
+Angegebene Schwellwert-Methode wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395301">
+Die an imaqGetMeterArc übergebene ROI muss aus zwei Linien bestehen.
+</nierror>
+<nierror code="-1074395300">
+Angegebener MeterArcMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395299">
+Angegebener ComplexPlane-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395298">
+Operation kann nur entweder in einer realen oder imaginären komplexen Ebene ausgeführt werden.
+</nierror>
+<nierror code="-1074395297">
+Angegebener ParticleInfoMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395296">
+Angegebener BarcodeType-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395295">
+imaqInterpolatePoints unterstützt den von Ihnen angegebenen Wert für InterpolationMethod nicht.
+</nierror>
+<nierror code="-1074395294">
+Angegebener Konturindex ist größer als die Anzahl der Konturen in ROI.
+</nierror>
+<nierror code="-1074395293">
+Die vorhandene ContourID entspricht keiner Kontur innerhalb der ROI.
+</nierror>
+<nierror code="-1074395292">
+Verwenden Sie für diese Operation keine kollinearen Punkte.
+</nierror>
+<nierror code="-1074395291">
+Pixelwerte des Bildes dürfen für Shape_Match nur die Werte 0 oder 1 enthalten.
+</nierror>
+<nierror code="-1074395290">
+Die von Ihnen angegebene Vorlage für ShapeMatch enthält keine Shape-Informationen
+</nierror>
+<nierror code="-1074395289">
+Die Operation hätte die Kapazität eines internen Containers (maximal 4294967296 eindeutige Elemente) überschritten.
+</nierror>
+<nierror code="-1074395288">
+Die Operation hätte die Kapazität eines internen Containers (maximal 2147483648 eindeutige Elemente) überschritten.
+</nierror>
+<nierror code="-1074395287">
+Die angegebene Linie enthält zwei identische Punkte oder eine der Koordinaten für die Linie ist ein ungültiger Wert (NaN).
+</nierror>
+<nierror code="-1074395286">
+Ungültige konzentrische Harken(Rake-)-Richtung.
+</nierror>
+<nierror code="-1074395285">
+Ungültige Speichen(Spoke-)-Richtung.
+</nierror>
+<nierror code="-1074395284">
+Ungültiger Kantenprozess.
+</nierror>
+<nierror code="-1074395283">
+Ungültige Harken-(Rake-)Richtung.
+</nierror>
+<nierror code="-1074395282">
+Bilddarstellung im Betrachter nicht möglich. Sie benötigen die aktuelle Version des Betrachters.
+</nierror>
+<nierror code="-1074395281">
+Für diese Operation muss das Bild größer als seine Rahmengröße sein.
+</nierror>
+<nierror code="-1074395280">
+Die ROI darf nur eine Rechteckkontur enthalten.
+</nierror>
+<nierror code="-1074395279">
+ROI ist kein Vieleck.
+</nierror>
+<nierror code="-1074395278">
+Kann Sequenz-Grabber nicht öffnen.
+</nierror>
+<nierror code="-1074395277">
+Informationen des entschlüsselten Strichcodes bestanden den checksum-Test nicht.
+</nierror>
+<nierror code="-1074395276">
+Für ROI-Instrument angegebene Leitungen sind parallel.
+</nierror>
+<nierror code="-1074395275">
+Ungültige Browser-Grafik.
+</nierror>
+<nierror code="-1074395270">
+Division durch Null nicht erlaubt.
+</nierror>
+<nierror code="-1074395269">
+Null-Zeiger.
+</nierror>
+<nierror code="-1074395268">
+Lineare Gleichungen sind nicht unabhängig.
+</nierror>
+<nierror code="-1074395267">
+Die Nullstellen der Gleichung sind komplex.
+</nierror>
+<nierror code="-1074395265">
+Strichcode entspricht nicht dem angegebenen Typ.
+</nierror>
+<nierror code="-1074395263">
+Kein Segment erhellt.
+</nierror>
+<nierror code="-1074395262">
+LCD zeigt kein gültiges Zeichen an.
+</nierror>
+<nierror code="-1074395261">
+Interner Fehler beim Zugriff auf ungültige Bildkoordinate.
+</nierror>
+<nierror code="-1074395260">
+Interner Speicherfehler.
+</nierror>
+<nierror code="-1074395259">
+Die installierte Version von LabVIEW beziehungsweise BridgeVIEW unterstützt diese Operation nicht.
+</nierror>
+<nierror code="-1074395258">
+Filterbreite muss für Canny-Operator ungerade sein.
+</nierror>
+<nierror code="-1074395257">
+Falsche Flankenfilterrichtung in Canny-Operator.
+</nierror>
+<nierror code="-1074395256">
+Die Fenstergröße muss für den Canny-Operator ungerade sein.
+</nierror>
+<nierror code="-1074395253">
+Ungültiger Lernmodus.
+</nierror>
+<nierror code="-1074395252">
+Lern-Setup-Daten nicht zulässig.
+</nierror>
+<nierror code="-1074395251">
+Match-Modus nicht zulässig.
+</nierror>
+<nierror code="-1074395250">
+Match-Setup-Daten nicht zulässig.
+</nierror>
+<nierror code="-1074395249">
+Mindestens einer der Bereiche für Rotationswinkel überschreitet 360 Grad.
+</nierror>
+<nierror code="-1074395248">
+Das Bereichsarray für Rotationswinkel enthält zuviele Bereiche.
+</nierror>
+<nierror code="-1074395247">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395246">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395245">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395244">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395243">
+Der Template-Deskriptor wurde mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit dieses Template verwendet werden kann.
+</nierror>
+<nierror code="-1074395242">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395241">
+Deskriptor der Vorlage enthält nicht die für die rotationsunabhängige Vergleichsoperation benötigten Daten.
+</nierror>
+<nierror code="-1074395240">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395239">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395238">
+Deskriptor der Vorlage enthält nicht die für die verschiebungsunabhängige Vergleichsoperation benötigten Daten.
+</nierror>
+<nierror code="-1074395237">
+Ungültiger Vorlagen-Deskriptor.
+</nierror>
+<nierror code="-1074395236">
+Der Vorlagendeskriptor enthält nicht die Daten, die für einen skaleninvarianten Vergleich erforderlich sind.
+</nierror>
+<nierror code="-1074395235">
+Kontrast in der Bildvorlage ist zu gering.
+</nierror>
+<nierror code="-1074395234">
+Vorlagenbild zu klein.
+</nierror>
+<nierror code="-1074395233">
+Vorlagenbild zu groß.
+</nierror>
+<nierror code="-1074395219">
+Die Gewichtungs-Map hat einen ungültigen Bildtyp. Der unterstützte Typ lautet Float (Graustufen SGL).
+</nierror>
+<nierror code="-1074395218">
+Es wurden keine Treffer vom Musterabgleich für das Berechnen der Defect Map gefunden.
+</nierror>
+<nierror code="-1074395217">
+Die Anzahl der eingegebenen defekten Bilder für die Defect Map ist nicht ausreichend.
+</nierror>
+<nierror code="-1074395216">
+Das Bild enthält keine Defect-Map-Angaben.
+</nierror>
+<nierror code="-1074395215">
+Die Defect-Map-Daten des Bildes, das Sie öffnen wollten, wurden mit einer neueren Version von NI Vision erstellt. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395214">
+Es sind zu viele OCR-Sessions geöffnet.  Schließen Sie eine Session, bevor Sie eine neue öffnen.
+</nierror>
+<nierror code="-1074395212">
+Die Größe des Vorlagen-Strings muss mit der Größe des zu korrigierenden Strings übereinstimmen.
+</nierror>
+<nierror code="-1074395211">
+Die vorhandene Textvorlage enthält Nicht-Standard-Zeichen, die von OCR nicht generiert werden können.
+</nierror>
+<nierror code="-1074395210">
+Mindestens ein Zeichen in der Textvorlage gehört zu einer lexikalischen Klasse, die mit den vorhandenen Zeichen-Reports nicht übereinstimmen.
+</nierror>
+<nierror code="-1074395208">
+Der DataMatrix-ECC-Code wird nicht vom DataMatrix-Grading-Standard unterstützt.
+</nierror>
+<nierror code="-1074395207">
+IMAQ Vision unterstützt den vorliegenden Wert für "Grading Reflectance" nicht.
+</nierror>
+<nierror code="-1074395203">
+Die OCR-Bibliothek konnte nicht ordnungsgemäß initialisiert werden.
+</nierror>
+<nierror code="-1074395201">
+Beim Laden der internen OCR-Engine oder der LabVIEW-Bibliotheken ist ein Fehler aufgetreten.
+</nierror>
+<nierror code="-1074395200">
+Einer der an die OCR-Funktion übergebenen Parameter, der diesen Fehler erzeugt hat, ist ungültig.
+</nierror>
+<nierror code="-1074395199">
+Marker-Bild und -Punkte wurden nicht angegeben
+</nierror>
+<nierror code="-1074395198">
+Quell- und Marker-Bild sollten die gleiche Größe haben.
+</nierror>
+<nierror code="-1074395197">
+Es wurden Marker-Bild und -Punkte angegeben.
+</nierror>
+<nierror code="-1074395196">
+Ungültige morphologische Operation.
+</nierror>
+<nierror code="-1074395195">
+Float-Bild enthält NaN-Werte.
+</nierror>
+<nierror code="-1074395194">
+Die Overlay-Informationen konnten nicht geöffnet werden, da sie mit einer neueren Version von NI Vision erzeugt wurden. Aktualisieren Sie NI Vision, damit diese Datei gelesen werden kann.
+</nierror>
+<nierror code="-1074395193">
+In der aktuellen Konfiguration wurde kein gültiger Clamp-Wert gefunden.
+</nierror>
+<nierror code="-1074395192">
+Der angegebene Clamp-Winkelbereich reicht nicht aus.
+</nierror>
+<nierror code="-1074395188">
+Die fortgeschrittene Option der Verwendung aller Kurven wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395187">
+Der angegebene Sigmawert für den gaußschen Filter ist zu klein.
+</nierror>
+<nierror code="-1074395186">
+Der angegebene gaußsche Filtertyp wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395185">
+Der Kontrastwechsel beim Durchführen von Vergleichen ist ungültig.
+</nierror>
+<nierror code="-1074395184">
+Ungültiger Bereich für Drehwinkel. Der obere Wert muss größer als oder gleich dem unteren Wert sein.
+</nierror>
+<nierror code="-1074395183">
+Der kleinste Drehwinkel, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395182">
+Der größte Drehwinkel, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395181">
+Der größte Skalierungsfaktor, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395180">
+Der kleinste Skalierungsfaktor, der beim Arbeiten mit der Vorlage angegeben wurde, wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395179">
+OCR-Engine ist während der Vorbearbeitungsphase fehlgeschlagen.
+</nierror>
+<nierror code="-1074395178">
+OCR-Engine ist während der Erkennungsphase fehlgeschlagen.
+</nierror>
+<nierror code="-1074395175">
+Der angegebene Dateiname ist kein gültiger Name für das Anwender-Wörterverzeichnis.
+</nierror>
+<nierror code="-1074395174">
+Angegebener AutoOrientMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395173">
+Angegebene Sprache wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395172">
+Angegebener CharacterSet-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395171">
+Das System konnte die für die OCR-Initialisierung notwendige Initialisierungsdatei nicht finden.
+</nierror>
+<nierror code="-1074395170">
+Angegebener CharacterType-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395169">
+Angegebener RecognitionMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395168">
+Angegebener AutoCorrectionMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395167">
+Angegebener OutputDelimiter-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395166">
+Das System konnte das für die OCR-Initialisierung notwendige OCR-Binär-Verzeichnis nicht finden.
+</nierror>
+<nierror code="-1074395165">
+Das System konnte das für die OCR-Initialisierung notwendige OCR-Weights-Verzeichnis nicht finden.
+</nierror>
+<nierror code="-1074395164">
+Das übergebene Wort konnte dem Anwender-Wörterverzeichnis hinzugefügt werden.
+</nierror>
+<nierror code="-1074395163">
+Angegebener CharacterPreference-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395162">
+Angegebener CorrectionMethod-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395161">
+Angegebener CorrectionLevel-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395160">
+Angegebene maximale Punktgröße wird von NI Vision nicht unterstützt.  Gültige Werte liegen im Bereich von 4 bis 72.
+</nierror>
+<nierror code="-1074395159">
+Angegebener Toleranzwert wird von NI Vision nicht unterstützt.  Werte müssen positiv sein.
+</nierror>
+<nierror code="-1074395158">
+Angegebener ContrastMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395156">
+OCR konnte die Textschräge nicht feststellen.
+</nierror>
+<nierror code="-1074395155">
+OCR konnte die Textorientierung nicht feststellen.
+</nierror>
+<nierror code="-1074395153">
+Ungültiges Schriftartendateiformat.
+</nierror>
+<nierror code="-1074395152">
+Schriftartendatei nicht gefunden.
+</nierror>
+<nierror code="-1074395151">
+OCR-Engine ist während der Korrekturphase fehlgeschlagen.
+</nierror>
+<nierror code="-1074395150">
+Angegebener RoundingMode-Wert wird von NI Vision nicht unterstützt.
+</nierror>
+<nierror code="-1074395149">
+Es wurde ein doppelter Transformationstyp im Eigenschaften-Array gefunden. Ein Eigenschaften-Array kann nur jeweils eine Verhaltensweise pro Transformationstyp enthalten.
+</nierror>
+<nierror code="-1074395148">
+Überlagerungsgruppe nicht gefunden.
+</nierror>
+<nierror code="-1074395147">
+Der Barcode ist kein gültiges RSS-Limited-Zeichen.
+</nierror>
+<nierror code="-1074395146">
+Konnte nicht die richtige Version des QR-Codes ermitteln.
+</nierror>
+<nierror code="-1074395145">
+Ausgelesener QR-Code ungültig.
+</nierror>
+<nierror code="-1074395144">
+Der eingelesene Barcode enthält ungültige Parameter.
+</nierror>
+<nierror code="-1074395143">
+Der demodulierte Datenstrom war nicht zu entziffern, da der Modus nicht ermittelt werden konnte.
+</nierror>
+<nierror code="-1074395142">
+Konnte das richtige Modell für den QR-Code nicht finden.
+</nierror>
+<nierror code="-1074395141">
+OCR-Engine konnte im angegebenen Bereich keinen Text finden.
+</nierror>
+<nierror code="-1074395140">
+Einer der Zeichenerkennungs-Reports kann vom System nicht mehr verwendet werden.
+</nierror>
+<nierror code="-1074395139">
+Ungültige Dimensionen.
+</nierror>
+<nierror code="-1074395138">
+Der für OCR bestimmte Bereich war zu klein, um Zeichen zu enthalten.
+</nierror>
+<nierror code="-1074395135">
+Der angegebene Bayer-Dekodieralgorithmus wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395134">
+Das angegebene Bayer-Muster wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395133">
+Die Verstärkung für den Rot-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-1074395132">
+Die Verstärkung für den Grün-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-1074395131">
+Die Verstärkung für den Blau-Kanal der Bayer-Dekodierung liegt außerhalb des gültigen Bereichs.
+</nierror>
+<nierror code="-1074395130">
+Diese IP-Adresse wird vom aktuellen Zielsystem nicht unterstützt.
+</nierror>
+<nierror code="-1074395129">
+Diese Variante wird vom aktuellen Zielsystem nicht unterstützt. Verwenden Sie eine andere Variante der IP.
+</nierror>
+<nierror code="-1074395128">
+Für den Vorgang sind nicht genügend Quelldaten vorhanden.
+</nierror>
+<nierror code="-1074395127">
+Die bereitgestellten Quelldaten machen kein vollständiges Bild mit den angegebenen Abmessungen und dem angegebenen Typ aus.
+</nierror>
+<nierror code="-1074395126">
+Der Byte-Offset des Bilds ist größer oder gleich seiner Nutzdatengröße in Byte.
+</nierror>
+<nierror code="-1074395125">
+Für das Bild wird ein Byte-Offset ungleich Null nicht unterstützt.
+</nierror>
+<nierror code="-1074395124">
+Das bereitgestellte MIPI-CSI-2-Format wird nicht unterstützt.
+</nierror>
+<nierror code="-1074395123">
+Die Y-Auflösung des Bilds ist ungerade. Das Pixelformat erfordert jedoch eine gerade Zeilenanzahl.
+</nierror>
+</nidocument>
